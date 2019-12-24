@@ -15,13 +15,47 @@ echo "Setting up the levels of the game... please stand by...";
 #Passwords for IST 451 Spring 2019
 level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
 level6_10=$name"iunyNCeTzDpW4UxOlt";
-level11_15=$name"tLbJNRZX0DuoFbS";
-level16_20=$name"joWrjVhadKLqweras";
+level11_15=$name"LbNvKYAx8z2UtzaCIY7g";
+level16_20=$name"iunyNCeTzDpW4UxOlt";
+level21_25=$name"LbNvKYAx8z2UtzaCIY7g";
+level26_30=$name"iunyNCeTzDpW4UxOlt";
+level31_35=$name"LbNvKYAx8z2UtzaCIY7g";
+level36_40=$name"iunyNCeTzDpW4UxOlt";
+level41_45=$name"LbNvKYAx8z2UtzaCIY7g";
+level46_50=$name"iunyNCeTzDpW4UxOlt";
+level51_55=$name"LbNvKYAx8z2UtzaCIY7g";
+level56_60=$name"iunyNCeTzDpW4UxOlt";
+level61_65=$name"LbNvKYAx8z2UtzaCIY7g";
+level66_70=$name"iunyNCeTzDpW4UxOlt";
+level71_75=$name"LbNvKYAx8z2UtzaCIY7g";
+level76_80=$name"iunyNCeTzDpW4UxOlt";
+level81_85=$name"LbNvKYAx8z2UtzaCIY7g";
+level86_90=$name"iunyNCeTzDpW4UxOlt";
+level91_95=$name"LbNvKYAx8z2UtzaCIY7g";
+level96_100=$name"iunyNCeTzDpW4UxOlt";
+
 
 MD51_5=$(echo -n $level1_5 | md5sum);
 MD56_10=$(echo -n $level6_10 | md5sum);
 MD511_15=$(echo -n $level11_15 | md5sum);
 MD516_20=$(echo -n $level16_20 | md5sum);
+MD521_25=$(echo -n $level21_25 | md5sum);
+MD526_30=$(echo -n $level26_30 | md5sum);
+MD531_35=$(echo -n $level31_35 | md5sum);
+MD536_40=$(echo -n $level36_40 | md5sum);
+MD541_45=$(echo -n $level41_45 | md5sum);
+MD546_50=$(echo -n $level46_50 | md5sum);
+MD551_55=$(echo -n $level51_55 | md5sum);
+MD556_60=$(echo -n $level56_60 | md5sum);
+MD561_65=$(echo -n $level61_65 | md5sum);
+MD566_70=$(echo -n $level66_70 | md5sum);
+MD571_75=$(echo -n $level71_75 | md5sum);
+MD576_80=$(echo -n $level76_80 | md5sum);
+MD581_85=$(echo -n $level81_85 | md5sum);
+MD586_90=$(echo -n $level86_90 | md5sum);
+MD591_95=$(echo -n $level91_95 | md5sum);
+MD596_100=$(echo -n $level96_100 | md5sum);
+
 
 level1=${MD51_5:0:6};
 level2=${MD51_5:6:6};
@@ -43,6 +77,8 @@ level17=${MD516_20:6:6};
 level18=${MD516_20:12:6};
 level19=${MD516_20:18:6};
 level20=${MD516_20:24:6};
+level21=${MD521_25:0:6};
+level22=${MD521_25:12:6};
 
 level0_pass="level0";
 level1_pass=$(echo -n $level1 | base64);
