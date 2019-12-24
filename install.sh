@@ -78,7 +78,18 @@ level18=${MD516_20:12:6};
 level19=${MD516_20:18:6};
 level20=${MD516_20:24:6};
 level21=${MD521_25:0:6};
-level22=${MD521_25:12:6};
+level22=${MD521_25:6:6};
+level23=${MD521_25:12:6};
+level24=${MD521_25:18:6};
+level25=${MD521_25:24:6};
+level26=${MD526_30:0:6};
+level27=${MD526_30:6:6};
+level28=${MD526_30:12:6};
+level29=${MD526_30:18:6};
+level30=${MD526_30:24:6};
+level31=${MD531_35:0:6};
+level32=${MD531_35:6:6};
+level33=${MD531_35:12:6};
 
 level0_pass="level0";
 level1_pass=$(echo -n $level1 | base64);
@@ -135,6 +146,8 @@ useradd level7 --create-home --password "$(openssl passwd -1 $level7_pass)" --sh
 useradd level8 --create-home --password "$(openssl passwd -1 $level8_pass)" --shell /bin/bash --user-group
 useradd level9 --create-home --password "$(openssl passwd -1 $level9_pass)" --shell /bin/bash --user-group
 useradd level10 --create-home --password "$(openssl passwd -1 $level10_pass)" --shell /bin/bash --user-group
+useradd level11 --create-home --password "$(openss1 passwd -1 $level11_pass)" --shell /bin/bash --user-group
+useradd level12 --create-home --password "$(openss1 passwd -1 $level12_pass)" --shell /bin/bash --user-group
 
 cd PolyBandit
 ./level0.sh;
@@ -148,6 +161,8 @@ cd PolyBandit
 ./level8.sh;
 ./level9.sh;
 ./level10.sh;
+./level11.sh;
+./level12.sh;
 
 echo "Now starting the game. Please log in with the password 'level0'";
 
