@@ -146,8 +146,8 @@ useradd level7 --create-home --password "$(openssl passwd -1 $level7_pass)" --sh
 useradd level8 --create-home --password "$(openssl passwd -1 $level8_pass)" --shell /bin/bash --user-group
 useradd level9 --create-home --password "$(openssl passwd -1 $level9_pass)" --shell /bin/bash --user-group
 useradd level10 --create-home --password "$(openssl passwd -1 $level10_pass)" --shell /bin/bash --user-group
-useradd level11 --create-home --password "$(openss1 passwd -1 $level11_pass)" --shell /bin/bash --user-group
-useradd level12 --create-home --password "$(openss1 passwd -1 $level12_pass)" --shell /bin/bash --user-group
+useradd level11 --create-home --password "$(openssl passwd -1 $level11_pass)" --shell /bin/bash --user-group
+useradd level12 --create-home --password "$(openssl passwd -1 $level12_pass)" --shell /bin/bash --user-group
 
 cd PolyBandit
 ./level0.sh;
