@@ -12,7 +12,7 @@ echo "* The password for the next level is in a file called inhere.txt *" >> /ho
 echo "*                                                                *" >> /home/level11/README.txt;
 echo "* When you get the password for the next level, log in to the    *" >> /home/level11/README.txt;
 echo "* next level with the command:                                   *" >> /home/level11/README.txt;
-echo "*         ssh level1@localhost                                   *" >> /home/level11/README.txt;
+echo "*         ssh level12@localhost                                   *" >> /home/level11/README.txt;
 echo "*                                                                *" >> /home/level11/README.txt;
 echo "******************************************************************" >> /home/level11/README.txt;
 echo "cat ~/README.txt" >> /home/level11/.bashrc
