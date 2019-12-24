@@ -1,20 +1,20 @@
 #!/bin/bash
     
-echo "******************************************************************" >> /home/level2/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level2/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level2/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level2/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level2/README.txt;
-echo "*                                                                *" >> /home/level2/README.txt;
-echo "* You are at Level 12                                             *" >> /home/level2/README.txt;
-echo "*                                                                *" >> /home/level2/README.txt;
-echo "* The password for the next level is in a file with byte size 9  *" >> /home/level2/README.txt;
-echo "*                                                                *" >> /home/level2/README.txt;
-echo "* When you get the password for the next level, log in to the    *" >> /home/level2/README.txt;
-echo "* next level with the command:                                   *" >> /home/level2/README.txt;
-echo "*         ssh level3@localhost                                   *" >> /home/level2/README.txt;
-echo "*                                                                *" >> /home/level2/README.txt;
-echo "******************************************************************" >> /home/level2/README.txt;
+echo "******************************************************************" >> /home/level12/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level12/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level12/README.txt;
+echo "* what the password is for the next level, then log into that    *" >> /home/level12/README.txt;
+echo "* next level's account using SSH.                                *" >> /home/level12/README.txt;
+echo "*                                                                *" >> /home/level12/README.txt;
+echo "* You are at Level 12                                            *" >> /home/level12/README.txt;
+echo "*                                                                *" >> /home/level12/README.txt;
+echo "* The password for the next level is in a file with byte size 9  *" >> /home/level12/README.txt;
+echo "*                                                                *" >> /home/level12/README.txt;
+echo "* When you get the password for the next level, log in to the    *" >> /home/level12/README.txt;
+echo "* next level with the command:                                   *" >> /home/level12/README.txt;
+echo "*         ssh level13@localhost                                  *" >> /home/level12/README.txt;
+echo "*                                                                *" >> /home/level12/README.txt;
+echo "******************************************************************" >> /home/level12/README.txt;
 
 echo "cat /home/level12/README.txt" >> /home/level12/.bashrc
 
