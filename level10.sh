@@ -14,6 +14,8 @@ echo "* different between the two files named inhere.                  *" >> /ho
 echo "*                                                                *" >> /home/level10/README.txt;
 echo "******************************************************************" >> /home/level10/README.txt;
 
+echo "cat /home/level10/README.txt" >> /home/level10/.bashrc
+
 
 #useradd level10_account1 --create-home --password "$(openssl passwd -1 "password")" --shell /bin/bash --user-group
 #useradd level10_account2 --create-home --password "$(openssl passwd -1 "password")" --shell /bin/bash --user-group
