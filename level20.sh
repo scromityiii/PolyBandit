@@ -14,6 +14,10 @@
 	echo "* The password to continue is the only line that's               *" >> /home/level20/README.txt;
 	echo "* different between the two files named inhere.                  *" >> /home/level20/README.txt;
 	echo "*                                                                *" >> /home/level20/README.txt;
+	echo "* When you get the password for the next level, log in to the    *" >> /home/level20/README.txt;
+	echo "* next level with the command:                                   *" >> /home/level20/README.txt;
+	echo "*       ssh level21@localhost                                    *" >> /home/level20/README.txt;
+	echo "*                                                                *" >> /home/level20/README.txt;
 	echo "******************************************************************" >> /home/level20/README.txt;
 	
 
