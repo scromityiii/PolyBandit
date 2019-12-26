@@ -1,6 +1,29 @@
 #!/bin/bash
 	
 
+	touch /home/level14/inhere.txt
+	
+
+	echo "******************************************************************" >> /home/level14/README.txt;
+	echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level14/README.txt;
+	echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level14/README.txt;
+	echo "* what the password is for the next level, then log into that    *" >> /home/level14/README.txt;
+	echo "* next level's account using SSH.                                *" >> /home/level14/README.txt;
+	echo "*                                                                *" >> /home/level14/README.txt;
+	echo "* You are at Level 14                                             *" >> /home/level14/README.txt;
+	echo "*                                                                *" >> /home/level14/README.txt;
+	echo "* The password for the next level is in the file called          *" >> /home/level14/README.txt;
+	echo "* inhere.txt and is next to the word that would come last when   *" >> /home/level14/README.txt;
+	echo "* when the contents of that file are sorted alphabetically       *" >> /home/level14/README.txt;
+	echo "*                                                                *" >> /home/level14/README.txt;
+	echo "* When you get the password for the next level, log in to the    *" >> /home/level14/README.txt;
+	echo "* next level with the command:                                   *" >> /home/level14/README.txt;
+	echo "*         ssh level15@localhost                                   *" >> /home/level14/README.txt;
+	echo "*                                                                *" >> /home/level14/README.txt;
+	echo "******************************************************************" >> /home/level14/README.txt;
+	echo "cat /home/level14/README.txt" >> /home/level14/.bashrc
+	
+
 	password_spot1=$[RANDOM%100];
 	password_spot2=$password_spot1+1;
 	password_spot3=$password_spot2+1;
@@ -30,38 +53,16 @@
 	  char8=$[RANDOM%61];
 	
 
-	  if [ "${WORDS[$count]}" == "idolize" ];
+	  if [ "${WORDS[$count]}" == "zonked" ];
 	  then
-	    ans=${level15_pass:0:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "implant" ];
-	  then
-	    ans=${level15_pass:1:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "impossible" ];
-	  then
-	    ans=${level15_pass:2:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "indulge" ];
-	  then
-	    ans=${level15_pass:3:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "infect" ];
-	  then
-	    ans=${level15_pass:4:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "inside" ];
-	  then
-	    ans=${level15_pass:5:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "insidious" ];
-	  then
-	    ans=${level15_pass:6:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
-	  elif [ "${WORDS[$count]}" == "irate" ];
-	  then
-	    ans=${level15_pass:7:1}${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]};
+	    ans=$level15_pass;
 	  else
 	    ans=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 	  fi
 	  echo ${WORDS[$count]}" "$ans > /home/level14/oneline.txt;
-	  cat /home/level14/README.txt /home/level14/oneline.txt > /home/level14/README2.txt;
-	  rm /home/level14/README.txt;
-	  mv /home/level14/README2.txt /home/level14/README.txt;
-	  rm /home/level14/oneline.txt;
+	  cat /home/level14/inhere.txt /home/level14/oneline.txt > /home/level14/inhere2.txt;
+	  rm /home/level14/inhere.txt;
+	  mv /home/level14/inhere2.txt /home/level14/inhere.txt;
 	  count=$((count+1));
 	done
 	chown level14:level14 /home/level14/README.txt
