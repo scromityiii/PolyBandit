@@ -7,9 +7,9 @@ echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /ho
 echo "* what the password is for the next level, then log into that    *" >> /home/level10/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level10/README.txt;
 echo "*                                                                *" >> /home/level10/README.txt;
-echo "* You are at Level 10. This is the last level.                   *" >> /home/level10/README.txt;
+echo "* You are at Level 10.                                           *" >> /home/level10/README.txt;
 echo "*                                                                *" >> /home/level10/README.txt;
-echo "* The password to prove you won the game is the only line that's *" >> /home/level10/README.txt;
+echo "* The password to continue is the only line that's               *" >> /home/level10/README.txt;
 echo "* different between the two files named inhere.                  *" >> /home/level10/README.txt;
 echo "*                                                                *" >> /home/level10/README.txt;
 echo "******************************************************************" >> /home/level10/README.txt;
