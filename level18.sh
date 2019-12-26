@@ -23,7 +23,7 @@
 	echo "cat /home/level18/README.txt" >> /home/level18/.bashrc
 	
 
-	# this goes in Level 9's setup sudo echo "exit" >> /home/level19/.bashrc;
+	# this goes in Level 19's setup sudo echo "exit" >> /home/level19/.bashrc;
 	
 
 	echo $level19_pass > /home/level18/inhere.txt;
