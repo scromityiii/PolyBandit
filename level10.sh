@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+echo "cat /home/level10/README.txt" >> /home/level10/.bashrc
 echo "******************************************************************" >> /home/level10/README.txt;
 echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level10/README.txt;
 echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level10/README.txt;
@@ -14,7 +14,7 @@ echo "* different between the two files named inhere.                  *" >> /ho
 echo "* Please use 'ssh level10@localhost'                             *" >> /home/level10/README.txt;
 echo "******************************************************************" >> /home/level10/README.txt;
 
-echo "cat /home/level10/README.txt" >> /home/level10/.bashrc
+
 
 
 #useradd level10_account1 --create-home --password "$(openssl passwd -1 "password")" --shell /bin/bash --user-group
