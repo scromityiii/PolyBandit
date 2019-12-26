@@ -11,7 +11,7 @@ echo "* You are at Level 10.                                           *" >> /ho
 echo "*                                                                *" >> /home/level10/README.txt;
 echo "* The password to continue is the only line that's               *" >> /home/level10/README.txt;
 echo "* different between the two files named inhere.                  *" >> /home/level10/README.txt;
-echo "*                                                                *" >> /home/level10/README.txt;
+echo "* Please use 'ssh level10@localhost'                             *" >> /home/level10/README.txt;
 echo "******************************************************************" >> /home/level10/README.txt;
 
 echo "cat /home/level10/README.txt" >> /home/level10/.bashrc
