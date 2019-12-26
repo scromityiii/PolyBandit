@@ -23,7 +23,7 @@
 
 		echo $level30_pass > "/home/level29/in here.txt";
 		chown level29:level29 "/home/level29/in here.txt";
-		chown level29:level8 /home/level29/.bashrc;
+		chown level29:level28 /home/level29/.bashrc;
 		chmod g+w /home/level29/.bashrc;
 		
 	
