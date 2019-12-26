@@ -65,13 +65,13 @@ echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /ho
 echo "* what the password is for the next level, then log into that    *" >> /home/level13/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level13/README.txt;
 echo "*                                                                *" >> /home/level13/README.txt;
-echo "* You are at Level 13                                             *" >> /home/level13/README.txt;
+echo "* You are at Level 13                                            *" >> /home/level13/README.txt;
 echo "*                                                                *" >> /home/level13/README.txt;
-echo "* The password for the next level is next to the phrase "$hint" *" >> /home/level13/README.txt;
+echo "* The password for the next level is next to the phrase "$hint"  *" >> /home/level13/README.txt;
 echo "*                                                                *" >> /home/level13/README.txt;
 echo "* When you get the password for the next level, log in to the    *" >> /home/level13/README.txt;
 echo "* next level with the command:                                   *" >> /home/level13/README.txt;
-echo "*         ssh level14@localhost                                   *" >> /home/level13/README.txt;
+echo "*         ssh level14@localhost                                  *" >> /home/level13/README.txt;
 echo "*                                                                *" >> /home/level13/README.txt;
 echo "******************************************************************" >> /home/level13/README.txt;
 
