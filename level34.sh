@@ -12,7 +12,7 @@
 		echo "* what the password is for the next level, then log into that    *" >> /home/level34/README.txt;
 		echo "* next level's account using SSH.                                *" >> /home/level34/README.txt;
 		echo "*                                                                *" >> /home/level34/README.txt;
-		echo "* You are at Level 24                                            *" >> /home/level34/README.txt;
+		echo "* You are at Level 34                                            *" >> /home/level34/README.txt;
 		echo "*                                                                *" >> /home/level34/README.txt;
 		echo "* The password for the next level is in the file called          *" >> /home/level34/README.txt;
 		echo "* inhere.txt and is next to the word that would come last when   *" >> /home/level34/README.txt;
