@@ -29,7 +29,7 @@
 		
 	
 
-			# this goes in Level 29's setup sudo echo "exit" >> /home/level39/.bashrc;
+			# this goes in Level 39's setup sudo echo "exit" >> /home/level39/.bashrc;
 			
 		
 	
