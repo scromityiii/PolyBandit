@@ -33,6 +33,7 @@ level81_85=$name"LbNvKYAx8z2UtzaCIY7g";
 level86_90=$name"iunyNCeTzDpW4UxOlt";
 level91_95=$name"LbNvKYAx8z2UtzaCIY7g";
 level96_100=$name"iunyNCeTzDpW4UxOlt";
+level101_105=$name"LbNvKYAx8z2UtzaCIY7g";
 
 
 MD51_5=$(echo -n $level1_5 | md5sum);
@@ -55,6 +56,7 @@ MD581_85=$(echo -n $level81_85 | md5sum);
 MD586_90=$(echo -n $level86_90 | md5sum);
 MD591_95=$(echo -n $level91_95 | md5sum);
 MD596_100=$(echo -n $level96_100 | md5sum);
+MD5101_105=$(echo -n $level101_105 | md5sum);
 
 
 level1=${MD51_5:0:6};
@@ -157,6 +159,7 @@ level97=${MD596_100:6:6};
 level98=${MD596_100:12:6};
 level99=${MD596_100:18:6};
 level100=${MD596_100:24:6};
+level101=${MD5101_105:0:6};
 
 level0_pass="level0";
 level1_pass=$(echo -n $level1 | base64);
@@ -259,6 +262,7 @@ level97_pass=$(echo -n $level97 | base64);
 level98_pass=$(echo -n $level98 | base64);
 level99_pass=$(echo -n $level99 | base64);
 level100_pass=$(echo -n $level100 | base64);
+level101_pass=$(echo -n $level101 | base64);
 
 export level0_pass;
 export level1_pass;
@@ -361,6 +365,7 @@ export level97_pass;
 export level98_pass;
 export level99_pass;
 export level100_pass;
+export level101_pass;
 
 
 useradd level0 --create-home --password "$(openssl passwd -1 $level0_pass)" --shell /bin/bash --user-group
@@ -464,7 +469,7 @@ useradd level97 --create-home --password "$(openssl passwd -1 $level97_pass)" --
 useradd level98 --create-home --password "$(openssl passwd -1 $level98_pass)" --shell /bin/bash --user-group
 useradd level99 --create-home --password "$(openssl passwd -1 $level99_pass)" --shell /bin/bash --user-group
 useradd level100 --create-home --password "$(openssl passwd -1 $leve100_pass)" --shell /bin/bash --user-group
-
+useradd level101 --create-home --password "$(openssl passwd -1 $level101_pass)" --shell /bin/bash --user-group
 
 
 
@@ -575,6 +580,7 @@ cd PolyBandit
 ./level98.sh;
 ./level99.sh;
 ./level100.sh;
+./level101.sh;
 
 
 
