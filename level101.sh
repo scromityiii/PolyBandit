@@ -23,6 +23,6 @@
 
 	echo "cat /home/level101/README.txt" >> /home/level101/.bashrc
 	
-
+        echo $level100_pass > /home/level101/.inhere.txt;
 	
 	chown level101:level101 /home/level101/.inhere.txt;
