@@ -6,7 +6,7 @@
 							echo "* what the password is for the next level, then log into that    *" >> /home/level82/README.txt;
 							echo "* next level's account using SSH.                                *" >> /home/level82/README.txt;
 							echo "*                                                                *" >> /home/level82/README.txt;
-							echo "* You are at Level 72                                            *" >> /home/level82/README.txt;
+							echo "* You are at Level 82                                            *" >> /home/level82/README.txt;
 							echo "*                                                                *" >> /home/level82/README.txt;
 							echo "* The password for the next level is in a file with byte size 9  *" >> /home/level82/README.txt;
 							echo "*                                                                *" >> /home/level82/README.txt;
