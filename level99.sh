@@ -12,7 +12,7 @@
 								echo "*                                                                *" >> /home/level99/README.txt;
 								echo "* When you get the password for the next level, log in to the    *" >> /home/level99/README.txt;
 								echo "* next level with the command:                                   *" >> /home/level99/README.txt;
-								echo "*         ssh level99@localhost                                  *" >> /home/level99/README.txt;
+								echo "*         ssh level100@localhost                                 *" >> /home/level99/README.txt;
 								echo "*                                                                *" >> /home/level99/README.txt;
 								echo "******************************************************************" >> /home/level99/README.txt;
 								echo "cat /home/level99/README.txt" >> /home/level99/.bashrc
