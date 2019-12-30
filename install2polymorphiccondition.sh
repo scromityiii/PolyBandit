@@ -471,7 +471,7 @@ useradd level96 --create-home --password "$(openssl passwd -1 $level96_pass)" --
 useradd level97 --create-home --password "$(openssl passwd -1 $level97_pass)" --shell /bin/bash --user-group
 useradd level98 --create-home --password "$(openssl passwd -1 $level98_pass)" --shell /bin/bash --user-group
 useradd level99 --create-home --password "$(openssl passwd -1 $level99_pass)" --shell /bin/bash --user-group
-useradd level100 --create-home --password "$(openssl passwd -1 $leve100_pass)" --shell /bin/bash --user-group
+useradd level100 --create-home --password "$(openssl passwd -1 $level100_pass)" --shell /bin/bash --user-group
 useradd level101 --create-home --password "$(openssl passwd -1 $level101_pass)" --shell /bin/bash --user-group
 useradd level102 --create-home --password "$(openssl passwd -1 $level102_pass)" --shell /bin/bash --user-group
 
