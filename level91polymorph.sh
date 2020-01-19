@@ -6,207 +6,207 @@
 	#based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
 	
 	if [ "$changer" == "1" ]
-	then
-	    textfilename=".ehefcij.txt"
-	elif [ "$changer" == "2" ]
-	then
-	    textfilename=".wdljcfoier.txt"
-	elif [ "$changer" == "3" ]
-	then
-	    textfilename=".398yfiufh.txt"
-	elif [ "$changer" == "4" ]
-	then 
-	    textfilename=".39ujfd3984.txt"
-	elif [ "$changer" == "5" ]
-	then 
-	    textfilename=".39hdf938h.txt"
-	elif [ "$changer" == "6" ]
-	then
-	    textfilename=".othjga.txt"
-	elif [ "$changer" == "7" ]
-	then 
-	    textfilename=".thnbgarfsiu.txt"
-	elif [ "$changer" == "8" ]
-	then
-	    textfilename=".tafeuhd.txt"
-	elif [ "$changer" == "9" ]
-	then 
-	    textfilename=".dsfhadu.txt"
-	elif [ "$changer" == "a" ]
-	then 
-	    textfilename=".diuhnbdu9i.txt.txt"
-	elif [ "$changer" == "b" ]
-	then
-	    textfilename=".odifjdsiou.txt"
-	elif [ "$changer" == "c" ]
-	then
-	    textfilename=".duoifhjdu.txt"
-	elif [ "$changer" == "d" ]
-	then 
-	    textfilename=".dbncvuiy.txt"
-	elif [ "$changer" == "e" ]
-	then
-	    textfilename="..tdfasuhd.txt"
-	elif [ "$changer" == "f" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "g" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "h" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "i" ]
-	then
-	    textfilename=".diuhjfe4uoi.txt"
-	elif [ "$changer" == "j" ]
-	then
-	    textfilename=".irenbhcu9e.txt"
-	elif [ "$changer" == "k" ]
-	then 
-	    textfilename=".trhnaiu.txt"
-	elif [ "$changer" == "l" ]
-	then 
-	    textfilename=".iudhns.txt"
-	elif [ "$changer" == "m" ]
-	then
-	    textfilename=".othjga.txt"
-	elif [ "$changer" == "n" ]
-	then 
-	    textfilename=".thnbgarfsiu.txt"
-	elif [ "$changer" == "o" ]
-	then
-	    textfilename=".tafeuhd.txt"
-	elif [ "$changer" == "p" ]
-	then 
-	    textfilename=".dsfhadu.txt"
-	elif [ "$changer" == "q" ]
-	then 
-	    textfilename=".diuhnbdu9i.txt.txt"
-	elif [ "$changer" == "r" ]
-	then
-	    textfilename=".odifjdsiou.txt"
-	elif [ "$changer" == "s" ]
-	then
-	    textfilename=".duoifhjdu.txt"
-	elif [ "$changer" == "t" ]
-	then 
-	    textfilename=".dbncvuiy.txt"
-	elif [ "$changer" == "u" ]
-	then
-	    textfilename="..tdfasuhd.txt"
-	elif [ "$changer" == "v" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "w" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "x" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "t" ]
-	then
-	    textfilename=".diuhjfe4uoi.txt"
-	elif [ "$changer" == "u" ]
-	then
-	    textfilename=".irenbhcu9e.txt"
-	elif [ "$changer" == "v" ]
-	then 
-	    textfilename=".trhnaiu.txt"
-	elif [ "$changer" == "w" ]
-	then 
-	    textfilename=".iudhns.txt"
-	elif [ "$changer" == "x" ]
-	then
-	    textfilename=".othjga.txt"
-	elif [ "$changer" == "y" ]
-	then 
-	    textfilename=".thnbgarfsiu.txt"
-	elif [ "$changer" == "z" ]
-	then
-	    textfilename=".tafeuhd.txt"
-	elif [ "$changer" == "A" ]
-	then 
-	    textfilename=".dsfhadu.txt"
-	elif [ "$changer" == "B" ]
-	then 
-	    textfilename=".diuhnbdu9i.txt.txt"
-	elif [ "$changer" == "C" ]
-	then
-	    textfilename=".odifjdsiou.txt"
-	elif [ "$changer" == "D" ]
-	then
-	    textfilename=".duoifhjdu.txt"
-	elif [ "$changer" == "E" ]
-	then 
-	    textfilename=".dbncvuiy.txt"
-	elif [ "$changer" == "F" ]
-	then
-	    textfilename="..tdfasuhd.txt"
-	elif [ "$changer" == "G" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "H" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "I" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	    elif [ "$changer" == "J" ]
-	then
-	    textfilename=".diuhjfe4uoi.txt"
-	elif [ "$changer" == "K" ]
-	then
-	    textfilename=".irenbhcu9e.txt"
-	elif [ "$changer" == "L" ]
-	then 
-	    textfilename=".trhnaiu.txt"
-	elif [ "$changer" == "M" ]
-	then 
-	    textfilename=".iudhns.txt"
-	elif [ "$changer" == "N" ]
-	then
-	    textfilename=".othjga.txt"
-	elif [ "$changer" == "O" ]
-	then 
-	    textfilename=".thnbgarfsiu.txt"
-	elif [ "$changer" == "P" ]
-	then
-	    textfilename=".tafeuhd.txt"
-	elif [ "$changer" == "Q" ]
-	then 
-	    textfilename=".dsfhadu.txt"
-	elif [ "$changer" == "R" ]
-	then 
-	    textfilename=".diuhnbdu9i.txt.txt"
-	elif [ "$changer" == "S" ]
-	then
-	    textfilename=".odifjdsiou.txt"
-	elif [ "$changer" == "T" ]
-	then
-	    textfilename=".duoifhjdu.txt"
-	elif [ "$changer" == "U" ]
-	then 
-	    textfilename=".dbncvuiy.txt"
-	elif [ "$changer" == "V" ]
-	then
-	    textfilename="..tdfasuhd.txt"
-	elif [ "$changer" == "W" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "X" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "Y" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "Z" ]
-	then.
-	    textfilename=".dufhdsau.txt"
-	elif [ "$changer" == "0" ]
-	then
-	    textfilename=".dufhdsau.txt"
-	fi
+then
+    textfilename=".findme.txt"
+elif [ "$changer" == "2" ]
+then
+    textfilename=".inhere.txt"
+elif [ "$changer" == "3" ]
+then
+    textfilename=".hereiam.txt"
+elif [ "$changer" == "4" ]
+then 
+    textfilename=".Iamhere.txt"
+elif [ "$changer" == "5" ]
+then 
+    textfilename=".herehere.txt"
+elif [ "$changer" == "6" ]
+then
+    textfilename=".passphrasealpha.txt"
+elif [ "$changer" == "7" ]
+then 
+    textfilename=".passphrasebravo.txt"
+elif [ "$changer" == "8" ]
+then
+    textfilename=".passphrasecharlie.txt"
+elif [ "$changer" == "9" ]
+then 
+    textfilename=".passphraseomega.txt"
+elif [ "$changer" == "a" ]
+then 
+    textfilename=".excelsior.txt"
+elif [ "$changer" == "b" ]
+then
+    textfilename=".helios.txt"
+elif [ "$changer" == "c" ]
+then
+    textfilename=".apollo.txt"
+elif [ "$changer" == "d" ]
+then 
+    textfilename=".novembertango.txt"
+elif [ "$changer" == "e" ]
+then
+    textfilename=".opensesame"
+elif [ "$changer" == "f" ]
+then
+    textfilename=".havingfunyet.txt"
+elif [ "$changer" == "g" ]
+then
+    textfilename=".openmeplease.txt"
+elif [ "$changer" == "h" ]
+then
+    textfilename=".herepleasehere.txt"
+elif [ "$changer" == "i" ]
+then
+    textfilename=".inhere.txt"
+elif [ "$changer" == "j" ]
+then
+    textfilename=".hereiam.txt"
+elif [ "$changer" == "k" ]
+then 
+    textfilename=".Iamhere.txt"
+elif [ "$changer" == "l" ]
+then 
+    textfilename=".herehere.txt"
+elif [ "$changer" == "m" ]
+then
+    textfilename=".passphrasealpha.txt"
+elif [ "$changer" == "n" ]
+then 
+    textfilename=".passphrasebravo.txt"
+elif [ "$changer" == "o" ]
+then
+    textfilename=".passphrasecharlie.txt"
+elif [ "$changer" == "p" ]
+then 
+    textfilename=".passphraseomega.txt"
+elif [ "$changer" == "q" ]
+then 
+    textfilename=".excelsior.txt"
+elif [ "$changer" == "r" ]
+then
+    textfilename=".helios.txt"
+elif [ "$changer" == "s" ]
+then
+    textfilename=".apollo.txt"
+elif [ "$changer" == "t" ]
+then 
+    textfilename=".novembertango.txt"
+elif [ "$changer" == "u" ]
+then
+    textfilename=".opensesame"
+elif [ "$changer" == "v" ]
+then
+    textfilename=".havingfunyet.txt"
+elif [ "$changer" == "w" ]
+then
+    textfilename=".openmeplease.txt"
+elif [ "$changer" == "x" ]
+then
+    textfilename=".herepleasehere.txt"
+elif [ "$changer" == "t" ]
+then
+    textfilename=".inhere.txt"
+elif [ "$changer" == "u" ]
+then
+    textfilename=".hereiam.txt"
+elif [ "$changer" == "v" ]
+then 
+    textfilename=".Iamhere.txt"
+elif [ "$changer" == "w" ]
+then 
+    textfilename=".herehere.txt"
+elif [ "$changer" == "x" ]
+then
+    textfilename=".passphrasealpha.txt"
+elif [ "$changer" == "y" ]
+then 
+    textfilename=".passphrasebravo.txt"
+elif [ "$changer" == "z" ]
+then
+    textfilename=".passphrasecharlie.txt"
+elif [ "$changer" == "A" ]
+then 
+    textfilename=".passphraseomega.txt"
+elif [ "$changer" == "B" ]
+then 
+    textfilename=".excelsior.txt"
+elif [ "$changer" == "C" ]
+then
+    textfilename=".helios.txt"
+elif [ "$changer" == "D" ]
+then
+    textfilename=".apollo.txt"
+elif [ "$changer" == "E" ]
+then 
+    textfilename=".novembertango.txt"
+elif [ "$changer" == "F" ]
+then
+    textfilename=".opensesame"
+elif [ "$changer" == "G" ]
+then
+    textfilename=".havingfunyet.txt"
+elif [ "$changer" == "H" ]
+then
+    textfilename=".openmeplease.txt"
+elif [ "$changer" == "I" ]
+then
+    textfilename=".herepleasehere.txt"
+    elif [ "$changer" == "J" ]
+then
+    textfilename=".inhere.txt"
+elif [ "$changer" == "K" ]
+then
+    textfilename=".hereiam.txt"
+elif [ "$changer" == "L" ]
+then 
+    textfilename=".Iamhere.txt"
+elif [ "$changer" == "M" ]
+then 
+    textfilename=".herehere.txt"
+elif [ "$changer" == "N" ]
+then
+    textfilename=".passphrasealpha.txt"
+elif [ "$changer" == "O" ]
+then 
+    textfilename=".passphrasebravo.txt"
+elif [ "$changer" == "P" ]
+then
+    textfilename=".passphrasecharlie.txt"
+elif [ "$changer" == "Q" ]
+then 
+    textfilename=".passphraseomega.txt"
+elif [ "$changer" == "R" ]
+then 
+    textfilename=".excelsior.txt"
+elif [ "$changer" == "S" ]
+then
+    textfilename=".helios.txt"
+elif [ "$changer" == "T" ]
+then
+    textfilename=".apollo.txt"
+elif [ "$changer" == "U" ]
+then 
+    textfilename=".novembertango.txt"
+elif [ "$changer" == "V" ]
+then
+    textfilename=".opensesame"
+elif [ "$changer" == "W" ]
+then
+    textfilename=".havingfunyet.txt"
+elif [ "$changer" == "X" ]
+then
+    textfilename=".openmeplease.txt"
+elif [ "$changer" == "Y" ]
+then
+    textfilename=".herepleasehere.txt"
+elif [ "$changer" == "Z" ]
+then
+    textfilename=".herepleasehere.txt"
+elif [ "$changer" == "0" ]
+then
+    textfilename=".herepleasehere.txt"
+fi
 
 	
 
