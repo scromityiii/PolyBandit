@@ -1,9 +1,9 @@
 #!/bin/bash
 	
 
-	#Grabs one character from password
-	changer=${level62_pass:7}
-	#based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
+#Grabs first character in MD5 hash for corresponding 5 level group (e.g 1_5, 11_15)
+changer=${MD561_65:0:1}
+#based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 	if [ "$changer" == "1" ]
 	then
 	    textfilename=".findme.txt"
