@@ -1,7 +1,7 @@
 #!/bin/bash
 	
 #Grabs first character in MD5 hash for corresponding 5 level group (e.g 1_5, 11_15)
-changer=${MD51_5:0:1}
+changer=${MD531_35:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 	
 	
