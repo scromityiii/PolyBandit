@@ -235,7 +235,7 @@
 	echo "* what the password is for the next level, then log into that    *" >> /home/level21/README.txt;
 	echo "* next level's account using SSH.                                *" >> /home/level21/README.txt;
 	echo "*                                                                *" >> /home/level21/README.txt;
-	echo "* You are at Level 11                                             *" >> /home/level21/README.txt;
+	echo "* You are at Level 21                                             *" >> /home/level21/README.txt;
 	echo "*                                                                *" >> /home/level21/README.txt;
 	echo "* The password for the next level is in a *hidden file* called   *" >> /home/level21/README.txt;
 	echo "* "$textfilename"                                                *" >> /home/level21/README.txt;
