@@ -58,6 +58,27 @@ MD591_95=$(echo -n $level91_95 | md5sum);
 MD596_100=$(echo -n $level96_100 | md5sum);
 MD5101_105=$(echo -n $level101_105 | md5sum);
 
+export MD51_5;
+export MD56_10;
+export MD511_15;
+export MD516_20;
+export MD521_25;
+export MD526_30;
+export MD531_35;
+export MD536_40;
+export MD541_45;
+export MD546_50;
+export MD551_55;
+export MD556_60;
+export MD561_65;
+export MD566_70;
+export MD571_75;
+export MD576_80;
+export MD581_85;
+export MD586_90;
+export MD591_95;
+export MD596_100;
+export MD5101_105;
 
 level1=${MD51_5:0:6};
 level2=${MD51_5:6:6};
