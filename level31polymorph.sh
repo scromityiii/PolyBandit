@@ -6,205 +6,205 @@
 	#based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
 	if [ "$changer" == "1" ]
 	then
-	    textfilename="findme.txt"
+	    textfilename=".findme.txt"
 	elif [ "$changer" == "2" ]
 	then
-	    textfilename="inhere.txt"
+	    textfilename=".inhere.txt"
 	elif [ "$changer" == "3" ]
 	then
-	    textfilename="hereiam.txt"
+	    textfilename=".hereiam.txt"
 	elif [ "$changer" == "4" ]
 	then 
-	    textfilename="Iamhere.txt"
+	    textfilename=".Iamhere.txt"
 	elif [ "$changer" == "5" ]
 	then 
-	    textfilename="herehere.txt"
+	    textfilename=".herehere.txt"
 	elif [ "$changer" == "6" ]
 	then
-	    textfilename="passphrasealpha.txt"
+	    textfilename=".passphrasealpha.txt"
 	elif [ "$changer" == "7" ]
 	then 
-	    textfilename="passphrasebravo.txt"
+	    textfilename=".passphrasebravo.txt"
 	elif [ "$changer" == "8" ]
 	then
-	    textfilename="passphrasecharlie.txt"
+	    textfilename=".passphrasecharlie.txt"
 	elif [ "$changer" == "9" ]
 	then 
-	    textfilename="passphraseomega.txt"
+	    textfilename=".passphraseomega.txt"
 	elif [ "$changer" == "a" ]
 	then 
-	    textfilename="excelsior.txt"
+	    textfilename=".excelsior.txt"
 	elif [ "$changer" == "b" ]
 	then
-	    textfilename="helios.txt"
+	    textfilename=".helios.txt"
 	elif [ "$changer" == "c" ]
 	then
-	    textfilename="apollo.txt"
+	    textfilename=".apollo.txt"
 	elif [ "$changer" == "d" ]
 	then 
-	    textfilename="novembertango.txt"
+	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "e" ]
 	then
-	    textfilename="opensesame"
+	    textfilename=".opensesame"
 	elif [ "$changer" == "f" ]
 	then
-	    textfilename="havingfunyet.txt"
+	    textfilename=".havingfunyet.txt"
 	elif [ "$changer" == "g" ]
 	then
-	    textfilename="openmeplease.txt"
+	    textfilename=".openmeplease.txt"
 	elif [ "$changer" == "h" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	elif [ "$changer" == "i" ]
 	then
-	    textfilename="inhere.txt"
+	    textfilename=".inhere.txt"
 	elif [ "$changer" == "j" ]
 	then
-	    textfilename="hereiam.txt"
+	    textfilename=".hereiam.txt"
 	elif [ "$changer" == "k" ]
 	then 
-	    textfilename="Iamhere.txt"
+	    textfilename=".Iamhere.txt"
 	elif [ "$changer" == "l" ]
 	then 
-	    textfilename="herehere.txt"
+	    textfilename=".herehere.txt"
 	elif [ "$changer" == "m" ]
 	then
-	    textfilename="passphrasealpha.txt"
+	    textfilename=".passphrasealpha.txt"
 	elif [ "$changer" == "n" ]
 	then 
-	    textfilename="passphrasebravo.txt"
+	    textfilename=".passphrasebravo.txt"
 	elif [ "$changer" == "o" ]
 	then
-	    textfilename="passphrasecharlie.txt"
+	    textfilename=".passphrasecharlie.txt"
 	elif [ "$changer" == "p" ]
 	then 
-	    textfilename="passphraseomega.txt"
+	    textfilename=".passphraseomega.txt"
 	elif [ "$changer" == "q" ]
 	then 
-	    textfilename="excelsior.txt"
+	    textfilename=".excelsior.txt"
 	elif [ "$changer" == "r" ]
 	then
-	    textfilename="helios.txt"
+	    textfilename=".helios.txt"
 	elif [ "$changer" == "s" ]
 	then
-	    textfilename="apollo.txt"
+	    textfilename=".apollo.txt"
 	elif [ "$changer" == "t" ]
 	then 
-	    textfilename="novembertango.txt"
+	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "u" ]
 	then
-	    textfilename="opensesame"
+	    textfilename=".opensesame"
 	elif [ "$changer" == "v" ]
 	then
-	    textfilename="havingfunyet.txt"
+	    textfilename=".havingfunyet.txt"
 	elif [ "$changer" == "w" ]
 	then
-	    textfilename="openmeplease.txt"
+	    textfilename=".openmeplease.txt"
 	elif [ "$changer" == "x" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	elif [ "$changer" == "t" ]
 	then
-	    textfilename="inhere.txt"
+	    textfilename=".inhere.txt"
 	elif [ "$changer" == "u" ]
 	then
-	    textfilename="hereiam.txt"
+	    textfilename=".hereiam.txt"
 	elif [ "$changer" == "v" ]
 	then 
-	    textfilename="Iamhere.txt"
+	    textfilename=".Iamhere.txt"
 	elif [ "$changer" == "w" ]
 	then 
-	    textfilename="herehere.txt"
+	    textfilename=".herehere.txt"
 	elif [ "$changer" == "x" ]
 	then
-	    textfilename="passphrasealpha.txt"
+	    textfilename=".passphrasealpha.txt"
 	elif [ "$changer" == "y" ]
 	then 
-	    textfilename="passphrasebravo.txt"
+	    textfilename=".passphrasebravo.txt"
 	elif [ "$changer" == "z" ]
 	then
-	    textfilename="passphrasecharlie.txt"
+	    textfilename=".passphrasecharlie.txt"
 	elif [ "$changer" == "A" ]
 	then 
-	    textfilename="passphraseomega.txt"
+	    textfilename=".passphraseomega.txt"
 	elif [ "$changer" == "B" ]
 	then 
-	    textfilename="excelsior.txt"
+	    textfilename=".excelsior.txt"
 	elif [ "$changer" == "C" ]
 	then
-	    textfilename="helios.txt"
+	    textfilename=".helios.txt"
 	elif [ "$changer" == "D" ]
 	then
-	    textfilename="apollo.txt"
+	    textfilename=".apollo.txt"
 	elif [ "$changer" == "E" ]
 	then 
-	    textfilename="novembertango.txt"
+	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "F" ]
 	then
-	    textfilename="opensesame"
+	    textfilename=".opensesame"
 	elif [ "$changer" == "G" ]
 	then
-	    textfilename="havingfunyet.txt"
+	    textfilename=".havingfunyet.txt"
 	elif [ "$changer" == "H" ]
 	then
-	    textfilename="openmeplease.txt"
+	    textfilename=".openmeplease.txt"
 	elif [ "$changer" == "I" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	    elif [ "$changer" == "J" ]
 	then
-	    textfilename="inhere.txt"
+	    textfilename=".inhere.txt"
 	elif [ "$changer" == "K" ]
 	then
-	    textfilename="hereiam.txt"
+	    textfilename=".hereiam.txt"
 	elif [ "$changer" == "L" ]
 	then 
-	    textfilename="Iamhere.txt"
+	    textfilename=".Iamhere.txt"
 	elif [ "$changer" == "M" ]
 	then 
-	    textfilename="herehere.txt"
+	    textfilename=".herehere.txt"
 	elif [ "$changer" == "N" ]
 	then
-	    textfilename="passphrasealpha.txt"
+	    textfilename=".passphrasealpha.txt"
 	elif [ "$changer" == "O" ]
 	then 
-	    textfilename="passphrasebravo.txt"
+	    textfilename=".passphrasebravo.txt"
 	elif [ "$changer" == "P" ]
 	then
-	    textfilename="passphrasecharlie.txt"
+	    textfilename=".passphrasecharlie.txt"
 	elif [ "$changer" == "Q" ]
 	then 
-	    textfilename="passphraseomega.txt"
+	    textfilename=".passphraseomega.txt"
 	elif [ "$changer" == "R" ]
 	then 
-	    textfilename="excelsior.txt"
+	    textfilename=".excelsior.txt"
 	elif [ "$changer" == "S" ]
 	then
-	    textfilename="helios.txt"
+	    textfilename=".helios.txt"
 	elif [ "$changer" == "T" ]
 	then
-	    textfilename="apollo.txt"
+	    textfilename=".apollo.txt"
 	elif [ "$changer" == "U" ]
 	then 
-	    textfilename="novembertango.txt"
+	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "V" ]
 	then
-	    textfilename="opensesame"
+	    textfilename=".opensesame"
 	elif [ "$changer" == "W" ]
 	then
-	    textfilename="havingfunyet.txt"
+	    textfilename=".havingfunyet.txt"
 	elif [ "$changer" == "X" ]
 	then
-	    textfilename="openmeplease.txt"
+	    textfilename=".openmeplease.txt"
 	elif [ "$changer" == "Y" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	elif [ "$changer" == "Z" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	elif [ "$changer" == "0" ]
 	then
-	    textfilename="herepleasehere.txt"
+	    textfilename=".herepleasehere.txt"
 	fi
 	
 
@@ -223,7 +223,8 @@
 	chown level31:level31 /home/level31/"$textfilename";
 	
 
-	
+	#changes what the player sees so full file name is not divulged, period is removed
+        visiblefilename=${textfilename#"."}    
 
 	    
 	    
@@ -238,7 +239,7 @@
 	echo "* You are at Level 31                                             *" >> /home/level31/README.txt;
 	echo "*                                                                *" >> /home/level31/README.txt;
 	echo "* The password for the next level is in a *hidden file* called   *" >> /home/level31/README.txt;
-	echo "* "$textfilename"                                                *" >> /home/level31/README.txt;
+	echo "* "$visiblefilename"                                             *" >> /home/level31/README.txt;
 	echo "*                                                                *" >> /home/level31/README.txt;
 	echo "* When you get the password for the next level, log in to the    *" >> /home/level31/README.txt;
 	echo "* next level with the command:                                   *" >> /home/level31/README.txt;
