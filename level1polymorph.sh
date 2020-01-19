@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Grabs one character from password
-changer=${level2_pass:7}
+changer=${level2_pass: -1}
 #based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
 if [ "$changer" == "1" ]
 then
