@@ -4,209 +4,211 @@
 	#Grabs one character from password
 	changer=${level32_pass:7}
 	#based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
-	if [ "$changer" == "1" ]
+	
+	
+if [ "$changer" == "1" ]
 	then
-	    textfilename=".findme.txt"
+	    textfilename=".Jupiter.txt"
 	elif [ "$changer" == "2" ]
 	then
-	    textfilename=".inhere.txt"
+	    textfilename=".Juno.txt"
 	elif [ "$changer" == "3" ]
 	then
-	    textfilename=".hereiam.txt"
+	    textfilename=".Minerva.txt"
 	elif [ "$changer" == "4" ]
 	then 
-	    textfilename=".Iamhere.txt"
+	    textfilename=".Neptune.txt"
 	elif [ "$changer" == "5" ]
 	then 
-	    textfilename=".herehere.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "6" ]
 	then
-	    textfilename=".passphrasealpha.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "7" ]
 	then 
-	    textfilename=".passphrasebravo.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "8" ]
 	then
-	    textfilename=".passphrasecharlie.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "9" ]
 	then 
-	    textfilename=".passphraseomega.txt"
+	    textfilename=".Diana.txt"
 	elif [ "$changer" == "a" ]
 	then 
-	    textfilename=".excelsior.txt"
+	    textfilename=".Vulcan.txt"
 	elif [ "$changer" == "b" ]
 	then
-	    textfilename=".helios.txt"
+	    textfilename=".Vesta.txt"
 	elif [ "$changer" == "c" ]
 	then
-	    textfilename=".apollo.txt"
+	    textfilename=".Mercury.txt"
 	elif [ "$changer" == "d" ]
 	then 
-	    textfilename=".novembertango.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "e" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "f" ]
 	then
-	    textfilename=".havingfunyet.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "g" ]
 	then
-	    textfilename=".openmeplease.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "h" ]
 	then
-	    textfilename=".herepleasehere.txt"
+	    textfilename="..Apollo.txt"
 	elif [ "$changer" == "i" ]
 	then
-	    textfilename=".inhere.txt"
+	    textfilename=".Juno.txt"
 	elif [ "$changer" == "j" ]
 	then
-	    textfilename=".hereiam.txt"
+	    textfilename=".Minerva.txt"
 	elif [ "$changer" == "k" ]
 	then 
-	    textfilename=".Iamhere.txt"
+	    textfilename=".Neptune.txt"
 	elif [ "$changer" == "l" ]
 	then 
-	    textfilename=".herehere.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "m" ]
 	then
-	    textfilename=".passphrasealpha.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "n" ]
 	then 
-	    textfilename=".passphrasebravo.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "o" ]
 	then
-	    textfilename=".passphrasecharlie.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "p" ]
 	then 
-	    textfilename=".passphraseomega.txt"
+	    textfilename=".Diana.txt"
 	elif [ "$changer" == "q" ]
 	then 
-	    textfilename=".excelsior.txt"
+	    textfilename=".Vulcan.txt"
 	elif [ "$changer" == "r" ]
 	then
-	    textfilename=".helios.txt"
+	    textfilename=".Vesta.txt"
 	elif [ "$changer" == "s" ]
 	then
-	    textfilename=".apollo.txt"
+	    textfilename=".Mercury.txt"
 	elif [ "$changer" == "t" ]
 	then 
-	    textfilename=".novembertango.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "u" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "v" ]
 	then
-	    textfilename=".havingfunyet.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "w" ]
 	then
-	    textfilename=".openmeplease.txt"
+	    textfilename="..Ceres.txt"
 	elif [ "$changer" == "x" ]
 	then
-	    textfilename=".herepleasehere.txt"
+	    textfilename=".Apollo.txt"
 	elif [ "$changer" == "t" ]
 	then
-	    textfilename=".inhere.txt"
+	    textfilename=".Juno.txt"
 	elif [ "$changer" == "u" ]
 	then
-	    textfilename=".hereiam.txt"
+	    textfilename=".Minerva.txt"
 	elif [ "$changer" == "v" ]
 	then 
-	    textfilename=".Iamhere.txt"
+	    textfilename=".Neptune.txt"
 	elif [ "$changer" == "w" ]
 	then 
-	    textfilename=".herehere.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "x" ]
 	then
-	    textfilename=".passphrasealpha.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "y" ]
 	then 
-	    textfilename=".passphrasebravo.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "z" ]
 	then
-	    textfilename=".passphrasecharlie.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "A" ]
 	then 
-	    textfilename=".passphraseomega.txt"
+	    textfilename=".Diana.txt"
 	elif [ "$changer" == "B" ]
 	then 
-	    textfilename=".excelsior.txt"
+	    textfilename=".Vulcan.txt"
 	elif [ "$changer" == "C" ]
 	then
-	    textfilename=".helios.txt"
+	    textfilename=".Vesta.txt"
 	elif [ "$changer" == "D" ]
 	then
-	    textfilename=".apollo.txt"
+	    textfilename=".Mercury.txt"
 	elif [ "$changer" == "E" ]
 	then 
-	    textfilename=".novembertango.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "F" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "G" ]
 	then
-	    textfilename=".havingfunyet.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "H" ]
 	then
-	    textfilename=".openmeplease.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "I" ]
 	then
-	    textfilename=".herepleasehere.txt"
+	    textfilename=".Apollo.txt"
 	    elif [ "$changer" == "J" ]
 	then
-	    textfilename=".inhere.txt"
+	    textfilename=".Juno.txt"
 	elif [ "$changer" == "K" ]
 	then
-	    textfilename=".hereiam.txt"
+	    textfilename=".Minerva.txt"
 	elif [ "$changer" == "L" ]
 	then 
-	    textfilename=".Iamhere.txt"
+	    textfilename=".Neptune.txt"
 	elif [ "$changer" == "M" ]
 	then 
-	    textfilename=".herehere.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "N" ]
 	then
-	    textfilename=".passphrasealpha.txt"
+	    textfilename=".Venus.txt"
 	elif [ "$changer" == "O" ]
 	then 
-	    textfilename=".passphrasebravo.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "P" ]
 	then
-	    textfilename=".passphrasecharlie.txt"
+	    textfilename=".Mars.txt"
 	elif [ "$changer" == "Q" ]
 	then 
-	    textfilename=".passphraseomega.txt"
+	    textfilename=".Diana.txt"
 	elif [ "$changer" == "R" ]
 	then 
-	    textfilename=".excelsior.txt"
+	    textfilename=".Vulcan.txt"
 	elif [ "$changer" == "S" ]
 	then
-	    textfilename=".helios.txt"
+	    textfilename=".Vesta.txt"
 	elif [ "$changer" == "T" ]
 	then
-	    textfilename=".apollo.txt"
+	    textfilename=".Mercury.txt"
 	elif [ "$changer" == "U" ]
 	then 
-	    textfilename=".novembertango.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "V" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "W" ]
 	then
-	    textfilename=".havingfunyet.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "X" ]
 	then
-	    textfilename=".openmeplease.txt"
+	    textfilename=".Ceres.txt"
 	elif [ "$changer" == "Y" ]
 	then
-	    textfilename=".herepleasehere.txt"
+	    textfilename=".Apollo.txt"
 	elif [ "$changer" == "Z" ]
 	then
-	    textfilename=".herepleasehere.txt"
+	    textfilename=".Apollo.txt"
 	elif [ "$changer" == "0" ]
 	then
-	    textfilename=".herepleasehere.txt"
-	fi
-	
+	    textfilename=".Apollo.txt"
+	fi	
+
 
 	
 
