@@ -2,13 +2,59 @@
 
 #Grabs one character from password
 changer=${level2_pass:7}
-
-if [ "$changer" == "1" ]
+#based on last character in password, level will have different text file name. Goes through numbers 0-9 and letters a-z lowercase and capital
+if [ "$changer" == "1","2","3" ]
 then
     textfilename=".findme.txt"
-elif [ "$changer" == "2" ]
+elif [ "$changer" == "4","5","6" ]
 then
     textfilename=".inhere.txt"
+elif [ "$changer" == "7","8","9" ]
+then
+    textfilename=".hereiam.txt"
+elif [ "$changer" == "0","a","b" ]
+then 
+    textfilename=".Iamhere.txt"
+elif [ "$changer" == "c","d","e" ]
+then 
+    textfilename=".herehere.txt"
+elif [ "$changer" == "f","g","h" ]
+then
+    textfilename=".passphrasealpha.txt"
+elif [ "$changer" == "i","j","k" ]
+then 
+    textfilename=".passphrasebravo.txt"
+elif [ "$changer" == "l","m","n" ]
+then
+    textfilename=".passphrasecharlie.txt"
+elif [ "$changer" == "o","p","q" ]
+then 
+    textfilename=".passphraseomega.txt"
+elif [ "$changer" == "r","s","t" ]
+then 
+    textfilename=".excelsior.txt"
+elif [ "$changer" == "u","v","w" ]
+then
+    textfilename=".helios.txt"
+elif [ "$changer" == "x","y","z" ]
+then
+    textfilename=".apollo.txt"
+elif [ "$changer" == "A","B","C" ]
+then 
+    textfilename=".novembertango.txt"
+elif [ "$changer" == "D","E","F","Y","Z"]
+then
+    textfilename=".opensesame"
+elif [ "$changer" == "G","H","I","V","W","X" ]
+then
+    textfilename=".havingfunyet.txt"
+elif [ "$changer" == "J","K","L","S","T","U" ]
+then
+    textfilename=".openmeplease.txt"
+elif [ "$changer" == "M","N","O","P","Q","R"]
+then
+    textfilename=".herepleasehere.txt"
+
 fi
 
 
