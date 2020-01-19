@@ -13,7 +13,7 @@ echo "Setting up the levels of the game... please stand by...";
 #level16_20=$name${date:0:10}"level16-20";
 
 #Passwords for IST 451 Spring 2019
-level1_5=$name"JQ0593L2ZIYJdjeekldf";
+level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
 level6_10=$name"ekdhfudklhdladujdo";
 level11_15=$name"YUkdfhskdjeldjfuelhh";
 level16_20=$name"euspdbheleshsldkeu";
@@ -483,7 +483,7 @@ useradd level102 --create-home --password "$(openssl passwd -1 $level102_pass)" 
 
 cd PolyBandit
 ./level0.sh;
-./level1.sh;
+./level1polymorph.sh;
 ./level2.sh;
 ./level3.sh;
 ./level4_easy.sh;
