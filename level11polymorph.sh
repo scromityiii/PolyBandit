@@ -45,7 +45,7 @@
 	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "e" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".opensesame.txt"
 	elif [ "$changer" == "f" ]
 	then
 	    textfilename=".havingfunyet.txt"
@@ -93,7 +93,7 @@
 	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "u" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".opensesame.txt"
 	elif [ "$changer" == "v" ]
 	then
 	    textfilename=".havingfunyet.txt"
@@ -141,7 +141,7 @@
 	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "F" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".opensesame.txt"
 	elif [ "$changer" == "G" ]
 	then
 	    textfilename=".havingfunyet.txt"
@@ -189,7 +189,7 @@
 	    textfilename=".novembertango.txt"
 	elif [ "$changer" == "V" ]
 	then
-	    textfilename=".opensesame"
+	    textfilename=".opensesame.txt"
 	elif [ "$changer" == "W" ]
 	then
 	    textfilename=".havingfunyet.txt"
