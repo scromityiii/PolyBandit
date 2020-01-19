@@ -277,52 +277,52 @@ do
   fi
 done
 
-if ($textfilename == $rand_file);
+if ($textfilename == "rand_file.txt");
 then
 filesize="8"
-elif ($textfilename == $rand_file2);
+elif ($textfilename == "rand_file2.txt");
 then
 filesize="7"
-elif ($textfilename == $rand_file3);
+elif ($textfilename == "rand_file3.txt");
 then
 filesize="6"
-elif ($textfilename == $rand_file4);
+elif ($textfilename == "rand_file4.txt");
 then
 filesize="12"
-elif ($textfilename == $rand_file5);
+elif ($textfilename == "rand_file5.txt");
 then
 filesize="10"
-elif ($textfilename == $rand_file6);
+elif ($textfilename == "rand_file6.txt");
 then
 filesize="11"
-elif ($textfilename == $rand_file7);
+elif ($textfilename == "rand_file7.txt");
 then
 filesize="5"
-elif ($textfilename == $rand_file8);
+elif ($textfilename == "rand_file8.txt");
 then
 filesize="9"
-elif ($textfilename == $rand_file9);
+elif ($textfilename == "rand_file9.txt");
 then
 filesize="2"
-elif ($textfilename == $rand_file10);
+elif ($textfilename == "rand_file10.txt");
 then
 filesize="17"
-elif ($textfilename == $rand_file11);
+elif ($textfilename == "rand_file11.txt");
 then
 filesize="16"
-elif ($textfilename == $rand_file12);
+elif ($textfilename == "rand_file12.txt");
 then
 filesize="15"
-elif ($textfilename == $rand_file13);
+elif ($textfilename == "rand_file13.txt");
 then
 filesize="14"
-elif ($textfilename == $rand_file14);
+elif ($textfilename == "rand_file14.txt");
 then
 filesize="13"
-elif ($textfilename == $rand_file15);
+elif ($textfilename == "rand_file15.txt");
 then
 filesize="3"
-elif ($textfilename == $rand_file16);
+elif ($textfilename == "rand_file16.txt");
 then
 filesize="4"
 fi
