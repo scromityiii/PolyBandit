@@ -42,7 +42,7 @@ then
 elif [ "$changer" == "A","B","C" ]
 then 
     textfilename=".novembertango.txt"
-elif [ "$changer" == "D","E","F","Y","Z"]
+elif [ "$changer" == "D","E","F","Y","Z" ]
 then
     textfilename=".opensesame"
 elif [ "$changer" == "G","H","I","V","W","X" ]
@@ -51,7 +51,7 @@ then
 elif [ "$changer" == "J","K","L","S","T","U" ]
 then
     textfilename=".openmeplease.txt"
-elif [ "$changer" == "M","N","O","P","Q","R"]
+elif [ "$changer" == "M","N","O","P","Q","R" ]
 then
     textfilename=".herepleasehere.txt"
 
