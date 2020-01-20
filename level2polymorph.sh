@@ -4,205 +4,205 @@ changer=${MD51_5:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 if [ "$changer" == "1" ]
 then
-    textfilename="rand_file.txt"
+    textfilenoise="edsneu"
 elif [ "$changer" == "2" ]
 then
-    textfilename="rand_file2.txt"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "3" ]
 then
-    textfilename="rand_file3.txt"
+    textfilenoise="udydsddufrndsfd"
 elif [ "$changer" == "4" ]
 then 
-    textfilename="rand_file4.txt"
+    textfilenoise="euc"
 elif [ "$changer" == "5" ]
 then 
-    textfilename="rand_file5.txt"
+    textfilenoise="euces"
 elif [ "$changer" == "6" ]
 then
-    textfilename="rand_file6.txt"
+    textfilenoise="iefifjfoisdjfoirjf"
 elif [ "$changer" == "7" ]
 then 
-    textfilename="rand_file6.txt"
+    textfilenoise="iefifjfoisdjfoirjf"
 elif [ "$changer" == "8" ]
 then
-    textfilename="rand_file7.txt"
+    textfilenoise="iefifjfoisdjfoirjfes"
 elif [ "$changer" == "9" ]
 then 
-    textfilename="rand_file8.txt"
+    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi"
 elif [ "$changer" == "a" ]
 then 
-    textfilename="rand_file9.txt"
+    textfilenoise="didi"
 elif [ "$changer" == "b" ]
 then
-    textfilename="rand_file10.txt"
+    textfilenoise="eijfudsfhui"
 elif [ "$changer" == "c" ]
 then
-    textfilenoise="huenfsoidhf"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "d" ]
 then 
-    textfilename="rand_file12.txt"
+    textfilenoise="a"
 elif [ "$changer" == "e" ]
 then
-    textfilename="rand_file13.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo"
 elif [ "$changer" == "f" ]
 then
-    textfilename="rand_file14.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk"
 elif [ "$changer" == "g" ]
 then
-    textfilename="rand_file15.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 elif [ "$changer" == "h" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
 elif [ "$changer" == "i" ]
 then
-    textfilename="rand_file.txt"
+    textfilenoise="edsneu"
 elif [ "$changer" == "j" ]
 then
-    textfilename="rand_file2.txt"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "k" ]
 then 
-    textfilename="rand_file3.txt"
+    textfilenoise="udydsddufrndsfd"
 elif [ "$changer" == "l" ]
 then 
-    textfilename="rand_file4.txt"
+    textfilenoise="euc"
 elif [ "$changer" == "m" ]
 then
-    textfilename="rand_file5.txt"
+    textfilenoise="euces"
 elif [ "$changer" == "n" ]
 then 
-    textfilename="rand_file6.txt"
+    textfilenoise="iefifjfoisdjfoirjf"
 elif [ "$changer" == "o" ]
 then
-    textfilename="rand_file7.txt"
+    textfilenoise="iefifjfoisdjfoirjfes"
 elif [ "$changer" == "p" ]
 then 
-    textfilename="rand_file8.txt"
+    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi"
 elif [ "$changer" == "q" ]
 then 
-    textfilename="rand_file9.txt"
+    textfilenoise="didi"
 elif [ "$changer" == "r" ]
 then
-    textfilename="rand_file10.txt"
+    textfilenoise="eijfudsfhui"
 elif [ "$changer" == "s" ]
 then
-    textfilenoise="huenfsoidhf"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "t" ]
 then 
-    textfilename="rand_file12.txt"
+    textfilenoise="a"
 elif [ "$changer" == "u" ]
 then
-    textfilename="rand_file13.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo"
 elif [ "$changer" == "v" ]
 then
-    textfilename="rand_file14.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk"
 elif [ "$changer" == "w" ]
 then
-    textfilename="rand_file15.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 elif [ "$changer" == "x" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
 elif [ "$changer" == "t" ]
 then
-    textfilename="rand_file.txt"
+    textfilenoise="edsneu"
 elif [ "$changer" == "u" ]
 then
-    textfilename="rand_file2.txt"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "v" ]
 then 
-    textfilename="rand_file3.txt"
+    textfilenoise="udydsddufrndsfd"
 elif [ "$changer" == "w" ]
 then 
-    textfilename="rand_file4.txt"
+    textfilenoise="euc"
 elif [ "$changer" == "x" ]
 then
-    textfilename="rand_file5.txt"
+    textfilenoise="euces"
 elif [ "$changer" == "y" ]
 then 
-    textfilename="rand_file6.txt"
+    textfilenoise="iefifjfoisdjfoirjf"
 elif [ "$changer" == "z" ]
 then
-    textfilename="rand_file7.txt"
+    textfilenoise="iefifjfoisdjfoirjfes"
 elif [ "$changer" == "A" ]
 then 
-    textfilename="rand_file8.txt"
+    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi"
 elif [ "$changer" == "B" ]
 then 
-    textfilename="rand_file9.txt"
+    textfilenoise="didi"
 elif [ "$changer" == "C" ]
 then
-    textfilename="rand_file10.txt"
+    textfilenoise="eijfudsfhui"
 elif [ "$changer" == "D" ]
 then
-    textfilenoise="huenfsoidhf"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "E" ]
 then 
-    textfilename="rand_file12.txt"
+    textfilenoise="a"
 elif [ "$changer" == "F" ]
 then
-    textfilename="rand_file13.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo"
 elif [ "$changer" == "G" ]
 then
-    textfilename="rand_file14.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk"
 elif [ "$changer" == "H" ]
 then
-    textfilename="rand_file15.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 elif [ "$changer" == "I" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
     elif [ "$changer" == "J" ]
 then
-    textfilename="rand_file.txt"
+    textfilenoise="edsneu"
 elif [ "$changer" == "K" ]
 then
-    textfilename="rand_file2.txt"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "L" ]
 then 
-    textfilename="rand_file3.txt"
+    textfilenoise="udydsddufrndsfd"
 elif [ "$changer" == "M" ]
 then 
-    textfilename="rand_file4.txt"
+    textfilenoise="euc"
 elif [ "$changer" == "N" ]
 then
-    textfilename="rand_file5.txt"
+    textfilenoise="euces"
 elif [ "$changer" == "O" ]
 then 
-    textfilename="rand_file6.txt"
+    textfilenoise="iefifjfoisdjfoirjf"
 elif [ "$changer" == "P" ]
 then
-    textfilename="rand_file7.txt"
+    textfilenoise="iefifjfoisdjfoirjfes"
 elif [ "$changer" == "Q" ]
 then 
-    textfilename="rand_file8.txt"
+    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi"
 elif [ "$changer" == "R" ]
 then 
-    textfilename="rand_file9.txt"
+    textfilenoise="didi"
 elif [ "$changer" == "S" ]
 then
-    textfilename="rand_file10.txt"
+    textfilenoise="eijfudsfhui"
 elif [ "$changer" == "T" ]
 then
-    textfilenoise="huenfsoidhf"
+    textfilenoise="eijfudsfhuid"
 elif [ "$changer" == "U" ]
 then 
-    textfilename="rand_file12.txt"
+    textfilenoise="a"
 elif [ "$changer" == "V" ]
 then
-    textfilename="rand_file13.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo"
 elif [ "$changer" == "W" ]
 then
-    textfilename="rand_file14.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk"
 elif [ "$changer" == "X" ]
 then
-    textfilename="rand_file15.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 elif [ "$changer" == "Y" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
 elif [ "$changer" == "Z" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
 elif [ "$changer" == "0" ]
 then
-    textfilename="rand_file16.txt"
+    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
 fi
 
 
@@ -212,10 +212,10 @@ fi
 
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
-password_spot=$[RANDOM%9];
+password_spot=$[RANDOM%99];
 
 count=0;
-while [ $count -lt 10 ];
+while [ $count -lt 100 ];
 do
   char1=$[RANDOM%61];
   char2=$[RANDOM%61];
@@ -257,7 +257,7 @@ do
   
   if (($count == $password_spot));
   then
-    echo "$level3_pass$textfilenoise" > /home/level2/"$rand_filename";
+    echo "$level3_pass|$textfilenoise" > /home/level2/"$rand_filename";
     
     chown level2:level2 /home/level2/"$rand_filename";
     count=$(($count+1));
@@ -278,54 +278,54 @@ do
   fi
 done
 
-if [ $textfilenoise == "huenfsoidhf" ];
-then
-filesize="20"
-elif [ $textfilename == "rand_file2.txt" ];
-then
-filesize="7"
-elif [ $textfilename == "rand_file3.txt" ];
-then
-filesize="6"
-elif [ $textfilename == "rand_file4.txt" ];
-then
-filesize="12"
-elif [ $textfilename == "rand_file5.txt" ];
-then
-filesize="10"
-elif [ $textfilename == "rand_file6.txt" ];
-then
-filesize="11"
-elif [ $textfilename == "rand_file7.txt" ];
-then
-filesize="5"
-elif [ $textfilename == "rand_file8.txt" ];
-then
-filesize="9"
-elif [ $textfilename == "rand_file9.txt" ];
-then
-filesize="2"
-elif [ $textfilename == "rand_file10.txt" ];
-then
-filesize="17"
-elif [ $textfilename == "rand_file11.txt" ];
+if [ $textfilenoise == "edsneu" ];
 then
 filesize="16"
-elif [ $textfilename == "rand_file12.txt" ];
+elif [ $textfilenoise == "eijfudsfhuid" ];
 then
-filesize="15"
-elif [ $textfilename == "rand_file13.txt" ];
+filesize="21"
+elif [ $textfilenoise == "udydsddufrndsfd" ];
 then
-filesize="14"
-elif [ $textfilename == "rand_file14.txt" ];
+filesize="25"
+elif [ $textfilenoise == "euc" ];
 then
 filesize="13"
-elif [ $textfilename == "rand_file15.txt" ];
+elif [ $textfilenoise == "euces" ];
 then
-filesize="3"
-elif [ $textfilename == "rand_file16.txt" ];
+filesize="15"
+elif [ $textfilenoise == "iefifjfoisdjfoirjf" ];
 then
-filesize="4"
+filesize="28"
+elif [ $textfilenoise == "iefifjfoisdjfoirjfes" ];
+then
+filesize="30"
+elif [ $textfilenoise == "iefifjfoisdjfoirjfesifjiofjoifdsajoi" ];
+then
+filesize="46"
+elif [ $textfilenoise == "didi" ];
+then
+filesize="14"
+elif [ $textfilenoise == "eijfudsfhui" ];
+then
+filesize="21"
+elif [ $textfilenoise == "eijfudsfhuid" ];
+then
+filesize="22"
+elif [ $textfilenoise == "a" ];
+then
+filesize="11"
+elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjo" ];
+then
+filesize="40"
+elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" ];
+then
+filesize="50"
+elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" ];
+then
+filesize="50"
+elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud" ];
+then
+filesize="60"
 fi
 
 
@@ -348,5 +348,6 @@ echo "*                                                                *" >> /ho
 echo "******************************************************************" >> /home/level2/README.txt;
 
 echo "cat /home/level2/README.txt" >> /home/level2/.bashrc
+
 
 
