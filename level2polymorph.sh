@@ -250,15 +250,16 @@ do
   rand_file14=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]};
   rand_file15=${LETTERS[$char1]}${LETTERS[$char2]};
   rand_file16=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]};
-  
+  rand_filename=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   
   
   
   
   if (($count == $password_spot));
   then
-    echo $level3_pass > /home/level2/"$textfilename";
-    chown level2:level2 /home/level2/"$textfilename";
+    echo $level3_pass > /home/level2/"$rand_filename";
+    
+    chown level2:level2 /home/level2/"$rand_filename";
     count=$(($count+1));
 
   else
@@ -271,8 +272,8 @@ do
       count2=$(($count2+1));
     done
 
-    echo $file_string > /home/level2/"$textfilename";
-    chown level2:level2 /home/level2/"$textfilename";
+    echo $file_string > /home/level2/"$rand_filename";
+    chown level2:level2 /home/level2/"$rand_filename";
     count=$(($count+1));
   fi
 done
