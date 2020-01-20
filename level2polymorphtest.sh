@@ -44,7 +44,7 @@
 	    textfilenoise="eijfudsfhui"
 	elif [ "$changer" == "c" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	    #declare -i noisefileamount=10
 	    #password_spot=$[RANDOM%10];
 	elif [ "$changer" == "d" ]
@@ -61,7 +61,7 @@
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 	elif [ "$changer" == "h" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="sdsdsduehccaiu"
 	elif [ "$changer" == "i" ]
 	then
 	    textfilenoise="edsneu"
@@ -96,7 +96,7 @@
 	    textfilenoise="eijfudsfhui"
 	elif [ "$changer" == "s" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	    #declare -i noisefileamount=10
 	    #password_spot=$[RANDOM%10];
 	elif [ "$changer" == "t" ]
@@ -113,7 +113,7 @@
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 	elif [ "$changer" == "x" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="sdsdsduehccaiu"
 	elif [ "$changer" == "t" ]
 	then
 	    textfilenoise="edsneu"
@@ -148,7 +148,7 @@
 	    textfilenoise="eijfudsfhui"
 	elif [ "$changer" == "D" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="sdsdsduehccaiu"
 	    #declare -i noisefileamount=10
 	    #password_spot=$[RANDOM%10];
 	elif [ "$changer" == "E" ]
@@ -165,7 +165,7 @@
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 	elif [ "$changer" == "I" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	    elif [ "$changer" == "J" ]
 	then
 	    textfilenoise="edsneu"
@@ -200,7 +200,7 @@
 	    textfilenoise="eijfudsfhui"
 	elif [ "$changer" == "T" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	    #declare -i noisefileamount=10
 	    #password_spot=$[RANDOM%10];
 	elif [ "$changer" == "U" ]
@@ -217,13 +217,13 @@
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu"
 	elif [ "$changer" == "Y" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="sdsdsduehccaiu"
 	elif [ "$changer" == "Z" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	elif [ "$changer" == "0" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud"
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
 	fi
 	
 
@@ -289,7 +289,7 @@
 	  #25 added. While the second count is less than the length of string_len, file_string is created as a random string which is then fed into a random file (this repeats 99 times 
 	  #except for when the password spot is reached.
 	  #string_len is set to be random%50+65 so the length of the strings in the noise files don't conflict with that of the password file.
-	    string_len=$[RANDOM%50+65];
+	    string_len=$[RANDOM%50+75];
 	    count2=0;
 	    file_string="";
 	    while [ $count2 -lt $string_len ];
@@ -313,9 +313,9 @@
 	if [ $textfilenoise == "edsneu" ];
 	then
 	filesize="16"
-	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud" ];
+	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" ];
 	then
-	filesize="70"
+	filesize="72"
 	elif [ $textfilenoise == "udydsddufrndsfd" ];
 	then
 	filesize="25"
@@ -340,7 +340,7 @@
 	elif [ $textfilenoise == "eijfudsfhui" ];
 	then
 	filesize="21"
-	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" ];
+	elif [ $textfilenoise == "sdsdsduehccaiu" ];
 	then
 	filesize="24"
 	elif [ $textfilenoise == "a" ];
@@ -355,9 +355,9 @@
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" ];
 	then
 	filesize="60"
-	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud" ];
+	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" ];
 	then
-	filesize="70"
+	filesize="74"
 	fi
 	
 
