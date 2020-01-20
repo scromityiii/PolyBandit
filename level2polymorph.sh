@@ -14,8 +14,8 @@
 	elif [ "$changer" == "2" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "3" ]
 	then
 	    textfilenoise="udydsddufrndsfd"
@@ -46,8 +46,8 @@
 	elif [ "$changer" == "c" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "d" ]
 	then 
 	    textfilenoise="a"
@@ -69,8 +69,8 @@
 	elif [ "$changer" == "j" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "k" ]
 	then 
 	    textfilenoise="udydsddufrndsfd"
@@ -98,8 +98,8 @@
 	elif [ "$changer" == "s" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "t" ]
 	then 
 	    textfilenoise="a"
@@ -121,8 +121,8 @@
 	elif [ "$changer" == "u" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "v" ]
 	then 
 	    textfilenoise="udydsddufrndsfd"
@@ -167,14 +167,16 @@
 	elif [ "$changer" == "I" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	    elif [ "$changer" == "J" ]
 	then
 	    textfilenoise="edsneu"
 	elif [ "$changer" == "K" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "L" ]
 	then 
 	    textfilenoise="udydsddufrndsfd"
@@ -202,8 +204,8 @@
 	elif [ "$changer" == "T" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
-	    #declare -i noisefileamount=10
-	    #password_spot=$[RANDOM%10];
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "U" ]
 	then 
 	    textfilenoise="a"
@@ -222,9 +224,13 @@
 	elif [ "$changer" == "Z" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	elif [ "$changer" == "0" ]
 	then
 	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd"
+	    declare -i noisefileamount=10
+	    password_spot=$[RANDOM%10];
 	fi
 	
 
@@ -243,13 +249,13 @@
 
 	#If we decide to permutate the amount of noise files in level 2, delete the password_spot variable assignment line directly below this one as the password spot is created in the above
 	#elif ladder. The below statement makes the file that contains the passcode be anyone of the 100 from 0-99. 
-	password_spot=$[RANDOM%100];
+	#password_spot=$[RANDOM%100];
 	
 
 	#The below block creates a while loop that specifies that while the count of files is under 100, to make names of random strings of 8 characters as filenames.
 	#If we go route of permutating amount of noise files in level 2, swap 100 for the variable containing the permutated count from above, noiesfileamount.
 	count=0;
-	while [ $count -lt 100 ];
+	while [ $count -lt $noisefileamount ];
 	do
 	  char1=$[RANDOM%61];
 	  char2=$[RANDOM%61];
