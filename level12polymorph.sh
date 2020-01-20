@@ -3,6 +3,7 @@
 	
 
 		changer=${MD511_15:0:1}
+		#In the above, the first character in the MD5 hash is derived from the hash of the corresponding level group (e.g 1_5, 11_15).
 		#based on first character in MD5 hash, level will have different noise string in the password containing file (which is added with the textfilenoise variable to the passcode in the file), corresponding to a different file size. 
 		#For everyone, the password containing file will be a different size but still contain the passcode. 
 		#Goes through numbers 0-9 and letters a-z lowercase and capital
