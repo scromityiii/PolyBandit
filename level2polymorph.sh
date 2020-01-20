@@ -1,13 +1,19 @@
 #!/bin/bash
 
 changer=${MD51_5:0:1}
-#based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
+#based on first character in MD5 hash, level will have different noise string in the password containing file (which is added with the textfilenoise variable to the passcode in the file), corresponding to a different file size. 
+#For everyone, the password containing file will be a different size but still contain the passcode. 
+#Goes through numbers 0-9 and letters a-z lowercase and capital
+#The template based on Steve's MD5 hash for noise file amount permutation has been commented out. If necessary, please refer to it. The count number is declared as an integer variable that permutates depending on what first character in MD5 hash the player has.
+#Password spot, which is a random number between 1 and 9 in case of Steve's file noise, "eijfudsfhuid", permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount specified in those conditions.
 if [ "$changer" == "1" ]
 then
     textfilenoise="edsneu"
 elif [ "$changer" == "2" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "3" ]
 then
     textfilenoise="udydsddufrndsfd"
@@ -38,6 +44,8 @@ then
 elif [ "$changer" == "c" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "d" ]
 then 
     textfilenoise="a"
@@ -59,6 +67,8 @@ then
 elif [ "$changer" == "j" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "k" ]
 then 
     textfilenoise="udydsddufrndsfd"
@@ -86,6 +96,8 @@ then
 elif [ "$changer" == "s" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "t" ]
 then 
     textfilenoise="a"
@@ -107,6 +119,8 @@ then
 elif [ "$changer" == "u" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "v" ]
 then 
     textfilenoise="udydsddufrndsfd"
@@ -134,6 +148,8 @@ then
 elif [ "$changer" == "D" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "E" ]
 then 
     textfilenoise="a"
@@ -155,6 +171,8 @@ then
 elif [ "$changer" == "K" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "L" ]
 then 
     textfilenoise="udydsddufrndsfd"
@@ -182,6 +200,8 @@ then
 elif [ "$changer" == "T" ]
 then
     textfilenoise="eijfudsfhuid"
+    #declare -i noisefileamount=10
+    #password_spot=$[RANDOM%10];
 elif [ "$changer" == "U" ]
 then 
     textfilenoise="a"
@@ -212,8 +232,12 @@ fi
 
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
+#If we decide to permutate the amount of noise files in level 2, delete the password_spot variable assignment line directly below this one as the password spot is created in the above
+#elif ladder. The below statement makes the file that contains the passcode be anyone of the 100 from 0-99. 
 password_spot=$[RANDOM%99];
 
+#The below block creates a while loop that specifies that while the count of files is under 100, to make names of random strings of 8 characters as filenames.
+#If we go route of permutating amount of noise files in level 2, swap 100 for the variable containing the permutated count from above, noiesfileamount.
 count=0;
 while [ $count -lt 100 ];
 do
@@ -234,26 +258,12 @@ do
   char15=$[RANDOM%61];
   char16=$[RANDOM%61];
 
-  rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}};
-  rand_file2=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]};
-  rand_file3=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]};
-  rand_file4=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]};
-  rand_file5=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]};
-  rand_file6=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]};
-  rand_file7=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]};
-  rand_file8=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
-  rand_file9=${LETTERS[$char1]};
-  rand_file10=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]}${LETTERS[$char13]}${LETTERS[$char14]}${LETTERS[$char15]}${LETTERS[$char16]};
-  rand_file11=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]}${LETTERS[$char13]}${LETTERS[$char14]}${LETTERS[$char15]};
-  rand_file12=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]}${LETTERS[$char13]}${LETTERS[$char14]};
-  rand_file13=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]}${LETTERS[$char13]};
-  rand_file14=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]};
-  rand_file15=${LETTERS[$char1]}${LETTERS[$char2]};
-  rand_file16=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]};
+
   rand_filename=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   
   
-  
+  #This if statement stipulates that once the count out of 100 reaches the password spot (which is a random number out of 100), to put the 
+  #passcode in a text file with a random file name generated with the directly above statement. 
   
   if (($count == $password_spot));
   then
@@ -263,6 +273,9 @@ do
     count=$(($count+1));
 
   else
+  #This stipulates that if the count does not equal the password spot, e.g all the other files, to input a random string of random length out of 50 characters with
+  #25 added. While the second count is less than the length of string_len, file_string is created as a random string which is then fed into a random file (this repeats 99 times 
+  #except for when the password spot is reached.
     string_len=$[RANDOM%50+25];
     count2=0;
     file_string="";
@@ -277,6 +290,9 @@ do
     count=$(($count+1));
   fi
 done
+
+#The below elif ladder specifies which byte size is specified in the level description according to the noise amount dictated by the first elif ladder in this script
+#which was dictated according to the first character in the hash of the player for this level set (e.g 1_5, 6_10). 
 
 if [ $textfilenoise == "edsneu" ];
 then
@@ -330,7 +346,7 @@ fi
 
 
 
-
+#In the level description, the byte size of the desired file is permutated according to the results of the directly above elif statement.
 echo "******************************************************************" >> /home/level2/README.txt;
 echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level2/README.txt;
 echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level2/README.txt;
@@ -339,7 +355,7 @@ echo "* next level's account using SSH.                                *" >> /ho
 echo "*                                                                *" >> /home/level2/README.txt;
 echo "* You are at Level 2                                             *" >> /home/level2/README.txt;
 echo "*                                                                *" >> /home/level2/README.txt;
-echo "* The password for the next level is in a file with byte size "$filesize"  *" >> /home/level2/README.txt;
+echo "* The password for the next level is in a file with byte size "$filesize" +/-1 *" >> /home/level2/README.txt;
 echo "*                                                                *" >> /home/level2/README.txt;
 echo "* When you get the password for the next level, log in to the    *" >> /home/level2/README.txt;
 echo "* next level with the command:                                   *" >> /home/level2/README.txt;
