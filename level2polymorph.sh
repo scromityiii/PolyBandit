@@ -37,7 +37,7 @@ then
     textfilename="rand_file10.txt"
 elif [ "$changer" == "c" ]
 then
-    textfilename="rand_file11.txt"
+    textfilenoise="huenfsoidhf"
 elif [ "$changer" == "d" ]
 then 
     textfilename="rand_file12.txt"
@@ -85,7 +85,7 @@ then
     textfilename="rand_file10.txt"
 elif [ "$changer" == "s" ]
 then
-    textfilename="rand_file11.txt"
+    textfilenoise="huenfsoidhf"
 elif [ "$changer" == "t" ]
 then 
     textfilename="rand_file12.txt"
@@ -133,7 +133,7 @@ then
     textfilename="rand_file10.txt"
 elif [ "$changer" == "D" ]
 then
-    textfilename="rand_file11.txt"
+    textfilenoise="huenfsoidhf"
 elif [ "$changer" == "E" ]
 then 
     textfilename="rand_file12.txt"
@@ -181,7 +181,7 @@ then
     textfilename="rand_file10.txt"
 elif [ "$changer" == "T" ]
 then
-    textfilename="rand_file11.txt"
+    textfilenoise="huenfsoidhf"
 elif [ "$changer" == "U" ]
 then 
     textfilename="rand_file12.txt"
@@ -257,7 +257,7 @@ do
   
   if (($count == $password_spot));
   then
-    echo $level3_pass > /home/level2/"$rand_filename";
+    echo "$level3_pass|$textfilenoise" > /home/level2/"$rand_filename";
     
     chown level2:level2 /home/level2/"$rand_filename";
     count=$(($count+1));
@@ -278,9 +278,9 @@ do
   fi
 done
 
-if [ $textfilename == "rand_file.txt" ];
+if [ $textfilenoise == "huenfsoidhf" ];
 then
-filesize="8"
+filesize="20"
 elif [ $textfilename == "rand_file2.txt" ];
 then
 filesize="7"
