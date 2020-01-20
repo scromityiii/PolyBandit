@@ -242,7 +242,7 @@
 
 	#If we decide to permutate the amount of noise files in level 2, delete the password_spot variable assignment line directly below this one as the password spot is created in the above
 	#elif ladder. The below statement makes the file that contains the passcode be anyone of the 100 from 0-99. 
-	password_spot=$[RANDOM%99];
+	password_spot=$[RANDOM%100];
 	
 
 	#The below block creates a while loop that specifies that while the count of files is under 100, to make names of random strings of 8 characters as filenames.
@@ -288,7 +288,7 @@
 	  #This stipulates that if the count does not equal the password spot, e.g all the other files, to input a random string of random length out of 50 characters with
 	  #25 added. While the second count is less than the length of string_len, file_string is created as a random string which is then fed into a random file (this repeats 99 times 
 	  #except for when the password spot is reached.
-	    string_len=$[RANDOM%50+25];
+	    string_len=$[RANDOM%50+65];
 	    count2=0;
 	    file_string="";
 	    while [ $count2 -lt $string_len ];
