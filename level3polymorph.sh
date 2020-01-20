@@ -215,7 +215,7 @@ changer=${MD51_5:0:1}
 		    hint2="asideme"
 		    declare -i noiseamount=255
 		    password_spot=$[RANDOM%255];
-        textfilename="opensesame.txt
+        textfilename="opensesame.txt"
         textfilename2="apen.txt"
 		elif [ "$changer" == "v" ]
 		then
@@ -503,11 +503,11 @@ do
     char8=$[RANDOM%61];
 
     hint=${hint2};
-    rand_pass=${hint}" "" "" "$level4_pass;
+    rand_pass=${hint}" "" "" "${level4_pass};
     echo $rand_pass > /home/level3/oneline.txt;
-    cat /home/level3/”$textfilename” /home/level3/oneline.txt > /home/level3/”$textfilename2”;
-    rm /home/level3/”$textfilename”;
-    mv /home/level3/”$textfilename2” /home/level3/”$textfilename”
+    cat /home/level3/"$textfilename" /home/level3/oneline.txt > /home/level3/"$textfilename2";
+    rm /home/level3/"$textfilename";
+    mv /home/level3/"$textfilename2" /home/level3/"$textfilename"
     count=$((count+1));
   else
     char1=$[RANDOM%61];
@@ -530,9 +530,9 @@ do
     rand_pass=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]}" "" "" "${LETTERS[$char9]}${LETTERS[$char10]}${LETTERS[$char11]}${LETTERS[$char12]}${LETTERS[$char13]}${LETTERS[$char14]}${LETTERS[$char15]}${LETTERS[$char16]};
 
     echo $rand_pass > /home/level3/oneline.txt;
-    cat /home/level3/”$textfilename” /home/level3/oneline.txt > /home/level3/”$textfilename2”;
-    rm /home/level3/”$textfilename”;
-    mv /home/level3/”$textfilename2” /home/level3/”$textfilename”;
+    cat /home/level3/"$textfilename" /home/level3/oneline.txt > /home/level3/"$textfilename2";
+    rm /home/level3/"$textfilename";
+    mv /home/level3/"$textfilename2" /home/level3/"$textfilename";
     count=$(($count+1));
   fi
 done
@@ -558,15 +558,3 @@ echo "******************************************************************" >> /ho
 echo "cat /home/level3/README.txt" >> /home/level3/.bashrc
 
 chown level3:level3 /home/level3/README.txt;
-
-
-
-
-
-
-
-
-
-
-
-
