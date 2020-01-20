@@ -11,7 +11,7 @@ then
     textfilenoise="edsneu"
 elif [ "$changer" == "2" ]
 then
-    textfilenoise="eijfudsfhuid"
+    textfilenoise="eijfudsfhuidee"
     #declare -i noisefileamount=10
     #password_spot=$[RANDOM%10];
 elif [ "$changer" == "3" ]
@@ -66,7 +66,7 @@ then
     textfilenoise="edsneu"
 elif [ "$changer" == "j" ]
 then
-    textfilenoise="eijfudsfhuid"
+    textfilenoise="eijfudsfhuidee"
     #declare -i noisefileamount=10
     #password_spot=$[RANDOM%10];
 elif [ "$changer" == "k" ]
@@ -118,7 +118,7 @@ then
     textfilenoise="edsneu"
 elif [ "$changer" == "u" ]
 then
-    textfilenoise="eijfudsfhuid"
+    textfilenoise="eijfudsfhuidee"
     #declare -i noisefileamount=10
     #password_spot=$[RANDOM%10];
 elif [ "$changer" == "v" ]
@@ -170,7 +170,7 @@ then
     textfilenoise="edsneu"
 elif [ "$changer" == "K" ]
 then
-    textfilenoise="eijfudsfhuid"
+    textfilenoise="eijfudsfhuidee"
     #declare -i noisefileamount=10
     #password_spot=$[RANDOM%10];
 elif [ "$changer" == "L" ]
@@ -324,9 +324,9 @@ filesize="14"
 elif [ $textfilenoise == "eijfudsfhui" ];
 then
 filesize="21"
-elif [ $textfilenoise == "eijfudsfhuid" ];
+elif [ $textfilenoise == "eijfudsfhuidee" ];
 then
-filesize="22"
+filesize="24"
 elif [ $textfilenoise == "a" ];
 then
 filesize="11"
