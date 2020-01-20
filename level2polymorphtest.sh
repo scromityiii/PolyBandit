@@ -288,6 +288,7 @@
 	  #This stipulates that if the count does not equal the password spot, e.g all the other files, to input a random string of random length out of 50 characters with
 	  #25 added. While the second count is less than the length of string_len, file_string is created as a random string which is then fed into a random file (this repeats 99 times 
 	  #except for when the password spot is reached.
+	  #string_len is set to be random%50+65 so the length of the strings in the noise files don't conflict with that of the password file.
 	    string_len=$[RANDOM%50+65];
 	    count2=0;
 	    file_string="";
@@ -307,14 +308,14 @@
 
 	#The below elif ladder specifies which byte size is specified in the level description according to the noise amount dictated by the first elif ladder in this script
 	#which was dictated according to the first character in the hash of the player for this level set (e.g 1_5, 6_10). 
-	
-
+	#the filesize is set as the character amount of textfilenoise in the below elif ladder plus 8 for the length of the passcode and 2 for the | and 1 extra byte tacked on.
+        
 	if [ $textfilenoise == "edsneu" ];
 	then
 	filesize="16"
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud" ];
 	then
-	filesize="60"
+	filesize="70"
 	elif [ $textfilenoise == "udydsddufrndsfd" ];
 	then
 	filesize="25"
@@ -353,10 +354,10 @@
 	filesize="50"
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" ];
 	then
-	filesize="50"
+	filesize="60"
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuududududud" ];
 	then
-	filesize="60"
+	filesize="70"
 	fi
 	
 
