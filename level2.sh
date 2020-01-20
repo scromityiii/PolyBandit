@@ -20,10 +20,10 @@ echo "cat /home/level2/README.txt" >> /home/level2/.bashrc
 
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
-password_spot=$[RANDOM%9];
+password_spot=$[RANDOM%100];
 
 count=0;
-while [ $count -lt 10 ];
+while [ $count -lt 100 ];
 do
   char1=$[RANDOM%61];
   char2=$[RANDOM%61];
