@@ -44,7 +44,7 @@
 		
 	
 
-								password_spot=$[RANDOM%9];
+								password_spot=$[RANDOM%100];
 								
 							
 						
@@ -55,7 +55,7 @@
 	
 
 								count=0;
-								while [ $count -lt 10 ];
+								while [ $count -lt 100 ];
 								do
 								  char1=$[RANDOM%61];
 								  char2=$[RANDOM%61];
