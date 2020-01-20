@@ -13,6 +13,7 @@ echo "Setting up the levels of the game... please stand by...";
 #level16_20=$name${date:0:10}"level16-20";
 
 #Passwords for IST 451 Spring 2019
+#Couplings of passcodes should alternate from 20 characters in length to 18, reciprocatingly, so 20 then 18, 20 then 18, 20 then 18, and so on.
 level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
 level6_10=$name"ekdhfudklhdladujdo";
 level11_15=$name"YUkdfhskdjeldjfuelhh";
