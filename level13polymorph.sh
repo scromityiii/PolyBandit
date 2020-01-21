@@ -63,7 +63,7 @@
 			    hint2="navigateogreatone"
 			    declare -i noiseamount=260
 			    password_spot=$[RANDOM%260];
-	declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897ydfuf" "diufh78g" "94yf7hh" "498fuyu897i" "984fy78j" "k94fy9874fh" "l849fy9874" "98uf498m" "984fy978n" "oidusufhu" "poidsjfui" "qoifjoi" "r98r34894" "s9dusfh897" "t984fu98" "984f98u" "984fu89v" "w984jf98" "x9874fh89" "y984f89" "z984hf9874" "Aiudcvh874" "aueriufh879B" "0984fju89C" "9487f7h87D" "oisfhj879E" "Fdsfhf984" "Giu4fh7" "H984fjh984" "Infu4rh8" "J43f89jh489" "Kudisfhiu4" "L9hf4879" "M984fh7u" "N94ufhj89" "O4ofij48" "P49fj89" "4fh48u9uQ" "4f49ufhR" "4fh48yfhgS" "f4hbf84T" "4f4ffU" "Vdf4" "a43frW" "sfX" "c4f4f4Y" "aef44Z" "14f4qaf4" "4af4a4f2" "esfa3" "242344" "2344325" "64234" "24237" "823432" "9546" "543630");        rand_pass2=${users[$char1]}${users[$char2]}${users[$char3]}${users[$char4]}${users[$char5]}${users[$char6]}${users[$char7]}${users[$char8]}" "" "" "${users[$char9]}${users[$char10]}${users[$char11]}${users[$char12]}${users[$char13]}${users[$char14]}${users[$char15]}${users[$char16]};
+		    declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 	        textfilename="confidential.txt"
 	        textfilename2="avata.txt"
 			elif [ "$changer" == "8" ]
@@ -108,7 +108,7 @@
 		declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 		elif [ "$changer" == "d" ]
 			then 
-			    hint2=“adjacent”
+			    hint2="adjacent"
 			    declare -i noiseamount=265
 			    password_spot=$[RANDOM%265]
 	        textfilename="novembertango.txt"
@@ -193,7 +193,7 @@
 			    password_spot=$[RANDOM%260];
 	        textfilename="confidential.txt"
 	        textfilename2="avata.txt"
-		declare -a users=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
+		    declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 			elif [ "$changer" == "o" ]
 			then
 			    hint2="foriamhere"
@@ -236,7 +236,7 @@
 		declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 			elif [ "$changer" == "t" ]
 			then 
-			    hint2=“adjacent”
+			    hint2="adjacent"
 			    declare -i noiseamount=265
 			    password_spot=$[RANDOM%265]
 	        textfilename="novembertango.txt"
@@ -364,7 +364,7 @@
 		declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 			elif [ "$changer" == "E" ]
 			then 
-			    hint2=“adjacent”
+			    hint2="adjacent"
 			    declare -i noiseamount=265
 			    password_spot=$[RANDOM%265]
 	        textfilename="novembertango.txt"
@@ -492,7 +492,7 @@
 		declare -a users=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "meesh@gmail.com" "bundy@gmail.com" "cromcrom" "sakelake@hotmail.com" "boing" "starman" "starfish453" "buge2" "Orange343" "Paligin@yahoo.com" "Qwerty@psu.edu" "ebin@megacorp.com" "Sarin@yahoo.com" "hexor@yahoo.com" "officerdan@yahoo.com" "rigormortis@gmail.com" "Ward@hotmail.com" "Xar@hotmail.com" "jup@dcdy" "jdiddy" "jdiddybop" "bloopyscoop247" "flosy3456" "yodel32@gmail.com" "5233d@johnny" "643@mac" "maximillian456" "alexander328" "reginald943@yahoo" "marlana@gmail.com");
 			elif [ "$changer" == "U" ]
 			then 
-			    hint2=“adjacent”
+			    hint2="adjacent"
 			    declare -i noiseamount=265
 			    password_spot=$[RANDOM%265]
 	        textfilename="novembertango.txt"
