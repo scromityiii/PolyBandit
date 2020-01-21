@@ -2,24 +2,7 @@
 	
 
 	changer=${MD511_15:0:1}
-			#In the above, the first character in the MD5 hash is derived from the hash of the corresponding level group (e.g 1_5, 11_15).
-	    char1=$[RANDOM%61];
-	    char2=$[RANDOM%61];
-	    char3=$[RANDOM%61];
-	    char4=$[RANDOM%61];
-	    char5=$[RANDOM%61];
-	    char6=$[RANDOM%61];
-	    char7=$[RANDOM%61];
-	    char8=$[RANDOM%61];
-	    char9=$[RANDOM%61];
-	    char10=$[RANDOM%61];
-	    char11=$[RANDOM%61];
-	    char12=$[RANDOM%61];
-	    char13=$[RANDOM%61];
-	    char14=$[RANDOM%61];
-	    char15=$[RANDOM%61];
-	    char16=$[RANDOM%61];
-	    
+			#In the above, the first character in the MD5 hash is derived from the hash of the corresponding level group (e.g 1_5, 11_15).	    
 			#based on first character in MD5 hash, level will have different amount of noise in the text files, different text file and different names. 
 			#For everyone, level can behave very differently. 
 			#Goes through numbers 0-9 and users a-z lowercase and capital
