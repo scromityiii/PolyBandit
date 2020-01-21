@@ -18,8 +18,7 @@ changer=${MD51_5:0:1}
     char14=$[RANDOM%61];
     char15=$[RANDOM%61];
     char16=$[RANDOM%61];
-    user1=$[RANDOM%61];
-    user2=$[RANDOM%61];
+    
 		#based on first character in MD5 hash, level will have different amount of noise in the text files, different text file and different names. 
 		#For everyone, level can behave very differently. 
 		#Goes through numbers 0-9 and users a-z lowercase and capital
@@ -591,7 +590,8 @@ do
     count=$((count+1));
   else
     
-
+user1=$[RANDOM%61];
+user2=$[RANDOM%61];
    
 rand_pass2=${users[$user1]}" "" "" "${users[$user2]};
     echo $rand_pass2 > /home/level3/oneline.txt;
