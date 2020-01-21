@@ -25,7 +25,8 @@ changer=${MD51_5:0:1}
 		#Goes through numbers 0-9 and users a-z lowercase and capital
 		#The count number is declared as an integer variable that permutates depending on what first character in MD5 hash the player has.
 		#Password spot, which is a random number in a given range permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount specified in those conditions.
-		
+		#There are sixteen variations here just like in other levels. These variations differ in the textfile names that they use as well as the arrays they call upon. 
+		#Between the sixteen variations, players are either grepping a file full of gibberish or usernames. The text file title reflects this. The main deliniator of the variations is the hint2 variable value.
 if [ "$changer" == "1" ]
 		then
 		    hint2="iamtheway"
