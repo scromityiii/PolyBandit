@@ -580,7 +580,7 @@ fi
   mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
   count=$((count+1));
 done
-
+chown level4:level4 /home/level4/README.txt
 
 
 echo "******************************************************************" >> /home/level4/README.txt;
@@ -601,4 +601,3 @@ echo "*         ssh level5@localhost                                   *" >> /ho
 echo "*                                                                *" >> /home/level4/README.txt;
 echo "******************************************************************" >> /home/level4/README.txt;
 echo "cat /home/level4/README.txt" >> /home/level4/.bashrc
-chown level4:level4 /home/level4/README.txt
