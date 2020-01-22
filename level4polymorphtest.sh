@@ -104,9 +104,6 @@ changer=${MD51_5:0:1}
                 passuser="allieboo"
                 leveldirections="first"
                  leveldirections2="alphabetically"
-		 touch /home/level4/"$textfilename"
-		 touch /home/level4/"$textfilename2"
-		 touch /home/level4/oneline.txt
 		elif [ "$changer" == "d" ]
 			then 
 			    hint2="adjacent"
@@ -365,9 +362,6 @@ changer=${MD51_5:0:1}
                 passuser="allieboo"
                 leveldirections="first"
                  leveldirections2="alphabetically"
-		 touch /home/level4/"$textfilename"
-		 touch /home/level4/"$textfilename2"
-		 touch /home/level4/oneline.txt
     elif [ "$changer" == "E" ]
 			then 
 			    hint2="adjacent"
@@ -497,9 +491,6 @@ changer=${MD51_5:0:1}
                 passuser="allieboo"
                 leveldirections="first"
                  leveldirections2="alphabetically"
-		 touch /home/level4/"$textfilename"
-		 touch /home/level4/"$textfilename2"
-		 touch /home/level4/oneline.txt
     elif [ "$changer" == "U" ]
 			then 
 			    hint2="adjacent"
@@ -558,7 +549,7 @@ changer=${MD51_5:0:1}
 	declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897ydfuf" "diufh78g" "94yf7hh" "498fuyu897i" "984fy78j" "k94fy9874fh" "l849fy9874" "98uf498m" "984fy978n" "oidusufhu" "poidsjfui" "qoifjoi" "r98r34894" "s9dusfh897" "t984fu98" "984f98u" "984fu89v" "w984jf98" "x9874fh89" "y984f89" "z984hf9874" "Aiudcvh874" "aueriufh879B" "0984fju89C" "9487f7h87D" "oisfhj879E" "Fdsfhf984" "Giu4fh7" "H984fjh984" "Infu4rh8" "J43f89jh489" "Kudisfhiu4" "L9hf4879" "M984fh7u" "N94ufhj89" "O4ofij48" "P49fj89" "4fh48u9uQ" "4f49ufhR" "4fh48yfhgS" "f4hbf84T" "4f4ffU" "Vdf4" "a43frW" "sfX" "c4f4f4Y" "aef44Z" "14f4qaf4" "4af4a4f2" "esfa3" "242344" "2344325" "64234" "24237" "823432" "9546" "543630");	
 			fi
 	
-
+touch /home/level4/"$textfilename"
 
 
 
@@ -580,11 +571,8 @@ do
   else
 ans=${phrases[$randomgen1]};  
 fi
-touch /home/level4/"$textfilename"
- touch /home/level4/"$textfilename2"
-touch /home/level4/oneline.txt
   echo ${users[$count]}" "$ans > /home/level4/oneline.txt;
-  cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"textfilename2";
+  cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"$textfilename2";
   rm /home/level4/"$textfilename";
   mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
   count=$((count+1));
