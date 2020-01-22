@@ -575,7 +575,7 @@ ans=${phrases[$randomgen1]};
 fi
   echo ${users[$count]}" "$ans > /home/level4/oneline.txt;
   cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"textfilename2";
-  rm /home/level4/"$textfilename".txt;
+  rm /home/level4/"$textfilename";
   mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
   count=$((count+1));
 done
