@@ -563,23 +563,30 @@ count=0;
 
 while [ $count -le ${#users[@]} ];
 do
-
+  randomgen2=$[RANDOM%61];
+  randomgen1=$[RANDOM%2000];
   
   
   if [ "${users[$count]}" == "$passuser" ];
   then
-    ans=$level5_pass;     
+    ans=$level5_pass;   
+    user2=${users[$randomgen1]};
+      echo ${user2[$count]}" "$ans > /home/level4/oneline.txt;
+  cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"$textfilename2";
+  rm /home/level4/"$textfilename";
+  mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
+  count=$((count+1));
   else
-  randomgen2=$[RANDOM%61];
-  randomgen1=$[RANDOM%2000];
+
 ans=${phrases[$randomgen2]}; 
 user2=${users[$randomgen1]};
-fi
   echo ${user2[$count]}" "$ans > /home/level4/oneline.txt;
   cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"$textfilename2";
   rm /home/level4/"$textfilename";
   mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
   count=$((count+1));
+fi
+
 done
 
 
