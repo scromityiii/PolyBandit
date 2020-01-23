@@ -564,12 +564,13 @@ do
 
   randomgen1=$[RANDOM%2000];
   randomgen2=$[RANDOM%61];
+  user2=${users[$randomgen1]};
   if [ "${users[$count]}" == "$passuser" ];
   then
     ans=$level5_pass;     
   else
 ans=${phrases[$randomgen2]}; 
-user2=${users[$randomgen1]};
+
 fi
   echo ${user2[$count]}" "$ans > /home/level4/oneline.txt;
   cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"$textfilename2";
