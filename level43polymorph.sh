@@ -571,7 +571,7 @@
 	
 
 		count=0;
-		while [ $count -lt $noiseamount ];
+		while [[ $count -lt $noiseamount ]];
 		do
 		
 	
