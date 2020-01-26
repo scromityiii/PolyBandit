@@ -1,7 +1,7 @@
 changer=${MD51_5:0:1}
 				#In the above, the first character in the MD5 hash is derived from the hash of the corresponding level group (e.g 1_5, 11_15).	    
 				#based on first character in MD5 hash, level will have different amount of noise in the text files, different text file and different names. 
-				#For everyone, level can behave very differently. 
+				#For everyone, level can behave very differently. The textfiles the user sees, the themes of the content, and the contents of those text files themselves all permute depending on the first hash character.
 				#Goes through numbers 0-9 and users a-z lowercase and capital
 				#The count number is declared as an integer variable that permutates depending on what first character in MD5 hash the player has.
 				#Password spot, which is a random number in a given range permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount specified in those conditions.
