@@ -184,7 +184,7 @@ changer=${MD51_5:0:1}
 		passuser=“9999995378”
 		leveldirections="last or nearly so"
                  leveldirections2="numerically"			
-		 elif [ "$changer" == "l" ]
+		elif [ "$changer" == "l" ]
 			then 
 	       textfilename="siteaccountnumbers.txt"
 	       textfilename2="Aperto.txt"
