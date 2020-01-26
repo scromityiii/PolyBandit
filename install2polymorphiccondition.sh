@@ -508,7 +508,7 @@ cd PolyBandit
 ./level1polymorph.sh;
 ./level2polymorph.sh;
 ./level3polymorph.sh;
-./level4polymorphtest.sh;
+./level4polymorph.sh;
 ./level5.sh;
 ./level6.sh;
 ./level7.sh;
