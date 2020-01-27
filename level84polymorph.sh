@@ -1,4 +1,4 @@
-changer=${MD51_5:0:1}
+changer=${MD581_85:0:1}
 				#In the above, the first character in the MD5 hash is derived from the hash of the corresponding level group (e.g 1_5, 11_15).	    
 				#based on first character in MD5 hash, level will have different amount of noise in the text files, different text file and different names. 
 				#For everyone, level can behave very differently. The textfiles the user sees, the themes of the content, and the contents of those text files themselves all permute depending on the first hash character.
@@ -602,7 +602,7 @@ passuser="2010-11-24 01:22:25"
 		 declare -a phrases=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897ydfuf" "diufh78g" "94yf7hh" "498fuyu897i" "984fy78j" "k94fy9874fh" "l849fy9874" "98uf498m" "984fy978n" "oidusufhu" "poidsjfui" "qoifjoi" "r98r34894" "s9dusfh897" "t984fu98" "984f98u" "984fu89v" "w984jf98" "x9874fh89" "y984f89" "z984hf9874" "Aiudcvh874" "aueriufh879B" "0984fju89C" "9487f7h87D" "oisfhj879E" "Fdsfhf984" "Giu4fh7" "H984fjh984" "Infu4rh8" "J43f89jh489" "Kudisfhiu4" "L9hf4879" "M984fh7u" "N94ufhj89" "O4ofij48" "P49fj89" "4fh48u9uQ" "4f49ufhR" "4fh48yfhgS" "f4hbf84T" "4f4ffU" "Vdf4" "a43frW" "sfX" "c4f4f4Y" "aef44Z" "14f4qaf4" "4af4a4f2" "esfa3" "242344" "2344325" "64234" "24237" "823432" "9546" "543630" "divdod" "uufudfe" "rfherufh" "iufhiuerf" "idsbduifb" "iudshiurvr" "iuesiufn" "jase" "sufhda87fh" "eoafeud" "fdsuhasruf" "firuwfhriu" "bceiufuh" "ueufu" "iebdsiuf" "ivbfdsiufn" "iueufsdef" "ieufdius" "tgiusfghf" "isdfhdsiu" "fhefhrfhu" "8fhewhf" "ufh7erf" "74fhe7f" "9fhewah" "ieufhe" "fhe7rfh" "fha8eh" "efwuhewru" "ufhewhf" "e9wfhe" "dhuuefh" "7efhe7f" "iudhuf" "fh7934hf" "dsfh47fh" "ufhr7fh" "fher7fh");			
 			fi
 	
-touch /home/level4/"$textfilename"
+touch /home/level84/"$textfilename"
 
 
 
@@ -620,7 +620,7 @@ do
   
   if [ "${users[$count]}" == "$passuser" ];
   then
-    ans=$level5_pass;   
+    ans=$level85_pass;   
 
   else
 
@@ -628,33 +628,33 @@ ans=${phrases[$randomgen2]};
 
 
 fi
-  echo ${users[$count]}" "$ans > /home/level4/oneline.txt;
-  cat /home/level4/"$textfilename" /home/level4/oneline.txt > /home/level4/"$textfilename2";
-  rm /home/level4/"$textfilename";
-  mv /home/level4/"$textfilename2" /home/level4/"$textfilename";
+  echo ${users[$count]}" "$ans > /home/level84/oneline.txt;
+  cat /home/level84/"$textfilename" /home/level84/oneline.txt > /home/level84/"$textfilename2";
+  rm /home/level84/"$textfilename";
+  mv /home/level84/"$textfilename2" /home/level84/"$textfilename";
   count=$((count+1));
 
 done
 
 
 
-echo "******************************************************************" >> /home/level4/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level4/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level4/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level4/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level4/README.txt;
-echo "*                                                                *" >> /home/level4/README.txt;
-echo "* You are at Level 4                                             *" >> /home/level4/README.txt;
-echo "*                                                                *" >> /home/level4/README.txt;
-echo "* The password for the next level is in the file called          *" >> /home/level4/README.txt;
-echo "* "$textfilename" and is next to the word that would come "$leveldirections" *" >> /home/level4/README.txt;
-echo "* when the contents of that file are sorted "$leveldirections2"      *" >> /home/level4/README.txt;
-echo "*                                                                *" >> /home/level4/README.txt;
-echo "* When you get the password for the next level, log in to the    *" >> /home/level4/README.txt;
-echo "* next level with the command:                                   *" >> /home/level4/README.txt;
-echo "*         ssh level5@localhost                                   *" >> /home/level4/README.txt;
-echo "*                                                                *" >> /home/level4/README.txt;
-echo "******************************************************************" >> /home/level4/README.txt;
-echo "cat /home/level4/README.txt" >> /home/level4/.bashrc
+echo "******************************************************************" >> /home/level84/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level84/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level84/README.txt;
+echo "* what the password is for the next level, then log into that    *" >> /home/level84/README.txt;
+echo "* next level's account using SSH.                                *" >> /home/level84/README.txt;
+echo "*                                                                *" >> /home/level84/README.txt;
+echo "* You are at Level 84                                            *" >> /home/level84/README.txt;
+echo "*                                                                *" >> /home/level84/README.txt;
+echo "* The password for the next level is in the file called          *" >> /home/level84/README.txt;
+echo "* "$textfilename" and is next to the word that would come "$leveldirections" *" >> /home/level84/README.txt;
+echo "* when the contents of that file are sorted "$leveldirections2"      *" >> /home/level84/README.txt;
+echo "*                                                                *" >> /home/level84/README.txt;
+echo "* When you get the password for the next level, log in to the    *" >> /home/level84/README.txt;
+echo "* next level with the command:                                   *" >> /home/level84/README.txt;
+echo "*         ssh level85@localhost                                   *" >> /home/level84/README.txt;
+echo "*                                                                *" >> /home/level84/README.txt;
+echo "******************************************************************" >> /home/level84/README.txt;
+echo "cat /home/level84/README.txt" >> /home/level84/.bashrc
 
-chown level4:level4 /home/level4/README.txt
+chown level84:level84 /home/level84/README.txt
