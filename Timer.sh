@@ -1,6 +1,11 @@
 
-echo "This script is a timer to be used while playing PolyBandit. When finished with the game, hold the control button and then" 
-echo "hit c to stop the timer. Please screenshot this along with the final page when you are done playing."
-date1=`date +%s`; while true; do
-                echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
-                done
+date1=$(date +%s)
+
+#Use this arithmetic to determine elapsed time since defining date1
+
+#While loop using timer
+while ! [ $(( $(date +%s) - $date1 )) -gt 1000000000 ]; do
+    #Terminal timer -n won't append new line, so the echo will replace itself. 
+    ##There is also some date formatting to achieve: HH:MM:SS.
+    echo -ne "$(date -u --date @$(( $(date +%s) - $date1 )) +%H:%M:%S)\r"
+done
