@@ -1,10 +1,10 @@
 #!/bin/bash
-	
-if (( $SECONDS > 3600 )) ; then
+duration=(( $SECONDS - $start ))	
+if (( $duration > 3600 )) ; then
     
     let "minutes=(SECONDS%3600)/60"
     let "seconds=(SECONDS%3600)%60" 
-elif (( $SECONDS > 60 )) ; then
+elif (( $duration > 60 )) ; then
     let "minutes=(SECONDS%3600)/60"
     let "seconds=(SECONDS%3600)%60"
 	let "hours=SECONDS/3600"
