@@ -51,7 +51,5 @@
 	
 	chown level101:level101 /home/level101/.inhere.txt;
 
-date1=`date +%s`; while true; do
-                echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
-                done
+
 
