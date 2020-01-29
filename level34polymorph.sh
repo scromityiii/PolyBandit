@@ -643,7 +643,7 @@ echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /ho
 echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level34/README.txt;
 echo "* what the password is for the next level, then log into that    *" >> /home/level34/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level34/README.txt;
-echo "*                                                                *" >> /home/level34/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level34/README.txt;
 echo "* You are at Level 34                                            *" >> /home/level34/README.txt;
 echo "*                                                                *" >> /home/level34/README.txt;
 echo "* The password for the next level is in the file called          *" >> /home/level34/README.txt;
