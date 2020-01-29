@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-date1=`date +%s`; while true; do 
+#date1=`date +%s`; while true; do 
    
 
 
@@ -16,7 +16,7 @@ date1=`date +%s`; while true; do
 	echo "* Thank you for your participation                               *" >> /home/level101/README.txt;
 	echo "* Please screenshot this page and give to the researcher         *" >> /home/level101/README.txt;
 	echo "*  Completed in:                                                              *" >> /home/level101/README.txt;
-	echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
+	#echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
 	echo "*                                                                *" >> /home/level101/README.txt;
 	echo "*  MD5 Hash values:                                              *" >> /home/level101/README.txt;
     echo "*   Levels 1-5: "$MD51_5"                    *" >> /home/level101/README.txt;	
@@ -45,7 +45,7 @@ date1=`date +%s`; while true; do
 	echo "******************************************************************" >> /home/level101/README.txt;
 	
 
-done	
+#done	
 
 	echo "cat /home/level101/README.txt" >> /home/level101/.bashrc
 	
