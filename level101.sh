@@ -1,20 +1,5 @@
 #!/bin/bash
 
-if (( $x > 3600 )) ; then
-    
-    let "minutes=(x%3600)/60"
-    let "seconds=(x%3600)%60" 
-elif (( $x > 60 )) ; then
-    let "minutes=(x%3600)/60"
-    let "seconds=(x%3600)%60"
-	let "hours=x/3600"
-else
-    let "minutes=(x%3600)/60"
-    let "seconds=(x%3600)%60"
-	let "hours=x/3600"   
-fi
-
-
 
 date1=`date +%s`; while true; do 
    
