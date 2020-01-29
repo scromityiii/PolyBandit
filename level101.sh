@@ -4,9 +4,7 @@
 
    	echo "*  Completed in:                                                 *" >> /home/level101/README.txt;	
 
-                date1=`date +%s`; while true; do
-                echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
-                done
+                
 	echo "******************************************************************" >> /home/level101/README.txt;
 	echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level101/README.txt;
 	echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level101/README.txt;
@@ -52,3 +50,8 @@
         echo $level100_pass > /home/level101/.inhere.txt;
 	
 	chown level101:level101 /home/level101/.inhere.txt;
+
+date1=`date +%s`; while true; do
+                echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
+                done
+
