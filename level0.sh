@@ -21,4 +21,4 @@ echo "cat ~/README.txt" >> /home/level0/.bashrc
 
 echo $level1_pass > /home/level0/inhere.txt;
 chown level0:level0 /home/level0/inhere.txt;
-export $SECONDS;
+export SECONDS;
