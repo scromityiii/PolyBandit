@@ -1,5 +1,5 @@
 #!/bin/bash
-duration=(( $SECONDS - $start ))	
+duration=$(( SECONDS - start ))	
 if (( $duration > 3600 )) ; then
     
     let "minutes=(SECONDS%3600)/60"
