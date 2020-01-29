@@ -14,27 +14,54 @@ echo "Setting up the levels of the game... please stand by...";
 
 #Passwords for IST 451 Spring 2019
 #Couplings of passcodes should alternate from 20 characters in length to 18, reciprocatingly, so 20 then 18, 20 then 18, 20 then 18, and so on.
+#The below instructor-set strings are the ones that will change constantly and be ultimately used for the polymorphic condition. When testing is complete, they may be uncommented.
+#level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
+#level6_10=$name"ekdhfudklhdladujdo";
+#level11_15=$name"YUkdfhskdjeldjfuelhh";
+#level16_20=$name"euspdbheleshsldkeu";
+#level21_25=$name"wbNvKY2x8z22tz232Y7g";
+#level26_30=$name"iunyNCeTz23W4UxOlt";
+#level31_35=$name"LbNvK23x8z2UtzaCIY7g";
+#level36_40=$name"iunyNCeTz23W4UxOlt";
+#level41_45=$name"LbNvKYAx8zsftzaCIY7g";
+#level46_50=$name"iunyNCeerDperUxdfe";
+#level51_55=$name"LbNvKYAx8z2Utza2345g";
+#level56_60=$name"fffy345TzDpW4Usfdt";
+#level61_65=$name"dddvKYAxdddUtesfes7g";
+#level66_70=$name"iunyNCeT234W4Uertt";
+#level71_75=$name"LbNaswAx8edstzaCIY7g";
+#level76_80=$name"iuny23sTzDpw3wxOlt";
+#level81_85=$name"LbNvKYAert2esdaCIY7g";
+#level86_90=$name"iuny234TzDdseUxOlt";
+#level91_95=$name"LbNvKYAxertUtzewsY7g";
+#level96_100=$name"iunyN23wDpW23selt";
+#level101_105=$name"Lw322KYAw342UwweCIY7";
+
+
+
 level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
-level6_10=$name"ekdhfudklhdladujdo";
-level11_15=$name"YUkdfhskdjeldjfuelhh";
-level16_20=$name"euspdbheleshsldkeu";
-level21_25=$name"wbNvKY2x8z22tz232Y7g";
-level26_30=$name"iunyNCeTz23W4UxOlt";
-level31_35=$name"LbNvK23x8z2UtzaCIY7g";
-level36_40=$name"iunyNCeTz23W4UxOlt";
-level41_45=$name"LbNvKYAx8zsftzaCIY7g";
-level46_50=$name"iunyNCeerDperUxdfe";
-level51_55=$name"LbNvKYAx8z2Utza2345g";
-level56_60=$name"fffy345TzDpW4Usfdt";
-level61_65=$name"dddvKYAxdddUtesfes7g";
-level66_70=$name"iunyNCeT234W4Uertt";
-level71_75=$name"LbNaswAx8edstzaCIY7g";
-level76_80=$name"iuny23sTzDpw3wxOlt";
-level81_85=$name"LbNvKYAert2esdaCIY7g";
-level86_90=$name"iuny234TzDdseUxOlt";
-level91_95=$name"LbNvKYAxertUtzewsY7g";
-level96_100=$name"iunyN23wDpW23selt";
-level101_105=$name"Lw322KYAw342UwweCIY7";
+level6_10=$name"iunyNCeTzDpW4UxOlt";
+level11_15=$name"LbNvKYAx8z2UtzaCIY7g";
+level16_20=$name"iunyNCeTzDpW4UxOlt";
+level21_25=$name"LbNvKYAx8z2UtzaCIY7g";
+level26_30=$name"iunyNCeTzDpW4UxOlt";
+level31_35=$name"LbNvKYAx8z2UtzaCIY7g";
+level36_40=$name"iunyNCeTzDpW4UxOlt";
+level41_45=$name"LbNvKYAx8z2UtzaCIY7g";
+level46_50=$name"iunyNCeTzDpW4UxOlt";
+level51_55=$name"LbNvKYAx8z2UtzaCIY7g";
+level56_60=$name"iunyNCeTzDpW4UxOlt";
+level61_65=$name"LbNvKYAx8z2UtzaCIY7g";
+level66_70=$name"iunyNCeTzDpW4UxOlt";
+level71_75=$name"LbNvKYAx8z2UtzaCIY7g";
+level76_80=$name"iunyNCeTzDpW4UxOlt";
+level81_85=$name"LbNvKYAx8z2UtzaCIY7g";
+level86_90=$name"iunyNCeTzDpW4UxOlt";
+level91_95=$name"LbNvKYAx8z2UtzaCIY7g";
+level96_100=$name"iunyNCeTzDpW4UxOlt";
+level101_105=$name"LbNvKYAx8z2UtzaCIY7g";
+
+
 
 
 MD51_5=$(echo -n $level1_5 | md5sum);
