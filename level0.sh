@@ -1,6 +1,12 @@
 #!/bin/bash
 #Code to begin timer of the game
-start=$SECONDS
+let x=0;while [ 1 ];
+do 
+sleep 1; 
+clear; 
+let x++;
+done
+
 
 echo "******************************************************************" >> /home/level0/README.txt;
 echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level0/README.txt;
@@ -21,4 +27,4 @@ echo "cat ~/README.txt" >> /home/level0/.bashrc
 
 echo $level1_pass > /home/level0/inhere.txt;
 chown level0:level0 /home/level0/inhere.txt;
-export SECONDS;
+export x;
