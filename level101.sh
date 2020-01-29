@@ -2,9 +2,11 @@
 
 
 
-   
-#date1=`date +%s`; while true; do
+   	echo "*  Completed in:                                                 *" >> /home/level101/README.txt;	
 
+                date1=`date +%s`; while true; do
+                echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" 
+                done
 	echo "******************************************************************" >> /home/level101/README.txt;
 	echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level101/README.txt;
 	echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level101/README.txt;
@@ -15,11 +17,9 @@
 	echo "*                                                                *" >> /home/level101/README.txt;
 	echo "* Thank you for your participation                               *" >> /home/level101/README.txt;
 	echo "* Please screenshot this page and give to the researcher         *" >> /home/level101/README.txt;
-	echo "*  Completed in:                                                              *" >> /home/level101/README.txt;
-#	echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r" >> /home/level101/README.txt;
 	echo "*                                                                *" >> /home/level101/README.txt;
 	echo "*  MD5 Hash values:                                              *" >> /home/level101/README.txt;
-    echo "*   Levels 1-5: "$MD51_5"                    *" >> /home/level101/README.txt;	
+        echo "*   Levels 1-5: "$MD51_5"                    *" >> /home/level101/README.txt;	
 	echo "*   Levels 6-10: "$MD56_10"                    *" >> /home/level101/README.txt;
 	echo "*   Levels 11-15: "$MD511_15"                *" >> /home/level101/README.txt;
 	echo "*   Levels 16-20: "$MD516_20"                  *" >> /home/level101/README.txt;
@@ -35,17 +35,17 @@
 	echo "*   Levels 66-70: "$MD566_70"                  *" >> /home/level101/README.txt;
 	echo "*   Levels 71-75: "$MD571_75"                *" >> /home/level101/README.txt; 
 	echo "*   Levels 76-80: "$MD576_80"                  *" >> /home/level101/README.txt; 
-    echo "*   Levels 81-15: "$MD581_85"                *" >> /home/level101/README.txt; 
-    echo "*   Levels 86-90: "$MD586_90"				     *" >> /home/level101/README.txt;
-    echo "*   Levels 91-95: "$MD591_95"      		   *" >> /home/level101/README.txt;
-    echo "*   Levels 96-100: "$MD596_100"		           *" >> /home/level101/README.txt;
-    echo "*   Levels 101-105:  "$MD5101_105"                 *" >> /home/level101/README.txt;
-    echo "*                                                                *" >> /home/level101/README.txt;
+        echo "*   Levels 81-15: "$MD581_85"                *" >> /home/level101/README.txt; 
+        echo "*   Levels 86-90: "$MD586_90"				     *" >> /home/level101/README.txt;
+        echo "*   Levels 91-95: "$MD591_95"      		   *" >> /home/level101/README.txt;
+        echo "*   Levels 96-100: "$MD596_100"		           *" >> /home/level101/README.txt;
+        echo "*   Levels 101-105:  "$MD5101_105"                 *" >> /home/level101/README.txt;
+        echo "*                                                                *" >> /home/level101/README.txt;
 	echo "*                                                                *" >> /home/level101/README.txt;
 	echo "******************************************************************" >> /home/level101/README.txt;
 	
 
-#done
+
 
 	echo "cat /home/level101/README.txt" >> /home/level101/.bashrc
 	
