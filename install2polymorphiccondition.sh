@@ -632,7 +632,7 @@ cd PolyBandit
 ./level98.sh;
 ./level99.sh;
 ./level100.sh;
-./level101.sh;
+
 
 
 
@@ -640,3 +640,4 @@ cd PolyBandit
 echo "Now starting the game. Please log in with the password 'level0'";
 
 ssh level0@localhost;
+./level101.sh;
