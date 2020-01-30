@@ -637,7 +637,7 @@ do
   char8=$[RANDOM%61];
 
   rand_dir11=${rand_dir1}
-  mkdir /home/level5/$rand_dir11;
+  mkdir /home/level5/"$rand_dir11";
   count2=0;
   while [[ $count2 -lt $noiseamount2 ]];
   do
@@ -651,7 +651,7 @@ do
     char8=$[RANDOM%61];
 
     randdir22=${rand_dir2}
-    mkdir /home/level5/$rand_dir1/$rand_dir22;
+    mkdir /home/level5/"$rand_dir1"/"$rand_dir22";
     count3=0;
     while [[ $count3 -lt $noiseamount3 ]];
     do
@@ -659,8 +659,8 @@ do
       if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
       then
 
-        echo $level6_pass > home/level5/$directory1/$directory2/$textfilename
-        chown level5:level5 home/level5/$directory1/$directory2/$textfilename
+        echo $level6_pass > home/level5/"$directory1"/"$directory2"/"$textfilename"
+        chown level5:level5 home/level5/"$directory1"/"$directory2"/"$textfilename"
         count3=$(($count3+1));
       else
         char1=$[RANDOM%61];
@@ -673,8 +673,8 @@ do
         char8=$[RANDOM%61];
 
        
-	echo "these are not the passwords you're looking for" "$textfilenoise" > /home/level5/$rand_dir1/$rand_dir2/$rand_file.txt
-        chown level5:level5 /home/level5/$rand_dir1/$rand_dir2/$rand_file.txt
+	echo "these are not the passwords you're looking for" "$textfilenoise" > /home/level5/"$rand_dir1"/"$rand_dir2"/"$rand_file"
+        chown level5:level5 /home/level5/"$rand_dir1"/"$rand_dir2"/"$rand_file"
         count3=$(($count3+1));
       fi
     done
