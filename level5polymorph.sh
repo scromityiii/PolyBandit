@@ -598,7 +598,7 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
 count1=0;
-while [ $count1 -lt $noiseamount1 ];
+while [[ $count1 -lt $noiseamount1 ]];
 do
   char1=$[RANDOM%61];
   char2=$[RANDOM%61];
@@ -612,7 +612,7 @@ do
   
   mkdir /home/level5/$rand_dir1;
   count2=0;
-  while [ $count2 -lt $noiseamount2 ];
+  while [[ $count2 -lt $noiseamount2 ]];
   do
     char1=$[RANDOM%61];
     char2=$[RANDOM%61];
@@ -626,7 +626,7 @@ do
     
     mkdir /home/level5/$rand_dir1/$rand_dir2;
     count3=0;
-    while [ $count3 -lt $noiseamount3 ];
+    while [[ $count3 -lt $noiseamount3 ]];
     do
 
       if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
