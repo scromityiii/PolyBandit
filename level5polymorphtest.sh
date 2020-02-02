@@ -676,7 +676,7 @@ do
         mkdir /home/level5/"$directory1"
 		mkdir /home/level5/"$directory1"/"$directory2"
 		mkdir /home/level5/"$directory1"/"$rand_dir11"
-		mkdir /home/level5/"$directory1"/"$rand_dir22"
+		
         echo $level6_pass > home/level5/"$directory1"/"$directory2"/"$textfilename"
         chown level5:level5 home/level5/"$directory1"/"$directory2"/"$textfilename"
         count3=$(($count3+1));
@@ -690,10 +690,12 @@ do
         char7=$[RANDOM%61];
         char8=$[RANDOM%61];
 
-
+		randomgen4=$[RANDOM%371]
 		randomgen3=$[RANDOM%312]
         #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 		randomgen2=$[RANDOM%61]
+		rand_dir33=${rand_dir1[$randomgen4]}
+		mkdir /home/level5/"$directory1"/"$rand_dir33"
 		rand_fileentry=${rand_file[$randomgen3]}
 		textfilenoiseentry=${textfilenoise[$randomgen2]}
 	echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$rand_dir11"/"$rand_dir22"/$rand_fileentry.txt
