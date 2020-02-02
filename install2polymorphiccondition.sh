@@ -527,7 +527,7 @@ useradd level102 --create-home --password "$(openssl passwd -1 $level102_pass)" 
 
 
 
-
+$ mkdir level5polymorphtest.sh 2> /dev/null
 
 
 cd PolyBandit
