@@ -101,7 +101,7 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
 
 		    declare -i noiseamount1=10
 		    declare -i noiseamount2=10
-        declare -1 noiseamount3=10
+        declare -i noiseamount3=10
         textfilename="HewlettPackard.txt"
         password_spot1=$[RANDOM%20];
         password_spot2=$[RANDOM%20];
