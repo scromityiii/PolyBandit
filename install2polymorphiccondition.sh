@@ -527,7 +527,7 @@ useradd level102 --create-home --password "$(openssl passwd -1 $level102_pass)" 
 
 
 
-$ mkdir level5polymorphtest.sh 2> /dev/null
+
 
 
 cd PolyBandit
@@ -536,7 +536,7 @@ cd PolyBandit
 ./level2polymorph.sh;
 ./level3polymorph.sh;
 ./level4polymorph.sh;
-./level5polymorphtest.sh;
+./level5polymorphtest.sh 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level6.sh;
 ./level7.sh;
 ./level8.sh;
