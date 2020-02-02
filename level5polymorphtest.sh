@@ -101,7 +101,7 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
         #Consult Prof. Giacobe if we want them to know what directories to look in
 		    declare -i noiseamount1=10
 		    declare -i noiseamount2=10
-        declare -i noiseamount3=1
+        declare -i noiseamount3=10
         textfilename="HewlettPackard.txt"
         password_spot1=$[RANDOM%10];
         password_spot2=$[RANDOM%10];
@@ -653,7 +653,7 @@ do
   #shuffle() {
   #rand_dir11=($(shuf -e "${rand_dir1[@]}"))
   #}
-  rand_dir11=${rand_dir1[$randomgen1]}
+  rand_dir11=${rand_dir1[$randomgen1]}" """" "${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
   mkdir /home/level5/"$rand_dir11";
   count2=0;
   while [[ $count2 -lt $noiseamount2 ]];
@@ -669,7 +669,7 @@ do
 
     #rand_dir2=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   randomgen2=$[RANDOM%371];
-  rand_dir22=${rand_dir1[$randomgen2]}   
+  rand_dir22=${rand_dir1[$randomgen2]}" """" "${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}  
     mkdir /home/level5/"$rand_dir11"/"$rand_dir22";
     count3=0;
     while [[ $count3 -lt $noiseamount3 ]];
@@ -698,7 +698,7 @@ do
 		randomgen3=$[RANDOM%312]
         #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 		randomgen2=$[RANDOM%61]
-		rand_dir33=${rand_dir1[$randomgen4]}
+		rand_dir33=${rand_dir1[$randomgen4]}" """" "${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
 		mkdir /home/level5/"$directory1"/"$rand_dir33"
 		rand_fileentry=${rand_file[$randomgen3]}
 		textfilenoiseentry=${textfilenoise[$randomgen2]}
