@@ -611,7 +611,7 @@ declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" 
 
 
 
-
+#The directions are permutated and displayed in the player facing message here.
 echo "******************************************************************" >> /home/level5/README.txt;
 echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level5/README.txt;
 echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level5/README.txt;
@@ -620,7 +620,7 @@ echo "* next level's account using SSH.                                *" >> /ho
 echo "*                                                                *" >> /home/level5/README.txt;
 echo "* You are at Level 5                                             *" >> /home/level5/README.txt;
 echo "* "$directionsline1"                                             *" >> /home/level5/README.txt;
-echo "* "$directionsline2"         						               *" >> /home/level5/README.txt;
+echo "* "$directionsline2"         					*" >> /home/level5/README.txt;
 echo "* "$directionsline3"                                             *" >> /home/level5/README.txt;
 echo "* "$directionsline4"                                             *" >> /home/level5/README.txt;
 echo "* Good luck finding it.                                          *" >> /home/level5/README.txt;
@@ -635,12 +635,13 @@ echo "cat /home/level5/README.txt" >> /home/level5/.bashrc
 #password_spot1=$[RANDOM%10];
 #password_spot2=$[RANDOM%10];
 #password_spot3=$[RANDOM%10];
-
+#Letters variable serves no purpose at the moment.
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
-
+#noise amount here dictates the amount of main directories in the level facing the player
 count1=0;
 while [[ $count1 -lt $noiseamount1 ]];
 do
+#The character variables also serve no purpose at the moment.
   char1=$[RANDOM%61];
   char2=$[RANDOM%61];
   char3=$[RANDOM%61];
@@ -673,7 +674,7 @@ do
     #rand_dir2=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   randomgen2=$[RANDOM%1480];
   rand_dir22=${rand_dir1[$randomgen2]}#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}  
-    mkdir /home/level5/"$rand_dir11"/"$rand_dir22";
+    mkdir /home/level5/"$rand_dir11"/"$rand_dir22"; #This makes the subdirectories
     count3=0;
     while [[ $count3 -lt $noiseamount3 ]];
     do
