@@ -92,8 +92,8 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
 declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897ydfuf" "diufh78g" "94yf7hh" "498fuyu897i" "984fy78j" "k94fy9874fh" "l849fy9874" "98uf498m" "984fy978n" "oidusufhu" "poidsjfui" "qoifjoi" "r98r34894" "s9dusfh897" "t984fu98" "984f98u" "984fu89v" "w984jf98" "x9874fh89" "y984f89" "z984hf9874" "Aiudcvh874" "aueriufh879B" "0984fju89C" "9487f7h87D" "oisfhj879E" "Fdsfhf984" "Giu4fh7" "H984fjh984" "Infu4rh8" "J43f89jh489" "Kudisfhiu4" "L9hf4879" "M984fh7u" "N94ufhj89" "O4ofij48" "P49fj89" "4fh48u9uQ" "4f49ufhR" "4fh48yfhgS" "f4hbf84T" "4f4ffU" "Vdf4" "a43frW" "sfX" "c4f4f4Y" "aef44Z" "14f4qaf4" "4af4a4f2" "esfa3" "242344" "2344325" "64234" "24237" "823432" "9546" "543630");	
 		elif [ "$changer" == "c" ]
 		then
-        #directory1="Truck" #level5k
-        #directory2="supercalifragilisticexpialidocious"
+        directory1="Truck" #level5k
+        directory2="supercalifragilisticexpialidocious"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what file doesn't go with the others?"
@@ -107,7 +107,7 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
         password_spot2=$[RANDOM%20];
         password_spot3=$[RANDOM%20];
         
-       declare -a rand_file=("WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS" "WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS" "WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS")
+       #declare -a rand_file=("WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS" "WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS" "WindowsXP.txt" "Windows7.txt" "Windows8.txt" "Windows95.txt" "Unix.txt" "Linux.txt" "Ubuntu.txt" "OSX.txt" "IOS.txt" "Android.txt" "MicrosoftDOS.txt" "2K.txt" "86-DOS.txt" "Aimos.txt" "ADMIRAL.txt" "AIX/370" "Alpha OS" "ARTOS" "CDOS" "BugOS" "ConvexOS")
         #declare -a textfilenoise=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897ydfuf" "diufh78g" "94yf7hh" "498fuyu897i" "984fy78j" "k94fy9874fh" "l849fy9874" "98uf498m" "984fy978n" "oidusufhu" "poidsjfui" "qoifjoi" "r98r34894" "s9dusfh897" "t984fu98" "984f98u" "984fu89v" "w984jf98" "x9874fh89" "y984f89" "z984hf9874" "Aiudcvh874" "aueriufh879B" "0984fju89C" "9487f7h87D" "oisfhj879E" "Fdsfhf984" "Giu4fh7" "H984fjh984" "Infu4rh8" "J43f89jh489" "Kudisfhiu4" "L9hf4879" "M984fh7u" "N94ufhj89" "O4ofij48" "P49fj89" "4fh48u9uQ" "4f49ufhR" "4fh48yfhgS" "f4hbf84T" "4f4ffU" "Vdf4" "a43frW" "sfX" "c4f4f4Y" "aef44Z" "14f4qaf4" "4af4a4f2" "esfa3" "242344" "2344325" "64234" "24237" "823432" "9546" "543630");		
         declare -a rand_dir1=(“BaBaco” “Bael” “Banana” “BarBadine” “BarBadosCherry” “BarBerry” “BayBerry” “BeachPlum” “BearBerry” “Beechnut” “Berry” “BetelNut” “Bignay” “BilBerry” “BilimBi” “BitterGourd” “BlackApple” “BlackCherry” “BlackMulBerry” “BlackRaspBerry” “BlackSapote” “BlackBerry” “Blackcurrant” “BloodOrange” “BlueTongue” “BlueBerry” “Bolwarra” “BottleGourd” “BoysenBerry” “BramBle” “BrazilNut” "Breadfruit" “Broadleaf“ “Truck” “BramBle” “BuffaloBerry” “BurdekinPlum” “BurmeseGrape”);
         #declare -a rand_dir2=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "supercalifragilisticexpialidocious")
@@ -649,7 +649,8 @@ do
 
   #rand_dir1=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   
-  mkdir /home/level5/$rand_dir1;
+  rand_dir11=${rand_dir1}
+  mkdir /home/level5/$rand_dir11;
   count2=0;
   while [[ $count2 -lt $noiseamount2 ]];
   do
@@ -664,15 +665,15 @@ do
 
     rand_dir2=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
     
-    mkdir /home/level5/$rand_dir1/$rand_dir2;
+    mkdir /home/level5/$rand_dir11/$rand_dir2;
     count3=0;
     while [[ $count3 -lt $noiseamount3 ]];
     do
 
       if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
       then
-        echo $level6_pass > home/level5/$rand_dir1/$rand_dir2/"$textfilename"
-        chown level5:level5 home/level5/$rand_dir1/$rand_dir2/"$textfilename"
+        echo $level6_pass > home/level5/$rand_dir11/$rand_dir2/"$textfilename"
+        chown level5:level5 home/level5/$rand_dir11/$rand_dir2/"$textfilename"
         count3=$(($count3+1));
       else
         char1=$[RANDOM%61];
@@ -684,10 +685,10 @@ do
         char7=$[RANDOM%61];
         char8=$[RANDOM%61];
 
-        #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
+        rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 
-	echo "these are not the passwords you're looking for" > /home/level5/$rand_dir1/$rand_dir2/$rand_file
-        chown level5:level5 /home/level5/$rand_dir1/$rand_dir2/$rand_file.txt
+	echo "these are not the passwords you're looking for" > /home/level5/$rand_dir11/$rand_dir2/$rand_file
+        chown level5:level5 /home/level5/$rand_dir11/$rand_dir2/$rand_file.txt
         count3=$(($count3+1));
       fi
     done
