@@ -1,4 +1,6 @@
 #!/bin/bash
+$ mkdir level5polymorphtest.sh 2> /dev/null
+
 changer=${MD51_5:0:1}
 
 
@@ -829,3 +831,4 @@ do
   cd ..
   count1=$(($count1+1));
 done
+
