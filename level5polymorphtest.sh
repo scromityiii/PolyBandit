@@ -648,8 +648,8 @@ do
   char8=$[RANDOM%61];
 
   #rand_dir1=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
-  
-  rand_dir11=${rand_dir1}
+  randomgen1=$[RANDOM%39];
+  rand_dir11=${rand_dir1[$randomgen1]}
   mkdir /home/level5/$rand_dir11;
   count2=0;
   while [[ $count2 -lt $noiseamount2 ]];
