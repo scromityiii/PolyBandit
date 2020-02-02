@@ -99,9 +99,9 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
         directionsline3="what file doesn't go with the others?"
         directionsline4="Look in directories $directory1 and $directory2"
 
-		    declare -i noiseamount1=10
-		    declare -i noiseamount2=10
-        declare -i noiseamount3=10
+		    declare -i noiseamount1=20
+		    declare -i noiseamount2=20
+        declare -i noiseamount3=20
         textfilename="HewlettPackard.txt"
         password_spot1=$[RANDOM%20];
         password_spot2=$[RANDOM%20];
