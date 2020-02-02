@@ -650,7 +650,7 @@ do
 
   #rand_dir1=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
   
-  randomgen1=$[RANDOM%371];
+  randomgen1=$[RANDOM%1480];
   #shuffle() {
   #rand_dir11=($(shuf -e "${rand_dir1[@]}"))
   #}
@@ -669,7 +669,7 @@ do
     char8=$[RANDOM%61];
 
     #rand_dir2=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
-  randomgen2=$[RANDOM%371];
+  randomgen2=$[RANDOM%1480];
   rand_dir22=${rand_dir1[$randomgen2]}#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}  
     mkdir /home/level5/"$rand_dir11"/"$rand_dir22";
     count3=0;
@@ -678,27 +678,27 @@ do
 
       if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
       then
-	  randomgen5=$[RANDOM%371];
-	  randomgen6=$[RANDOM%371];
-	  randomgen7=$[RANDOM%371];
-	  randomgen8=$[RANDOM%371];
-	  randomgen9=$[RANDOM%371];
-	  randomgen10=$[RANDOM%371];
-	  randomgen11=$[RANDOM%371];
-	  randomgen12=$[RANDOM%371];
-	  randomgen13=$[RANDOM%371];
-	  randomgen14=$[RANDOM%371];
-	  randomgen15=$[RANDOM%371];
-	  randomgen16=$[RANDOM%371];
-	  randomgen17=$[RANDOM%371];
-	  randomgen18=$[RANDOM%371];
-	  randomgen19=$[RANDOM%371];
-	  randomgen20=$[RANDOM%371];
-	  randomgen21=$[RANDOM%371];
-	  randomgen22=$[RANDOM%371];
-	  randomgen23=$[RANDOM%371];
-	  randomgen24=$[RANDOM%371];
-	  randomgen25=$[RANDOM%371];
+	  randomgen5=$[RANDOM%1480];
+	  randomgen6=$[RANDOM%1480];
+	  randomgen7=$[RANDOM%1480];
+	  randomgen8=$[RANDOM%1480];
+	  randomgen9=$[RANDOM%1480];
+	  randomgen10=$[RANDOM%1480];
+	  randomgen11=$[RANDOM%1480];
+	  randomgen12=$[RANDOM%1480];
+	  randomgen13=$[RANDOM%1480];
+	  randomgen14=$[RANDOM%1480];
+	  randomgen15=$[RANDOM%1480];
+	  randomgen16=$[RANDOM%1480];
+	  randomgen17=$[RANDOM%1480];
+	  randomgen18=$[RANDOM%1480];
+	  randomgen19=$[RANDOM%1480];
+	  randomgen20=$[RANDOM%1480];
+	  randomgen21=$[RANDOM%1480];
+	  randomgen22=$[RANDOM%1480];
+	  randomgen23=$[RANDOM%1480];
+	  randomgen24=$[RANDOM%1480];
+	  randomgen25=$[RANDOM%1480];
        rand_dir33=${rand_dir1[$randomgen5]}
 	   rand_dir34=${rand_dir1[$randomgen6]}
 	   rand_dir35=${rand_dir1[$randomgen7]}
@@ -751,52 +751,52 @@ do
 
 		
 
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir54"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir54"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir33"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir33"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir34"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir34"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir35"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir35"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir36"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir36"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir37"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir37"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir38"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir38"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir39"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir39"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir40"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir40"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir41"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir41"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir42"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir42"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir43"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir43"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir44"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir44"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir45"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir45"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir46"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir46"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir47"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir47"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir48"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir48"/$textfilename.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir49"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir49"/$textfilename.tx50
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir50"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir50"/$textfilename.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir51"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir51"/$textfilename.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir52"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir52"/$textfilename.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir53"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir53"/$textfilename.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir55"/$textfilename.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir55"/$textfilename.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir54"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir54"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir33"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir33"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir34"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir34"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir35"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir35"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir36"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir36"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir37"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir37"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir38"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir38"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir39"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir39"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir40"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir40"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir41"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir41"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir42"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir42"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir43"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir43"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir44"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir44"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir45"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir45"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir46"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir46"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir47"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir47"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir48"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir48"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir49"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir49"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir50"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir50"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir51"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir51"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir52"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir52"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir53"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir53"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir55"/$textfilename
+        chown level5:level5 /home/level5/"$directory1"/"$rand_dir55"/$textfilename
 
 
         echo $level6_pass > home/level5/"$directory1"/"$directory2"/"$textfilename"
@@ -812,12 +812,12 @@ do
         char7=$[RANDOM%61];
         char8=$[RANDOM%61];
 
-		randomgen4=$[RANDOM%371]
+		randomgen4=$[RANDOM%1480]
 		randomgen3=$[RANDOM%312]
         #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 		randomgen2=$[RANDOM%61]
 		#rand_dir33=${rand_dir1[$randomgen4]}#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
-		mkdir /home/level5/"$directory1"/"$rand_dir33"
+		#mkdir /home/level5/"$directory1"/"$rand_dir33"
 		rand_fileentry=${rand_file[$randomgen3]}
 		textfilenoiseentry=${textfilenoise[$randomgen2]}
 	echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$rand_dir11"/"$rand_dir22"/$rand_fileentry.txt
