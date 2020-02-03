@@ -681,7 +681,8 @@ do
 
       if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
       then
-	  randomgen5=$[RANDOM%1480];
+	 #This makes the sub directories that go in directory 1 for obfuscation.
+	 randomgen5=$[RANDOM%1480];
 	  randomgen6=$[RANDOM%1480];
 	  randomgen7=$[RANDOM%1480];
 	  randomgen8=$[RANDOM%1480];
@@ -750,7 +751,14 @@ do
         mkdir /home/level5/"$directory1"/"$rand_dir54"
 		mkdir /home/level5/"$directory1"/"$rand_dir55"
 
-		
+#This makes the textfiles that go into the sub directories adjacent to directory 2.
+#In having only the sub directories adjacent to directory 2 have a text file name different in context from others,
+#a giant game of what does not go with what is created. In my variant with changer c's case,
+#the hewlett packard text file is obviously different from the text file names in rand_file, which are all animals.
+#the user will have to cd in and out of directories to realize hewlett packard is different in context from the names 
+#of all the other text files, and one of the hewlett packard text files (in tbe right subdirectory, directory 2, has the 
+#text file with the passcode in it. In a nutshell, both the directories the player sees presents a what doesnt go with what 
+#challenge, as well as the text files in those sub directories. The user must know how to navigate in and out of text files and use that skill repeatedly.
 
 		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir54"/$textfilename
         chown level5:level5 /home/level5/"$directory1"/"$rand_dir54"/$textfilename
