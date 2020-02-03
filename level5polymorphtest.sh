@@ -98,7 +98,7 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
         directory2="fruityfruityu"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
-        directionsline3="what file doesn't go with the others?"
+        directionsline3="what directtory or file doesn't go with the others?"
         directionsline4="Look in directories $directory1 and $directory2"
         #Consult Prof. Giacobe if we want them to know what directories to look in
 		    declare -i noiseamount1=10
