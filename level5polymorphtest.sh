@@ -757,7 +757,7 @@ do
 #the hewlett packard text file is obviously different from the text file names in rand_file, which are all animals.
 #the user will have to cd in and out of directories to realize hewlett packard is different in context from the names 
 #of all the other text files in sub directories not in directory 1 (which is different in context from the other main directories), and one of the hewlett packard text files (in the right subdirectory, directory 2, has the 
-#text file with the passcode in it. Having multiple ones with Hewlett Packard in the directories under directory 1 requires the user to go back and forth from directories and further obfuscates the right file from a one command solution or cheat. In a nutshell, both the directories the player sees presents a what doesnt go with what 
+#text file with the passcode in it). Having multiple ones with Hewlett Packard in the directories under directory 1 requires the user to go back and forth from directories and further obfuscates the right file from a one command solution or cheat (in addition to furthering learning objectives). In a nutshell, both the directories the player sees presents a what doesnt go with what 
 #challenge, as well as the text files in those sub directories. The user must know how to navigate in and out of directories amd text files and use that skill repeatedly.
 
 		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir54"/$textfilename
