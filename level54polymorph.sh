@@ -11,7 +11,7 @@ changer=${MD551_55:0:1}
 		if [ "$changer" == "1" ]
 			then
 	       textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4a
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -20,7 +20,7 @@ changer=${MD551_55:0:1}
 			elif [ "$changer" == "2" ]
 			then
 	       textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="ark" #level4b
                 leveldirections="first or nearly so"
                  leveldirections2="alphabetically"
@@ -155,7 +155,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "h" ]
 			then
 			     textfilename="bagofwordsforensics.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4p
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -164,7 +164,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "i" ]
 			then
 			      textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4a
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -173,7 +173,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "j" ]
 			then
 	      textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="ark" #level4b
                 leveldirections="first or nearly so"
                  leveldirections2="alphabetically"
@@ -298,7 +298,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "x" ]
 			then
 			     textfilename="bagofwordsforensics.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4p
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -307,7 +307,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "t" ]
 			then
 			      textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4a
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -316,7 +316,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "u" ]
 			then
 			     textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="ark" #level4b
                 leveldirections="first or nearly so"
                  leveldirections2="alphabetically"
@@ -442,7 +442,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "I" ]
 			then
 			     textfilename="bagofwordsforensics.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4p
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -451,7 +451,7 @@ passuser="2010-11-24 01:22:25" #level4n
 		       elif [ "$changer" == "J" ]
 			then
 			      textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4a
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -460,7 +460,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "K" ]
 			then
 			   textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="ark" #level4b
                 leveldirections="first or nearly so"
                  leveldirections2="alphabetically"
@@ -577,7 +577,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "Y" ]
 			then
 			     textfilename="bagofwordsforensics.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4p
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -586,7 +586,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "Z" ]
 			then
 			     textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="zonked" #level4a
                 leveldirections="last or nearly so"
                  leveldirections2="alphabetically"
@@ -595,7 +595,7 @@ passuser="2010-11-24 01:22:25" #level4n
 			elif [ "$changer" == "0" ]
 			then
 			    textfilename="dictionary.txt"
-	       textfile2name2="hapur.txt"
+	       textfilename2="hapur.txt"
 	          passuser="ark" #level4b
                 leveldirections="first or nearly so"
                  leveldirections2="alphabetically"
