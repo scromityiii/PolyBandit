@@ -5,9 +5,9 @@
 #For everyone, level can behave very differently. The textfiles and directories the user sees, the themes of the content, and the contents of those text files and directories themselves all permute depending on the first hash character.
 #Goes through numbers 0-9 and users a-z lowercase and capital (all alphanumeric possibilities for the first character of the MD5 hash)
 #The count number is declared as an integer variable (user_count1-4) that permutates depending on what first character in MD5 hash the player has. They correspond to the do while loops that create main directories, subdirectories, and text flies that they see.
-#Password spot, which is a random number in a given range permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount (called noiseamount) specified in those conditions.
+#Password spot, which is a random number in a given range permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount (called user_count) specified in those conditions.
 #There are sixteen variations here just like in other levels. These variations differ in the textfile names that they use as well as the arrays they call upon (which chang the textfile names and the directories they see). 
-#Between the sixteen variations, players are cding in and out of directories of different themes and reading text files to find the passcode. We simply tell them to look into what stands out from others.
+#Between the sixteen variations, players have to find a different text file that relates to a different theme amongst unknown directories/paths. If they know basic linux directory structure, they can beat the level. 
 #Level variant identifiers out of the 16 possibilities, level_a - level_p, are commented into each corresponding elif condition.
 
 $ mkdir level5polymorphtest.sh 2> /dev/null
@@ -1794,7 +1794,7 @@ randomgen1=$[RANDOM%1480];
       #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
       hint=$textfilename;
       echo $level7_pass > /home/$rand_user/$textfilename;
-      chown $rand_user:$rand_user /home/$textfilename/$;
+      chown $rand_user:$rand_user /home/$rand_user/$textfilename;
     else
 
       #char1=$[RANDOM%61];
