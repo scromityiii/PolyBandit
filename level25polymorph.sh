@@ -1458,6 +1458,7 @@ if [ "$changer" == "1" ]
 		    declare -i noiseamount1=10
 		    declare -i noiseamount2=10
         declare -i noiseamount3=10
+        declare -i noiseamount4=10
         textfilename="Veggies.txt"
         password_spot1=$[RANDOM%10];
         password_spot2=$[RANDOM%10];
