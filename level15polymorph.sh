@@ -1877,7 +1877,8 @@ do
         chown level15:level15 /home/level15/"$directory1"/"$rand_dir53"/$textfilename
 				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level15/"$directory1"/"$rand_dir55"/$textfilename
         chown level15:level15 /home/level15/"$directory1"/"$rand_dir55"/$textfilename
-
+        
+        touch home/level15/"$directory1"/"$directory2"/"$textfilename"
 
         echo $level16_pass > home/level15/"$directory1"/"$directory2"/"$textfilename"
         chown level15:level15 home/level15/"$directory1"/"$directory2"/"$textfilename"
