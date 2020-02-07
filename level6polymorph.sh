@@ -10,9 +10,9 @@
 #Between the sixteen variations, players have to find a different text file that relates to a different theme amongst unknown directories/paths. If they know basic linux directory structure, they can beat the level. 
 #Level variant identifiers out of the 16 possibilities, level_a - level_p, are commented into each corresponding elif condition.
 
-$ mkdir level5polymorphtest.sh 2> /dev/null
 
-changer=${MD51_5:0:1}
+
+changer=${MD56_10:0:1}
 
 
 if [ "$changer" == "1" ]
@@ -1825,7 +1825,7 @@ echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /ho
 echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level6/README.txt;
 echo "* what the password is for the next level, then log into that    *" >> /home/level6/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level6/README.txt;
-echo "*                                                                *" >> /home/level6/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level6/README.txt;
 echo "* You are at Level 6                                             *" >> /home/level6/README.txt;
 echo "* "$directionsline1"                                             *" >> /home/level6/README.txt;
 echo "* "$directionsline2"                                             *" >> /home/level6/README.txt;

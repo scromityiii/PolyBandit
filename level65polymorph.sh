@@ -10,7 +10,7 @@
 #Between the sixteen variations, players are cding in and out of directories of different themes and reading text files to find the passcode. We simply tell them to look into what stands out from others.
 #Level variant identifiers out of the 16 possibilities, level_a - level_p, are commented into each corresponding elif condition.
 
-$ mkdir level65polymorphtest.sh 2> /dev/null
+
 
 changer=${MD561_65:0:1}
 

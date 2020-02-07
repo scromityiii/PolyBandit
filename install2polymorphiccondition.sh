@@ -536,7 +536,7 @@ cd PolyBandit
 ./level2polymorph.sh;
 ./level3polymorph.sh;
 ./level4polymorph.sh;
-./level5polymorphtest.sh;# 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level5polymorph.sh;# 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level6polymorph.sh;
 ./level7.sh;
 ./level8.sh;
@@ -547,7 +547,7 @@ cd PolyBandit
 ./level13polymorph.sh;
 ./level14polymorph.sh;
 ./level15polymorph.sh;
-./level16.sh;
+./level16polymorph.sh;
 ./level17.sh;
 ./level18.sh;
 ./level19.sh;
@@ -557,7 +557,7 @@ cd PolyBandit
 ./level23polymorph.sh;
 ./level24polymorph.sh;
 ./level25polymorph.sh;
-./level26.sh;
+./level26polymorph.sh;
 ./level27.sh;
 ./level28.sh;
 ./level29.sh;
@@ -567,7 +567,7 @@ cd PolyBandit
 ./level33polymorph.sh;
 ./level34polymorph.sh;
 ./level35polymorph.sh;
-./level36.sh;
+./level36polymorph.sh;
 ./level37.sh;
 ./level38.sh;
 ./level39.sh;
@@ -577,7 +577,7 @@ cd PolyBandit
 ./level43polymorph.sh;
 ./level44polymorph.sh;
 ./level45polymorph.sh;
-./level46.sh;
+./level46polymorph.sh;
 ./level47.sh;
 ./level48.sh;
 ./level49.sh;
@@ -587,7 +587,7 @@ cd PolyBandit
 ./level53polymorph.sh;
 ./level54polymorph.sh;
 ./level55polymorph.sh;
-./level56.sh;
+./level56polymorph.sh;
 ./level57.sh;
 ./level58.sh;
 ./level59.sh;
@@ -597,7 +597,7 @@ cd PolyBandit
 ./level63polymorph.sh;
 ./level64polymorph.sh;
 ./level65polymorph.sh;
-./level66.sh;
+./level66polymorph.sh;
 ./level67.sh;
 ./level68.sh;
 ./level69.sh;
@@ -607,7 +607,7 @@ cd PolyBandit
 ./level73polymorph.sh;
 ./level74polymorph.sh;
 ./level75polymorph.sh;
-./level76.sh;
+./level76polymorph.sh;
 ./level77.sh;
 ./level78.sh;
 ./level79.sh;
@@ -617,7 +617,7 @@ cd PolyBandit
 ./level83polymorph.sh;
 ./level84polymorph.sh;
 ./level85polymorph.sh;
-./level86.sh;
+./level86polymorph.sh;
 ./level87.sh;
 ./level88.sh;
 ./level89.sh;
@@ -627,7 +627,7 @@ cd PolyBandit
 ./level93polymorph.sh;
 ./level94polymorph.sh;
 ./level95polymorph.sh;
-./level96.sh;
+./level96polymorph.sh;
 ./level97.sh;
 ./level98.sh;
 ./level99.sh;
