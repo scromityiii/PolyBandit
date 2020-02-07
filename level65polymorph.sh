@@ -10,14 +10,14 @@
 #Between the sixteen variations, players are cding in and out of directories of different themes and reading text files to find the passcode. We simply tell them to look into what stands out from others.
 #Level variant identifiers out of the 16 possibilities, level_a - level_p, are commented into each corresponding elif condition.
 
-$ mkdir level5polymorphtest.sh 2> /dev/null
+$ mkdir level65polymorphtest.sh 2> /dev/null
 
-changer=${MD51_5:0:1}
+changer=${MD561_65:0:1}
 
 
 if [ "$changer" == "1" ]
 		then
-	        directory1="44448888222222" #level5a
+	        directory1="44448888222222" #level65a
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's user and account number directory."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -41,7 +41,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "2" ]
 		then
-	        directory1="itsdefinitelynotherebruh" #level5b
+	        directory1="itsdefinitelynotherebruh" #level65b
         directory2="notrandomjunk"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The numbers are masked."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -65,7 +65,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "3" ]
 		then
-	        directory1="halloffamebaby" #level5c
+	        directory1="halloffamebaby" #level65c
         directory2="Wayoutinleftfield"
         directionsline1="Not so fast. Batter up! time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -89,7 +89,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "4" ]
 		then 
-	        directory1=".400averagebaby" #level5d
+	        directory1=".400averagebaby" #level65d
         directory2="morelike.200haha"
         directionsline1="Not so fast. Batter up! Time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -113,7 +113,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "5" ]
 		then 
-	        directory1="44448888222222" #level5e
+	        directory1="44448888222222" #level65e
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -137,7 +137,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "6" ]
 		then
-	        directory1="iamaword" #level5f
+	        directory1="iamaword" #level65f
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -161,7 +161,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "7" ]
 		then 
-	        directory1="iamaword" #level5f
+	        directory1="iamaword" #level65f
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -185,7 +185,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "8" ]
 		then
-	        directory1="iamaword" #level5g
+	        directory1="iamaword" #level65g
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -209,7 +209,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "9" ]
 		then 
-	        directory1="loveothersandyourself" #level5h
+	        directory1="loveothersandyourself" #level65h
         directory2="peacetotheworldandtoyou*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -233,7 +233,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "a" ]
 		then 
-	        directory1="djdj493853" #level5i
+	        directory1="djdj493853" #level65i
         directory2="p12434l523*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -257,7 +257,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "b" ]
 		then
-        directory1="BigFrigginTruck" #level5j
+        directory1="BigFrigginTruck" #level65j
         directory2="fruityfruityu"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -280,7 +280,7 @@ if [ "$changer" == "1" ]
         #declare -a rand_dir2=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "supercalifragilisticexpialidocious")
 		elif [ "$changer" == "c" ]
 		then
-	        directory1="Imadogman@a38" #level5k
+	        directory1="Imadogman@a38" #level65k
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -304,7 +304,7 @@ if [ "$changer" == "1" ]
   	
 	  	elif [ "$changer" == "d" ]
 		then 
-	        directory1="Imadogman@" #level5l
+	        directory1="Imadogman@" #level65l
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -327,7 +327,7 @@ if [ "$changer" == "1" ]
         #declare -a rand_dir2=("john123" "jodie452" "allieboo" "dj878" "maxwell92" "ddaydan82" "marla32" "joleen21121" "george32112" "32211kat" "kat@gmail.com" "rocco@gmail.com" "reginald@gmail.com" "marctheshark@yahoo.com" "Moo@msn.com" "pdiddyfey343" "marcy" "luciese" "mogoman@psu.edu" "lark453" "jergen98" "sharky@gmail.com" "lucy45" "lukeforce34" "vasilios4532" "yolo89" "forlorn" "yaga@gmail.com" "boreeno@hotmail.com" "Darius343" "Emoni@gmail.com" "Fardozi@gmail.com" "supercalifragilisticexpialidocious")
 		elif [ "$changer" == "e" ]
 		then
-	        directory1="yournamehere_______" #level5m
+	        directory1="yournamehere_______" #level65m
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -350,7 +350,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "f" ]
 		then
-	        directory1="yournamehere_______" #level5n
+	        directory1="yournamehere_______" #level65n
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -373,7 +373,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "g" ]
 		then
-	        directory1="iamanoperatingsystem" #level5o
+	        directory1="iamanoperatingsystem" #level65o
         directory2="theBigBrothersurveillancestate"
         directionsline1="Not so fast. You're in an operating system catalogue"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -396,7 +396,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "h" ]
 		then
-	        directory1="whichOSdoyoulike" #level5p
+	        directory1="whichOSdoyoulike" #level65p
         directory2="WEAREPENNSTATE"
         directionsline1="Not so fast. You're in a database of users and operating systems they use"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -419,8 +419,8 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "i" ]
 		then
-		    hint2="iamtheway" #level5a
-	        directory1="44448888222222" #level5a
+		    hint2="iamtheway" #level65a
+	        directory1="44448888222222" #level65a
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's user and account number directory."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -444,7 +444,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "j" ]
 		then
-	        directory1="itsdefinitelynotherebruh" #level5b
+	        directory1="itsdefinitelynotherebruh" #level65b
         directory2="notrandomjunk"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The numbers are masked."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -468,7 +468,7 @@ if [ "$changer" == "1" ]
 
 	elif [ "$changer" == "k" ]
 		then 
-	        directory1="halloffamebaby" #level5c
+	        directory1="halloffamebaby" #level65c
         directory2="Wayoutinleftfield"
         directionsline1="Not so fast. Batter up! time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -492,7 +492,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "l" ]
 		then 
-	        directory1=".400averagebaby" #level5d
+	        directory1=".400averagebaby" #level65d
         directory2="morelike.200haha"
         directionsline1="Not so fast. Batter up! Time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -516,7 +516,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "m" ]
 		then
-	        directory1="44448888222222" #level5e
+	        directory1="44448888222222" #level65e
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -540,7 +540,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "n" ]
 		then 
-	        directory1="iamaword" #level5f
+	        directory1="iamaword" #level65f
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -564,7 +564,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "o" ]
 		then
-	        directory1="iamaword" #level5g
+	        directory1="iamaword" #level65g
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -588,7 +588,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "p" ]
 		then 
-	        directory1="loveothersandyourself" #level5h
+	        directory1="loveothersandyourself" #level65h
         directory2="peacetotheworldandtoyou*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -612,7 +612,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "q" ]
 		then 
-	        directory1="djdj493853" #level5i
+	        directory1="djdj493853" #level65i
         directory2="p12434l523*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -636,7 +636,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "r" ]
 		then
-		 directory1="BigFrigginTruck" #level5j
+		 directory1="BigFrigginTruck" #level65j
         directory2="fruityfruityu"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -660,7 +660,7 @@ if [ "$changer" == "1" ]
  
  		elif [ "$changer" == "s" ]
 		then
-	        directory1="Imadogman@a38" #level5k
+	        directory1="Imadogman@a38" #level65k
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -685,7 +685,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "t" ]
 		then 
-	        directory1="Imadogman@" #level5l 
+	        directory1="Imadogman@" #level65l 
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -709,7 +709,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "u" ]
 		then
-	        directory1="yournamehere_______" #level5m
+	        directory1="yournamehere_______" #level65m
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -732,7 +732,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "v" ]
 		then
-	        directory1="yournamehere_______" #level5n
+	        directory1="yournamehere_______" #level65n
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -755,7 +755,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "w" ]
 		then
-	        directory1="iamanoperatingsystem" #level5o
+	        directory1="iamanoperatingsystem" #level65o
         directory2="theBigBrothersurveillancestate"
         directionsline1="Not so fast. You're in an operating system catalogue"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -778,7 +778,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "x" ]
 		then
-	        directory1="whichOSdoyoulike" #level5p
+	        directory1="whichOSdoyoulike" #level65p
         directory2="WEAREPENNSTATE"
         directionsline1="Not so fast. You're in a database of users and operating systems they use"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -801,7 +801,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "t" ]
 		then
-	        directory1="44448888222222" #level5a
+	        directory1="44448888222222" #level65a
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's user and account number directory."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -825,7 +825,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "u" ]
 		then
-	        directory1="itsdefinitelynotherebruh" #level5b
+	        directory1="itsdefinitelynotherebruh" #level65b
         directory2="notrandomjunk"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The numbers are masked."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -849,7 +849,7 @@ if [ "$changer" == "1" ]
 
 	elif [ "$changer" == "v" ]
 		then 
-	        directory1="halloffamebaby" #level5c
+	        directory1="halloffamebaby" #level65c
         directory2="Wayoutinleftfield"
         directionsline1="Not so fast. Batter up! time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -873,7 +873,7 @@ if [ "$changer" == "1" ]
 
 	elif [ "$changer" == "w" ]
 		then 
-	        directory1=".400averagebaby" #level5d
+	        directory1=".400averagebaby" #level65d
         directory2="morelike.200haha"
         directionsline1="Not so fast. Batter up! Time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -897,7 +897,7 @@ if [ "$changer" == "1" ]
 
 	elif [ "$changer" == "x" ]
 		then
-	        directory1="44448888222222" #level5e
+	        directory1="44448888222222" #level65e
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -921,7 +921,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "y" ]
 		then 
-	        directory1="iamaword" #level5f
+	        directory1="iamaword" #level65f
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -945,7 +945,7 @@ if [ "$changer" == "1" ]
 
 	elif [ "$changer" == "z" ]
 		then
-	        directory1="iamaword" #level5g
+	        directory1="iamaword" #level65g
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -969,7 +969,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "A" ]
 		then 
-	        directory1="loveothersandyourself" #level5h
+	        directory1="loveothersandyourself" #level65h
         directory2="peacetotheworldandtoyou*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -993,7 +993,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "B" ]
 		then 
-	        directory1="djdj493853" #level5i
+	        directory1="djdj493853" #level65i
         directory2="p12434l523*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1017,7 +1017,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "C" ]
 		then
- directory1="BigFrigginTruck" #level5j
+ directory1="BigFrigginTruck" #level65j
         directory2="fruityfruityu"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1041,7 +1041,7 @@ if [ "$changer" == "1" ]
  
  		elif [ "$changer" == "D" ]
 		then
-	        directory1="Imadogman@a38" #level5k
+	        directory1="Imadogman@a38" #level65k
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1065,7 +1065,7 @@ if [ "$changer" == "1" ]
 
   	elif [ "$changer" == "E" ]
 		then 
-	        directory1="Imadogman@" #level5l
+	        directory1="Imadogman@" #level65l
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1089,7 +1089,7 @@ if [ "$changer" == "1" ]
 		
 		elif [ "$changer" == "F" ]
 		then
-	        directory1="yournamehere_______" #level5m
+	        directory1="yournamehere_______" #level65m
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1112,7 +1112,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "G" ]
 		then
-	        directory1="yournamehere_______" #level5n
+	        directory1="yournamehere_______" #level65n
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1135,7 +1135,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "H" ]
 		then
-	        directory1="iamanoperatingsystem" #level5o
+	        directory1="iamanoperatingsystem" #level65o
         directory2="theBigBrothersurveillancestate"
         directionsline1="Not so fast. You're in an operating system catalogue"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1158,7 +1158,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "I" ]
 		then
-	        directory1="whichOSdoyoulike" #level5p
+	        directory1="whichOSdoyoulike" #level65p
         directory2="WEAREPENNSTATE"
         directionsline1="Not so fast. You're in a database of users and operating systems they use"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1181,7 +1181,7 @@ if [ "$changer" == "1" ]
 
 	       elif [ "$changer" == "J" ]
 		then
-	        directory1="44448888222222" #level5a
+	        directory1="44448888222222" #level65a
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's user and account number directory."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1205,7 +1205,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "K" ]
 		then
-	        directory1="itsdefinitelynotherebruh" #level5b
+	        directory1="itsdefinitelynotherebruh" #level65b
         directory2="notrandomjunk"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The numbers are masked."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1229,7 +1229,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "L" ]
 		then 
-	        directory1="halloffamebaby" #level5c
+	        directory1="halloffamebaby" #level65c
         directory2="Wayoutinleftfield"
         directionsline1="Not so fast. Batter up! time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1253,7 +1253,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "M" ]
 		then 
-	        directory1=".400averagebaby" #level5d
+	        directory1=".400averagebaby" #level65d
         directory2="morelike.200haha"
         directionsline1="Not so fast. Batter up! Time to play ball (;"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1277,7 +1277,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "N" ]
 		then
-	        directory1="44448888222222" #level5e
+	        directory1="44448888222222" #level65e
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1301,7 +1301,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "O" ]
 		then 
-	        directory1="iamaword" #level5f
+	        directory1="iamaword" #level65f
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1325,7 +1325,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "P" ]
 		then
-	        directory1="iamaword" #level5g
+	        directory1="iamaword" #level65g
         directory2="HaHaHaHaHaHaHaHaHa*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1349,7 +1349,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "Q" ]
 		then 
-	        directory1="loveothersandyourself" #level5h
+	        directory1="loveothersandyourself" #level65h
         directory2="peacetotheworldandtoyou*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1373,7 +1373,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "R" ]
 		then 
-	        directory1="djdj493853" #level5i
+	        directory1="djdj493853" #level65i
         directory2="p12434l523*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1397,7 +1397,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "S" ]
 		then
- directory1="BigFrigginTruck" #level5j
+ directory1="BigFrigginTruck" #level65j
         directory2="fruityfruityu"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1421,7 +1421,7 @@ if [ "$changer" == "1" ]
  
  		elif [ "$changer" == "T" ]
 		then
-	        directory1="Imadogman@a38" #level5k
+	        directory1="Imadogman@a38" #level65k
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1447,7 +1447,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "U" ]
 		then 
-	        directory1="Imadogman@" #level5l
+	        directory1="Imadogman@" #level65l
         directory2="Woofwooffido*"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
@@ -1470,7 +1470,7 @@ if [ "$changer" == "1" ]
 		
 		elif [ "$changer" == "V" ]
 		then
-	        directory1="yournamehere_______" #level5m
+	        directory1="yournamehere_______" #level65m
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1493,7 +1493,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "W" ]
 		then
-	        directory1="yournamehere_______" #level5n
+	        directory1="yournamehere_______" #level65n
         directory2="1212121212"
         directionsline1="Not so fast. You're in a gamertag database"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1516,7 +1516,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "X" ]
 		then
-	        directory1="iamanoperatingsystem" #level5o
+	        directory1="iamanoperatingsystem" #level65o
         directory2="theBigBrothersurveillancestate"
         directionsline1="Not so fast. You're in an operating system catalogue"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1539,7 +1539,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "Y" ]
 		then
-	        directory1="whichOSdoyoulike" #level5p
+	        directory1="whichOSdoyoulike" #level65p
         directory2="WEAREPENNSTATE"
         directionsline1="Not so fast. You're in a database of users and operating systems they use"
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1562,7 +1562,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "Z" ]
 		then
-	        directory1="44448888222222" #level5a
+	        directory1="44448888222222" #level65a
         directory2="55555566666667*"
         directionsline1="Not so fast. You're now in Megabank's user and account number directory."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1586,7 +1586,7 @@ if [ "$changer" == "1" ]
 
 		elif [ "$changer" == "0" ]
 		then
-	        directory1="itsdefinitelynotherebruh" #level5b
+	        directory1="itsdefinitelynotherebruh" #level65b
         directory2="notrandomjunk"
         directionsline1="Not so fast. You're now in Megabank's account number directory. The numbers are masked."
         directionsline2="The password is hidden in a text file within a subdirectory. The name of the game here is"
@@ -1618,25 +1618,25 @@ declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" 
 
 
 #The directions are permutated and displayed in the player facing message here.
-echo "******************************************************************" >> /home/level5/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level5/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level5/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level5/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level5/README.txt;
-echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level5/README.txt;
-echo "* You are at Level 5                                             *" >> /home/level5/README.txt;
-echo "* "$directionsline1"                                             *" >> /home/level5/README.txt;
-echo "* "$directionsline2"         					*" >> /home/level5/README.txt;
-echo "* "$directionsline3"                                             *" >> /home/level5/README.txt;
-echo "* "$directionsline4"                                             *" >> /home/level5/README.txt;
-echo "* Good luck finding it.                                          *" >> /home/level5/README.txt;
-echo "*                                                                *" >> /home/level5/README.txt;
-echo "* When you get the password for the next level, log in to the    *" >> /home/level5/README.txt;
-echo "* next level with the command:                                   *" >> /home/level5/README.txt;
-echo "*         ssh level6@localhost                                   *" >> /home/level5/README.txt;
-echo "*                                                                *" >> /home/level5/README.txt;
-echo "******************************************************************" >> /home/level5/README.txt;
-echo "cat /home/level5/README.txt" >> /home/level5/.bashrc
+echo "******************************************************************" >> /home/level65/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level65/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level65/README.txt;
+echo "* what the password is for the next level, then log into that    *" >> /home/level65/README.txt;
+echo "* next level's account using SSH.                                *" >> /home/level65/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level65/README.txt;
+echo "* You are at Level 65                                             *" >> /home/level65/README.txt;
+echo "* "$directionsline1"                                             *" >> /home/level65/README.txt;
+echo "* "$directionsline2"         					*" >> /home/level65/README.txt;
+echo "* "$directionsline3"                                             *" >> /home/level65/README.txt;
+echo "* "$directionsline4"                                             *" >> /home/level65/README.txt;
+echo "* Good luck finding it.                                          *" >> /home/level65/README.txt;
+echo "*                                                                *" >> /home/level65/README.txt;
+echo "* When you get the password for the next level, log in to the    *" >> /home/level65/README.txt;
+echo "* next level with the command:                                   *" >> /home/level65/README.txt;
+echo "*         ssh level66@localhost                                   *" >> /home/level65/README.txt;
+echo "*                                                                *" >> /home/level65/README.txt;
+echo "******************************************************************" >> /home/level65/README.txt;
+echo "cat /home/level65/README.txt" >> /home/level65/.bashrc
 
 #password_spot1=$[RANDOM%10];
 #password_spot2=$[RANDOM%10];
@@ -1665,7 +1665,7 @@ do
   #}
   #${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
   rand_dir11=${rand_dir1[$randomgen1]}
-  mkdir /home/level5/"$rand_dir11";
+  mkdir /home/level65/"$rand_dir11";
   count2=0;
   while [[ $count2 -lt $noiseamount2 ]];
   do
@@ -1682,7 +1682,7 @@ do
 	#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]} 
   randomgen2=$[RANDOM%1480];
   rand_dir22=${rand_dir1[$randomgen2]} 
-    mkdir /home/level5/"$rand_dir11"/"$rand_dir22"; #This makes the subdirectories
+    mkdir /home/level65/"$rand_dir11"/"$rand_dir22"; #This makes the subdirectories
     count3=0;
     while [[ $count3 -lt $noiseamount3 ]];
     do
@@ -1733,31 +1733,31 @@ do
 	   rand_dir52=${rand_dir1[$randomgen24]}
 	   rand_dir53=${rand_dir1[$randomgen25]}
 
-        mkdir /home/level5/"$directory1"
-		mkdir /home/level5/"$directory1"/"$directory2"
-		mkdir /home/level5/"$directory1"/"$rand_dir33"
-		mkdir /home/level5/"$directory1"/"$rand_dir34"
-		mkdir /home/level5/"$directory1"/"$rand_dir35"
-		mkdir /home/level5/"$directory1"/"$rand_dir36"
-		mkdir /home/level5/"$directory1"/"$rand_dir37"
-		mkdir /home/level5/"$directory1"/"$rand_dir38"
-		mkdir /home/level5/"$directory1"/"$rand_dir39"
-		mkdir /home/level5/"$directory1"/"$rand_dir40"
-		mkdir /home/level5/"$directory1"/"$rand_dir41"
-		mkdir /home/level5/"$directory1"/"$rand_dir42"
-		mkdir /home/level5/"$directory1"/"$rand_dir43"
-		mkdir /home/level5/"$directory1"/"$rand_dir44"
-		mkdir /home/level5/"$directory1"/"$rand_dir45"
-		mkdir /home/level5/"$directory1"/"$rand_dir46"
-		mkdir /home/level5/"$directory1"/"$rand_dir47"
-		mkdir /home/level5/"$directory1"/"$rand_dir48"
-		mkdir /home/level5/"$directory1"/"$rand_dir49"
-		mkdir /home/level5/"$directory1"/"$rand_dir50"
-		mkdir /home/level5/"$directory1"/"$rand_dir51"
-		mkdir /home/level5/"$directory1"/"$rand_dir52"
-		mkdir /home/level5/"$directory1"/"$rand_dir53"
-        mkdir /home/level5/"$directory1"/"$rand_dir54"
-		mkdir /home/level5/"$directory1"/"$rand_dir55"
+        mkdir /home/level65/"$directory1"
+		mkdir /home/level65/"$directory1"/"$directory2"
+		mkdir /home/level65/"$directory1"/"$rand_dir33"
+		mkdir /home/level65/"$directory1"/"$rand_dir34"
+		mkdir /home/level65/"$directory1"/"$rand_dir35"
+		mkdir /home/level65/"$directory1"/"$rand_dir36"
+		mkdir /home/level65/"$directory1"/"$rand_dir37"
+		mkdir /home/level65/"$directory1"/"$rand_dir38"
+		mkdir /home/level65/"$directory1"/"$rand_dir39"
+		mkdir /home/level65/"$directory1"/"$rand_dir40"
+		mkdir /home/level65/"$directory1"/"$rand_dir41"
+		mkdir /home/level65/"$directory1"/"$rand_dir42"
+		mkdir /home/level65/"$directory1"/"$rand_dir43"
+		mkdir /home/level65/"$directory1"/"$rand_dir44"
+		mkdir /home/level65/"$directory1"/"$rand_dir45"
+		mkdir /home/level65/"$directory1"/"$rand_dir46"
+		mkdir /home/level65/"$directory1"/"$rand_dir47"
+		mkdir /home/level65/"$directory1"/"$rand_dir48"
+		mkdir /home/level65/"$directory1"/"$rand_dir49"
+		mkdir /home/level65/"$directory1"/"$rand_dir50"
+		mkdir /home/level65/"$directory1"/"$rand_dir51"
+		mkdir /home/level65/"$directory1"/"$rand_dir52"
+		mkdir /home/level65/"$directory1"/"$rand_dir53"
+        mkdir /home/level65/"$directory1"/"$rand_dir54"
+		mkdir /home/level65/"$directory1"/"$rand_dir55"
 		    count4=0
 			while [[ $count4 -lt $noiseamount4 ]];
 				do
@@ -1767,57 +1767,57 @@ do
         #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 		randomgen26=$[RANDOM%61]
 		#rand_dir33=${rand_dir1[$randomgen4]}#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
-		#mkdir /home/level5/"$directory1"/"$rand_dir33"
+		#mkdir /home/level65/"$directory1"/"$rand_dir33"
 		rand_fileentry2=${rand_file[$randomgen4]}
 		textfilenoiseentry2=${textfilenoise[$randomgen26]}
-						echo "these are not the passwords you're looking for, but you're getting hot" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$directory2"/$rand_fileentry2.txt
-       			 chown level5:level5 /home/level5/"$directory1"/"$directory2"/$rand_fileentry2.txt
-							echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir54"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir54"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir33"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir33"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir34"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir34"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir35"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir35"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir36"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir36"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir37"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir37"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir38"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir38"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir39"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir39"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir40"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir40"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir41"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir41"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir42"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir42"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir43"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir43"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir44"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir44"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir45"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir45"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir46"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir46"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir47"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir47"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir48"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir48"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir49"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir49"/$rand_fileentry2.txt
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir50"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir50"/$rand_fileentry2.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir51"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir51"/$rand_fileentry2.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir52"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir52"/$rand_fileentry2.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir53"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir53"/$rand_fileentry2.txt
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level5/"$directory1"/"$rand_dir55"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir55"/$rand_fileentry2.txt
+						echo "these are not the passwords you're looking for, but you're getting hot" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$directory2"/$rand_fileentry2.txt
+       			 chown level65:level65 /home/level65/"$directory1"/"$directory2"/$rand_fileentry2.txt
+							echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir54"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir54"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir33"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir33"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir34"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir34"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir35"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir35"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir36"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir36"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir37"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir37"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir38"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir38"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir39"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir39"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir40"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir40"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir41"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir41"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir42"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir42"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir43"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir43"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir44"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir44"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir45"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir45"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir46"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir46"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir47"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir47"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir48"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir48"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir49"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir49"/$rand_fileentry2.txt
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir50"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir50"/$rand_fileentry2.txt
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir51"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir51"/$rand_fileentry2.txt
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir52"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir52"/$rand_fileentry2.txt
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir53"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir53"/$rand_fileentry2.txt
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry2" > /home/level65/"$directory1"/"$rand_dir55"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir55"/$rand_fileentry2.txt
 				count4=$(($count4+1));
 			done
 
@@ -1830,56 +1830,56 @@ do
 #text file with the passcode in it). Having multiple ones with Hewlett Packard in the directories under directory 1 (along with 10 or so other random name selected themed text files different from HP) requires the user to go back and forth from directories and further obfuscates the right file from a one command solution or cheat (in addition to furthering learning objectives). In a nutshell, both the directories the player sees presents a what doesnt go with what 
 #challenge, as well as the text files in those sub directories. The user must know how to navigate in and out of directories amd text files and use that skill repeatedly.
 
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir54"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir54"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir33"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir33"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir34"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir34"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir35"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir35"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir36"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir36"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir37"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir37"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir38"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir38"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir39"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir39"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir40"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir40"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir41"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir41"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir42"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir42"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir43"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir43"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir44"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir44"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir45"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir45"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir46"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir46"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir47"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir47"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir48"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir48"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir49"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir49"/$textfilename
-		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir50"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir50"/$textfilename
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir51"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir51"/$textfilename
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir52"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir52"/$textfilename
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir53"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir53"/$textfilename
-				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir55"/$textfilename
-        chown level5:level5 /home/level5/"$directory1"/"$rand_dir55"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir54"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir54"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir33"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir33"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir34"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir34"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir35"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir35"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir36"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir36"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir37"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir37"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir38"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir38"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir39"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir39"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir40"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir40"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir41"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir41"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir42"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir42"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir43"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir43"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir44"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir44"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir45"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir45"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir46"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir46"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir47"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir47"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir48"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir48"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir49"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir49"/$textfilename
+		echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir50"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir50"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir51"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir51"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir52"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir52"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir53"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir53"/$textfilename
+				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$directory1"/"$rand_dir55"/$textfilename
+        chown level65:level65 /home/level65/"$directory1"/"$rand_dir55"/$textfilename
 
 
-        echo $level6_pass > home/level5/"$directory1"/"$directory2"/"$textfilename"
-        chown level5:level5 home/level5/"$directory1"/"$directory2"/"$textfilename"
+        echo $level66_pass > home/level65/"$directory1"/"$directory2"/"$textfilename"
+        chown level65:level65 home/level65/"$directory1"/"$directory2"/"$textfilename"
         count3=$(($count3+1));
       else
         char1=$[RANDOM%61];
@@ -1896,12 +1896,12 @@ do
         #rand_file=${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}${LETTERS[$char5]}${LETTERS[$char6]}${LETTERS[$char7]}${LETTERS[$char8]};
 		randomgen2=$[RANDOM%61]
 		#rand_dir33=${rand_dir1[$randomgen4]}#${LETTERS[$char1]}${LETTERS[$char2]}${LETTERS[$char3]}${LETTERS[$char4]}
-		#mkdir /home/level5/"$directory1"/"$rand_dir33"
+		#mkdir /home/level65/"$directory1"/"$rand_dir33"
 		rand_fileentry2=${rand_file[$randomgen3]}
 		textfilenoiseentry=${textfilenoise[$randomgen2]}
 	
-	echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$rand_dir11"/"$rand_dir22"/$rand_fileentry2.txt
-        chown level5:level5 /home/level5/"$rand_dir11"/"$rand_dir22"/$rand_fileentry2.txt
+	echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level65/"$rand_dir11"/"$rand_dir22"/$rand_fileentry2.txt
+        chown level65:level65 /home/level65/"$rand_dir11"/"$rand_dir22"/$rand_fileentry2.txt
         count3=$(($count3+1));
       fi
     done
