@@ -550,7 +550,7 @@ cd PolyBandit
 ./level16polymorph.sh;
 ./level17polymorph.sh;
 ./level18polymorph.sh;
-./level19.sh;
+./level19polymorph.sh;
 ./level20.sh;
 ./level21polymorph.sh;
 ./level22polymorph.sh;
