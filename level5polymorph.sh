@@ -1614,7 +1614,10 @@ if [ "$changer" == "1" ]
 
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
-
+#The directory, subdirectory, and the textfile with the passcode are created all the way up here to avoid an error where they don't manifest within the if-else block below.
+mkdir /home/level5/"$directory1"
+mkdir /home/level5/"$directory1"/"$directory2"
+touch /home/level5/"$directory1"/"$directory2"/"$textfilename"
 
 
 
@@ -1759,6 +1762,7 @@ do
 		mkdir /home/level5/"$directory1"/"$rand_dir53"
         mkdir /home/level5/"$directory1"/"$rand_dir54"
 		mkdir /home/level5/"$directory1"/"$rand_dir55"
+        touch home/level5/"$directory1"/"$directory2"/"$textfilename"
 		    count4=0
 			while [[ $count4 -lt $noiseamount4 ]];
 				do
@@ -1878,7 +1882,7 @@ do
 				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level5/"$directory1"/"$rand_dir55"/$textfilename
         chown level5:level5 /home/level5/"$directory1"/"$rand_dir55"/$textfilename
 
-        touch home/level5/"$directory1"/"$directory2"/"$textfilename"
+        
 
         echo $level6_pass > home/level5/"$directory1"/"$directory2"/"$textfilename"
         chown level5:level5 home/level5/"$directory1"/"$directory2"/"$textfilename"

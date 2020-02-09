@@ -280,7 +280,7 @@ if [ "$changer" == "1" ]
 		elif [ "$changer" == "c" ]
 		then
 	        directory1="Imadogman@a38" #level75k
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -304,7 +304,7 @@ if [ "$changer" == "1" ]
 	  	elif [ "$changer" == "d" ]
 		then 
 	        directory1="Imadogman@" #level75l
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -660,7 +660,7 @@ if [ "$changer" == "1" ]
  		elif [ "$changer" == "s" ]
 		then
 	        directory1="Imadogman@a38" #level75k
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -685,7 +685,7 @@ if [ "$changer" == "1" ]
 		elif [ "$changer" == "t" ]
 		then 
 	        directory1="Imadogman@" #level75l 
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -1041,7 +1041,7 @@ if [ "$changer" == "1" ]
  		elif [ "$changer" == "D" ]
 		then
 	        directory1="Imadogman@a38" #level75k
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -1065,7 +1065,7 @@ if [ "$changer" == "1" ]
   	elif [ "$changer" == "E" ]
 		then 
 	        directory1="Imadogman@" #level75l
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -1421,7 +1421,7 @@ if [ "$changer" == "1" ]
  		elif [ "$changer" == "T" ]
 		then
 	        directory1="Imadogman@a38" #level75k
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -1447,7 +1447,7 @@ if [ "$changer" == "1" ]
 		elif [ "$changer" == "U" ]
 		then 
 	        directory1="Imadogman@" #level75l
-        directory2="Woofwooffido*"
+        directory2="Woofwooffido"
         directionsline1="Not so fast. The password is hidden in a text file"
         directionsline2="within a subdirectory. The name of the game here is"
         directionsline3="what directory or file doesn't go with the others?"
@@ -1614,7 +1614,9 @@ if [ "$changer" == "1" ]
 declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 
 
-
+mkdir /home/level75/"$directory1"
+mkdir /home/level75/"$directory1"/"$directory2"
+touch /home/level75/"$directory1"/"$directory2"/"$textfilename"
 
 
 #The directions are permutated and displayed in the player facing message here.
@@ -1758,6 +1760,8 @@ do
 		mkdir /home/level75/"$directory1"/"$rand_dir53"
         mkdir /home/level75/"$directory1"/"$rand_dir54"
 		mkdir /home/level75/"$directory1"/"$rand_dir55"
+       touch home/level75/"$directory1"/"$directory2"/"$textfilename"
+
 		    count4=0
 			while [[ $count4 -lt $noiseamount4 ]];
 				do
@@ -1877,7 +1881,6 @@ do
 				echo "these are not the passwords you're looking for" "$textfilenoiseentry" > /home/level75/"$directory1"/"$rand_dir55"/$textfilename
         chown level75:level75 /home/level75/"$directory1"/"$rand_dir55"/$textfilename
 
-        touch home/level75/"$directory1"/"$directory2"/"$textfilename"
 
         echo $level76_pass > home/level75/"$directory1"/"$directory2"/"$textfilename"
         chown level75:level75 home/level75/"$directory1"/"$directory2"/"$textfilename"
