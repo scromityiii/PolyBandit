@@ -502,9 +502,9 @@ echo "cat /home/level9/README.txt" >> /home/level9/.bashrc
 echo "$bashfiletext" >> /home/level9/.bashrc;
 echo "exit" >> /home/level9/.bashrc;
 
-echo $level10_pass > "/home/level9/"$textfilename"";
-chown level9:level9 "/home/level9/"$textfilename"";
+echo $level10_pass > /home/level9/"$textfilename";
+chown level9:level9 /home/level9/"$textfilename";
 chown level9:level8 /home/level9/.bashrc;
 chmod g+w /home/level9/.bashrc;
 
-chmod 000 "/home/level9/"$textfilename"";
+chmod 000 /home/level9/"$textfilename";
