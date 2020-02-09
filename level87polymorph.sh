@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Grabs first character in MD5 hash for corresponding 5 level group (e.g 1_5, 11_15)
-changer=${MD586_80:0:1}
+changer=${MD586_90:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 #The level variant identifier is commented under each possible elif condition. There are 16 variations, ranging from level87a to level87p.
 if [ "$changer" == "1" ]
@@ -285,7 +285,7 @@ echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /ho
 echo "* what the password is for the next level, then log into that    *" >> /home/level87/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level87/README.txt;
 echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level87/README.txt;
-echo "* You are at Level 7                                             *" >> /home/level87/README.txt;
+echo "* You are at Level 87                                             *" >> /home/level87/README.txt;
 echo "*                                                                *" >> /home/level87/README.txt;
 echo "* Your password is in the "$textfilename" file. However, it is not so *" >> /home/level87/README.txt;
 echo "* easy to read the file.                                         *" >> /home/level87/README.txt;
