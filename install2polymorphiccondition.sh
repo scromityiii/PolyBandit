@@ -548,7 +548,7 @@ cd PolyBandit
 ./level14polymorph.sh;
 ./level15polymorph.sh;
 ./level16polymorph.sh;
-./level17.sh;
+./level17polymorph.sh;
 ./level18.sh;
 ./level19.sh;
 ./level20.sh;
@@ -558,7 +558,7 @@ cd PolyBandit
 ./level24polymorph.sh;
 ./level25polymorph.sh;
 ./level26polymorph.sh;
-./level27.sh;
+./level27polymorph.sh;
 ./level28.sh;
 ./level29.sh;
 ./level30.sh;
@@ -568,7 +568,7 @@ cd PolyBandit
 ./level34polymorph.sh;
 ./level35polymorph.sh;
 ./level36polymorph.sh;
-./level37.sh;
+./level37polymorph.sh;
 ./level38.sh;
 ./level39.sh;
 ./level40.sh;
@@ -578,7 +578,7 @@ cd PolyBandit
 ./level44polymorph.sh;
 ./level45polymorph.sh;
 ./level46polymorph.sh;
-./level47.sh;
+./level47polymorph.sh;
 ./level48.sh;
 ./level49.sh;
 ./level50.sh;
@@ -588,7 +588,7 @@ cd PolyBandit
 ./level54polymorph.sh;
 ./level55polymorph.sh;
 ./level56polymorph.sh;
-./level57.sh;
+./level57polymorph.sh;
 ./level58.sh;
 ./level59.sh;
 ./level60.sh;
@@ -598,7 +598,7 @@ cd PolyBandit
 ./level64polymorph.sh;
 ./level65polymorph.sh;
 ./level66polymorph.sh;
-./level67.sh;
+./level67polymorph.sh;
 ./level68.sh;
 ./level69.sh;
 ./level70.sh;
@@ -608,7 +608,7 @@ cd PolyBandit
 ./level74polymorph.sh;
 ./level75polymorph.sh;
 ./level76polymorph.sh;
-./level77.sh;
+./level77polymorph.sh;
 ./level78.sh;
 ./level79.sh;
 ./level80.sh;
@@ -618,7 +618,7 @@ cd PolyBandit
 ./level84polymorph.sh;
 ./level85polymorph.sh;
 ./level86polymorph.sh;
-./level87.sh;
+./level87polymorph.sh;
 ./level88.sh;
 ./level89.sh;
 ./level90.sh;
@@ -628,7 +628,7 @@ cd PolyBandit
 ./level94polymorph.sh;
 ./level95polymorph.sh;
 ./level96polymorph.sh;
-./level97.sh;
+./level97polymorph.sh;
 ./level98.sh;
 ./level99.sh;
 ./level100.sh;
