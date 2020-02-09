@@ -539,7 +539,7 @@ cd PolyBandit
 ./level5polymorph.sh;# 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level6polymorph.sh;
 ./level7polymorph.sh;
-./level8.sh;
+./level8polymorph.sh;
 ./level9.sh;
 ./level10.sh;
 ./level11polymorph.sh;
