@@ -551,7 +551,7 @@ cd PolyBandit
 ./level17polymorph.sh;
 ./level18polymorph.sh;
 ./level19polymorph.sh;
-./level20.sh;
+./level20polymorph.sh;
 ./level21polymorph.sh;
 ./level22polymorph.sh;
 ./level23polymorph.sh;
@@ -561,7 +561,7 @@ cd PolyBandit
 ./level27polymorph.sh;
 ./level28polymorph.sh;
 ./level29polymorph.sh;
-./level30.sh;
+./level30polymorph.sh;
 ./level31polymorph.sh;
 ./level32polymorph.sh;
 ./level33polymorph.sh;
@@ -571,7 +571,7 @@ cd PolyBandit
 ./level37polymorph.sh;
 ./level38polymorph.sh;
 ./level39polymorph.sh;
-./level40.sh;
+./level40polymorph.sh;
 ./level41polymorph.sh;
 ./level42polymorph.sh;
 ./level43polymorph.sh;
@@ -581,7 +581,7 @@ cd PolyBandit
 ./level47polymorph.sh;
 ./level48polymorph.sh;
 ./level49polymorph.sh;
-./level50.sh;
+./level50polymorph.sh;
 ./level51polymorph.sh;
 ./level52polymorph.sh;
 ./level53polymorph.sh;
@@ -591,7 +591,7 @@ cd PolyBandit
 ./level57polymorph.sh;
 ./level58polymorph.sh;
 ./level59polymorph.sh;
-./level60.sh;
+./level60polymorph.sh;
 ./level61polymorph.sh;
 ./level62polymorph.sh;
 ./level63polymorph.sh;
@@ -601,7 +601,7 @@ cd PolyBandit
 ./level67polymorph.sh;
 ./level68polymorph.sh;
 ./level69polymorph.sh;
-./level70.sh;
+./level70polymorph.sh;
 ./level71polymorph.sh;
 ./level72polymorph.sh;
 ./level73polymorph.sh;
@@ -611,7 +611,7 @@ cd PolyBandit
 ./level77polymorph.sh;
 ./level78polymorph.sh;
 ./level79polymorph.sh;
-./level80.sh;
+./level80polymorph.sh;
 ./level81polymorph.sh;
 ./level82polymorph.sh;
 ./level83polymorph.sh;
@@ -621,7 +621,7 @@ cd PolyBandit
 ./level87polymorph.sh;
 ./level88polymorph.sh;
 ./level89polymorph.sh;
-./level90.sh;
+./level90polymorph.sh;
 ./level91polymorph.sh;
 ./level92polymorph.sh;
 ./level93polymorph.sh;
@@ -631,7 +631,8 @@ cd PolyBandit
 ./level97polymorph.sh;
 ./level98polymorph.sh;
 ./level99polymorph.sh;
-./level100.sh;
+./level100polymorph.sh;
+./level101polymorph.sh;
 
 
 
@@ -640,4 +641,4 @@ cd PolyBandit
 echo "Now starting the game. Please log in with the password 'level0'";
 
 ssh level0@localhost;
-./level101.sh;
+
