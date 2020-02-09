@@ -10,6 +10,8 @@ changer=${MD56_10:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 #The level variant identifier is commented under each possible elif condition. There are 16 variations, ranging from level8a to level8p.
 #The commonted out variable declarations are hold overs from the level this elif ladder was drawn from.
+#The variable bashfiletext is the text that goes above 'exit' telling the user to delete it.
+#The textfilename is what permutates the spaced text file name between the 16 variations
 if [ "$changer" == "1" ]
 		then
 		    bashfiletext="#this next line will cause the account to log out immediately" #level3a
