@@ -83,8 +83,8 @@ then
 elif [ "$changer" == "k" ]
 then 
     textfilename=".Iamhere.txt"
-elif [ "$changer" == "l" ]
     #level1c
+elif [ "$changer" == "l" ]
 then 
     textfilename=".herehere.txt"
     #leveld
