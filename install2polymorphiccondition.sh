@@ -541,7 +541,7 @@ cd PolyBandit
 ./level7polymorph.sh;
 ./level8polymorph.sh;
 ./level9polymorph.sh;
-./level10.sh;
+./level10polymorph.sh;
 ./level11polymorph.sh;
 ./level12polymorph.sh;
 ./level13polymorph.sh;
