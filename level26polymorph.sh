@@ -1828,7 +1828,7 @@ echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /ho
 echo "* what the password is for the next level, then log into that    *" >> /home/level26/README.txt;
 echo "* next level's account using SSH.                                *" >> /home/level26/README.txt;
 echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level26/README.txt;
-echo "* You are at Level 6                                             *" >> /home/level26/README.txt;
+echo "* You are at Level 26                                             *" >> /home/level26/README.txt;
 echo "* "$directionsline1"                                             *" >> /home/level26/README.txt;
 echo "* The password for the next level is in a file called "$hint".txt    *" >> /home/level26/README.txt;
 echo "* "$directionsline4"                                             *" >> /home/level26/README.txt;
