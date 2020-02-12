@@ -536,8 +536,8 @@ cd PolyBandit
 ./level2polymorph.sh;
 ./level3polymorph.sh;
 ./level4polymorph.sh;
-./level5polymorph.sh;# 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
-./level6polymorph.sh;
+./level5polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level6polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.  
 ./level7polymorph.sh;
 ./level8polymorph.sh;
 ./level9polymorph.sh;
@@ -546,8 +546,8 @@ cd PolyBandit
 ./level12polymorph.sh;
 ./level13polymorph.sh;
 ./level14polymorph.sh;
-./level15polymorph.sh;
-./level16polymorph.sh;
+./level15polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level16polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level17polymorph.sh;
 ./level18polymorph.sh;
 ./level19polymorph.sh;
@@ -556,8 +556,8 @@ cd PolyBandit
 ./level22polymorph.sh;
 ./level23polymorph.sh;
 ./level24polymorph.sh;
-./level25polymorph.sh;
-./level26polymorph.sh;
+./level25polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level26polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level27polymorph.sh;
 ./level28polymorph.sh;
 ./level29polymorph.sh;
@@ -566,8 +566,8 @@ cd PolyBandit
 ./level32polymorph.sh;
 ./level33polymorph.sh;
 ./level34polymorph.sh;
-./level35polymorph.sh;
-./level36polymorph.sh;
+./level35polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level36polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level37polymorph.sh;
 ./level38polymorph.sh;
 ./level39polymorph.sh;
@@ -576,8 +576,8 @@ cd PolyBandit
 ./level42polymorph.sh;
 ./level43polymorph.sh;
 ./level44polymorph.sh;
-./level45polymorph.sh;
-./level46polymorph.sh;
+./level45polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level46polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level47polymorph.sh;
 ./level48polymorph.sh;
 ./level49polymorph.sh;
@@ -586,8 +586,8 @@ cd PolyBandit
 ./level52polymorph.sh;
 ./level53polymorph.sh;
 ./level54polymorph.sh;
-./level55polymorph.sh;
-./level56polymorph.sh;
+./level55polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level56polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level57polymorph.sh;
 ./level58polymorph.sh;
 ./level59polymorph.sh;
@@ -596,8 +596,8 @@ cd PolyBandit
 ./level62polymorph.sh;
 ./level63polymorph.sh;
 ./level64polymorph.sh;
-./level65polymorph.sh;
-./level66polymorph.sh;
+./level65polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level66polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level67polymorph.sh;
 ./level68polymorph.sh;
 ./level69polymorph.sh;
@@ -606,8 +606,8 @@ cd PolyBandit
 ./level72polymorph.sh;
 ./level73polymorph.sh;
 ./level74polymorph.sh;
-./level75polymorph.sh;
-./level76polymorph.sh;
+./level75polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level76polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level77polymorph.sh;
 ./level78polymorph.sh;
 ./level79polymorph.sh;
@@ -616,8 +616,8 @@ cd PolyBandit
 ./level82polymorph.sh;
 ./level83polymorph.sh;
 ./level84polymorph.sh;
-./level85polymorph.sh;
-./level86polymorph.sh;
+./level85polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level86polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level87polymorph.sh;
 ./level88polymorph.sh;
 ./level89polymorph.sh;
@@ -626,8 +626,8 @@ cd PolyBandit
 ./level92polymorph.sh;
 ./level93polymorph.sh;
 ./level94polymorph.sh;
-./level95polymorph.sh;
-./level96polymorph.sh;
+./level95polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level96polymorph.sh; 2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level97polymorph.sh;
 ./level98polymorph.sh;
 ./level99polymorph.sh;
