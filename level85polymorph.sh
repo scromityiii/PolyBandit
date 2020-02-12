@@ -1618,7 +1618,8 @@ declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" 
 mkdir /home/level85/"$directory1"
 mkdir /home/level85/"$directory1"/"$directory2"
 touch /home/level85/"$directory1"/"$directory2"/"$textfilename"
-
+echo $level86_pass > /home/level85/"$directory1"/"$directory2"/"$textfilename"
+chown level85:level85 /home/level85/"$directory1"/"$directory2"/"$textfilename"
 
 #The directions are permutated and displayed in the player facing message here.
 echo "******************************************************************" >> /home/level85/README.txt;
@@ -1761,7 +1762,7 @@ do
 		mkdir /home/level85/"$directory1"/"$rand_dir53"
         mkdir /home/level85/"$directory1"/"$rand_dir54"
 		mkdir /home/level85/"$directory1"/"$rand_dir55"
-       touch home/level85/"$directory1"/"$directory2"/"$textfilename"
+       touch /home/level85/"$directory1"/"$directory2"/"$textfilename"
 
 		    count4=0
 			while [[ $count4 -lt $noiseamount4 ]];
@@ -1883,8 +1884,8 @@ do
         chown level85:level85 /home/level85/"$directory1"/"$rand_dir55"/$textfilename
 
 
-        echo $level86_pass > home/level85/"$directory1"/"$directory2"/"$textfilename"
-        chown level85:level85 home/level85/"$directory1"/"$directory2"/"$textfilename"
+        echo $level86_pass > /home/level85/"$directory1"/"$directory2"/"$textfilename"
+        chown level85:level85 /home/level85/"$directory1"/"$directory2"/"$textfilename"
         count3=$(($count3+1));
       else
         char1=$[RANDOM%61];

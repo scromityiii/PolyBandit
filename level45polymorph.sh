@@ -1617,6 +1617,8 @@ declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" 
 mkdir /home/level45/"$directory1"
 mkdir /home/level45/"$directory1"/"$directory2"
 touch /home/level45/"$directory1"/"$directory2"/"$textfilename"
+echo $level46_pass > /home/level45/"$directory1"/"$directory2"/"$textfilename"
+chown level45:level45 /home/level45/"$directory1"/"$directory2"/"$textfilename"
 
 
 
@@ -1761,7 +1763,7 @@ do
 		mkdir /home/level45/"$directory1"/"$rand_dir53"
         mkdir /home/level45/"$directory1"/"$rand_dir54"
 		mkdir /home/level45/"$directory1"/"$rand_dir55"
-         touch home/level45/"$directory1"/"$directory2"/"$textfilename"
+         touch /home/level45/"$directory1"/"$directory2"/"$textfilename"
        
 		    count4=0
 			while [[ $count4 -lt $noiseamount4 ]];
@@ -1884,8 +1886,8 @@ do
 
 
 
-        echo $level46_pass > home/level45/"$directory1"/"$directory2"/"$textfilename"
-        chown level45:level45 home/level45/"$directory1"/"$directory2"/"$textfilename"
+        echo $level46_pass > /home/level45/"$directory1"/"$directory2"/"$textfilename"
+        chown level45:level45 /home/level45/"$directory1"/"$directory2"/"$textfilename"
         count3=$(($count3+1));
       else
         char1=$[RANDOM%61];
