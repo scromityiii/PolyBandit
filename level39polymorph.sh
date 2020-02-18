@@ -75,7 +75,7 @@ if [ "$changer" == "1" ]
 		    #password_spot=$[RANDOM%2000];
 	textfilename="youare worthy.txt"
         #textfilename2="aberto.txt"
-		elif [ "$changer" == “a” ]
+		elif [ "$changer" == "a" ]
 		then 
 		    bashfiletext="#delete what is below it makes the account log out" #level39i
 		    #declare -i noiseamount=2110
@@ -292,7 +292,7 @@ if [ "$changer" == "1" ]
 		    #password_spot=$[RANDOM%290];
        textfilename="aperto aperto.txt"
         #textfilename2="ouvrir.txt"
-		elif [ "$changer" == “A” ]
+		elif [ "$changer" == "A" ]
 		then 
 		    bashfiletext="#eliminate what is below and you shall pass" #level39h
 		    #declare -i noiseamount=2000

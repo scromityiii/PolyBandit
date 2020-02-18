@@ -5,271 +5,67 @@
 changer=${MD571_75:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 #The level variant identifier is commented under each possible elif condition. There are 16 variations, ranging from level1a to level1p.
-if [ "$changer" == "1" ]
+if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ "$changer" == "5" ]
 then
     textfilename=".inhere.txt"
     #level1a
-elif [ "$changer" == "2" ]
-then
-    textfilename=".inhere.txt"
-    #level1a
-elif [ "$changer" == "3" ]
+elif [ "$changer" == "9" ] || [ "$changer" == "a" ] || [ "$changer" == "b" ] || [ "$changer" == "6" ]
 then
     textfilename=".hereiam.txt"
     #level1b
-elif [ "$changer" == "4" ]
+elif [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ] || [ "$changer" == "7" ]
 then 
     textfilename=".Iamhere.txt"
     #level1c
-elif [ "$changer" == "5" ]
+elif [ "$changer" == "h" ] || [ "$changer" == "i" ] || [ "$changer" == "j" ] || [ "$changer" == "o" ]
 then 
     textfilename=".herehere.txt"
     #level1d
-elif [ "$changer" == "6" ]
+elif [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 then
     textfilename=".passphrasealpha.txt"
     #level1e
-elif [ "$changer" == "7" ]
+elif [ "$changer" == "p" ] || [ "$changer" == "q" ] || [ "$changer" == "r" ] || [ "$changer" == "s" ]
 then 
     textfilename=".passphrasebravo.txt"
     #level1f
-elif [ "$changer" == "8" ]
+elif [ "$changer" == "t" ] || [ "$changer" == "u" ] || [ "$changer" == "v" ] || [ "$changer" == "w" ]
 then
     textfilename=".passphrasecharlie.txt"
     #level1g
-elif [ "$changer" == "9" ]
+elif [ "$changer" == "x" ] || [ "$changer" == "y" ] || [ "$changer" == "z" ] || [ "$changer" == "A" ]
 then 
     textfilename=".passphraseomega.txt"
     #level1h
-elif [ "$changer" == "a" ]
+elif [ "$changer" == "B" ] || [ "$changer" == "C" ] || [ "$changer" == "D" ] || [ "$changer" == "E" ]
 then 
     textfilename=".excelsior.txt"
     #level1i
-elif [ "$changer" == "b" ]
+elif [ "$changer" == "F" ] || [ "$changer" == "G" ] || [ "$changer" == "H" ] || [ "$changer" == "I" ]
 then
     textfilename=".helios.txt"
     #level1j
-elif [ "$changer" == "c" ]
+elif [ "$changer" == "J" ] || [ "$changer" == "K" ] || [ "$changer" == "L" ] || [ "$changer" == "M" ]
 then
     textfilename=".apollo.txt"
     #level1k
-elif [ "$changer" == "d" ]
+elif [ "$changer" == "N" ] || [ "$changer" == "O" ] || [ "$changer" == "P" ] || [ "$changer" == "Q" ]
 then 
     textfilename=".novembertango.txt"
     #level1l
-elif [ "$changer" == "e" ]
+elif [ "$changer" == "R" ] || [ "$changer" == "S" ] || [ "$changer" == "T" ] || [ "$changer" == "U" ]
 then
-    textfilename=".opensesame"
+    textfilename=".opensesame.txt"
     #level1m
-elif [ "$changer" == "f" ]
+elif [ "$changer" == "V" ] || [ "$changer" == "W" ] || [ "$changer" == "X" ] || [ "$changer" == "Y" ]
 then
     textfilename=".havingfunyet.txt"
     #level1n
-elif [ "$changer" == "g" ]
+elif [ "$changer" == "Z" ] || [ "$changer" == "0" ] || [ "$changer" == "4" ] || [ "$changer" == "8" ]
 then
     textfilename=".openmeplease.txt"
     #level1o
-elif [ "$changer" == "h" ]
-then
-    textfilename=".herepleasehere.txt"
-    #level1p
-elif [ "$changer" == "i" ]
-then
-    textfilename=".inhere.txt"
-    #level1a
-elif [ "$changer" == "j" ]
-then
-    textfilename=".hereiam.txt"
-    #level1b
-elif [ "$changer" == "k" ]
-then 
-    textfilename=".Iamhere.txt"
-    #level1c
-elif [ "$changer" == "l" ]
-then 
-    textfilename=".herehere.txt"
-    #leveld
-elif [ "$changer" == "m" ]
-then
-    textfilename=".passphrasealpha.txt"
-    #level1e
-elif [ "$changer" == "n" ]
-then 
-    textfilename=".passphrasebravo.txt"
-    #level1f
-elif [ "$changer" == "o" ]
-then
-    textfilename=".passphrasecharlie.txt"
-    #level1g
-elif [ "$changer" == "p" ]
-then 
-    textfilename=".passphraseomega.txt"
-    #level1h
-elif [ "$changer" == "q" ]
-then 
-    textfilename=".excelsior.txt"
-    #level1i
-elif [ "$changer" == "r" ]
-then
-    textfilename=".helios.txt"
-    #level1j
-elif [ "$changer" == "s" ]
-then
-    textfilename=".apollo.txt"
-    #level1k
-elif [ "$changer" == "t" ]
-then 
-    textfilename=".novembertango.txt"
-    #level1l
-elif [ "$changer" == "u" ]
-then
-    textfilename=".opensesame"
-    #level1m
-elif [ "$changer" == "v" ]
-then
-    textfilename=".havingfunyet.txt"
-    #level1n
-elif [ "$changer" == "w" ]
-then
-    textfilename=".openmeplease.txt"
-    #level1o
-elif [ "$changer" == "x" ]
-then
-    textfilename=".herepleasehere.txt"
-    #level1p
-elif [ "$changer" == "t" ]
-then
-    textfilename=".inhere.txt"
-    #level1a
-elif [ "$changer" == "u" ]
-then
-    textfilename=".hereiam.txt"
-    #level1b
-elif [ "$changer" == "v" ]
-then 
-    textfilename=".Iamhere.txt"
-    #level1c
-elif [ "$changer" == "w" ]
-then 
-    textfilename=".herehere.txt"
-    #level1d
-elif [ "$changer" == "x" ]
-then
-    textfilename=".passphrasealpha.txt"
-    #level1e
-elif [ "$changer" == "y" ]
-then 
-    textfilename=".passphrasebravo.txt"
-    #level1f
-elif [ "$changer" == "z" ]
-then
-    textfilename=".passphrasecharlie.txt"
-    #level1g
-elif [ "$changer" == "A" ]
-then 
-    textfilename=".passphraseomega.txt"
-    #level1h
-elif [ "$changer" == "B" ]
-then 
-    textfilename=".excelsior.txt"
-    #level1i
-elif [ "$changer" == "C" ]
-then
-    textfilename=".helios.txt"
-    #level1j
-elif [ "$changer" == "D" ]
-then
-    textfilename=".apollo.txt"
-    #level1k
-elif [ "$changer" == "E" ]
-then 
-    textfilename=".novembertango.txt"
-    #level1l
-elif [ "$changer" == "F" ]
-then
-    textfilename=".opensesame"
-    #level1m
-elif [ "$changer" == "G" ]
-then
-    textfilename=".havingfunyet.txt"
-    #level1n
-elif [ "$changer" == "H" ]
-then
-    textfilename=".openmeplease.txt"
-    #level1o
-elif [ "$changer" == "I" ]
-then
-    textfilename=".herepleasehere.txt"
-    #level1p
-    elif [ "$changer" == "J" ]
-then
-    textfilename=".inhere.txt"
-    #level1a
-elif [ "$changer" == "K" ]
-then
-    textfilename=".hereiam.txt"
-    #level1b
-elif [ "$changer" == "L" ]
-then 
-    textfilename=".Iamhere.txt"
-    #level1c
-elif [ "$changer" == "M" ]
-then 
-    textfilename=".herehere.txt"
-    #level1d
-elif [ "$changer" == "N" ]
-then
-    textfilename=".passphrasealpha.txt"
-    #level1e
-elif [ "$changer" == "O" ]
-then 
-    textfilename=".passphrasebravo.txt"
-    #level1f
-elif [ "$changer" == "P" ]
-then
-    textfilename=".passphrasecharlie.txt"
-    #level1g
-elif [ "$changer" == "Q" ]
-then 
-    textfilename=".passphraseomega.txt"
-    #level1h
-elif [ "$changer" == "R" ]
-then 
-    textfilename=".excelsior.txt"
-    #level1i
-elif [ "$changer" == "S" ]
-then
-    textfilename=".helios.txt"
-    #level1j
-elif [ "$changer" == "T" ]
-then
-    textfilename=".apollo.txt"
-    #level1k
-elif [ "$changer" == "U" ]
-then 
-    textfilename=".novembertango.txt"
-    #level1l
-elif [ "$changer" == "V" ]
-then
-    textfilename=".opensesame"
-    #level1m
-elif [ "$changer" == "W" ]
-then
-    textfilename=".havingfunyet.txt"
-    #level1n
-elif [ "$changer" == "X" ]
-then
-    textfilename=".openmeplease.txt"
-    #level1o
-elif [ "$changer" == "Y" ]
-then
-    textfilename=".herepleasehere.txt"
-    #level1p
-elif [ "$changer" == "Z" ]
-then
-    textfilename=".herepleasehere.txt"
-    #level1p
-elif [ "$changer" == "0" ]
+elif [ "$changer" == "c" ] || [ "$changer" == "g" ] || [ "$changer" == "k" ]
 then
     textfilename=".herepleasehere.txt"
     #level1p
