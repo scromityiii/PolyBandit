@@ -589,21 +589,21 @@ done
 
 rm /home/level3/oneline.txt;
 
-echo "******************************************************************" >> /home/level3/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level3/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level3/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level3/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level3/README.txt;
-echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level3/README.txt;
-echo "* You are at Level 3                                             *" >> /home/level3/README.txt;
-echo "*                                                                *" >> /home/level3/README.txt;
-echo "* The password for the next level is next to the phrase "$hint"  *" >> /home/level3/README.txt;
-echo "* This is accompanied by the text file "$textfilename"           *" >> /home/level3/README.txt;
-echo "* When you get the password for the next level, log in to the    *" >> /home/level3/README.txt;
-echo "* next level with the command:                                   *" >> /home/level3/README.txt;
-echo "*         ssh level4@localhost                                   *" >> /home/level3/README.txt;
-echo "*                                                                *" >> /home/level3/README.txt;
-echo "******************************************************************" >> /home/level3/README.txt;
+echo "***********************************************************************************" >> /home/level3/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of                           *" >> /home/level3/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out                  *" >> /home/level3/README.txt;
+echo "* what the password is for the next level, then log into that                     *" >> /home/level3/README.txt;
+echo "* next level's account using SSH.                                                 *" >> /home/level3/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"                                   *" >> /home/level3/README.txt;
+echo "* You are at Level 3                                                              *" >> /home/level3/README.txt;
+echo "*                                                                                 *" >> /home/level3/README.txt;
+echo "* The password for the next level is next to the phrase "$hint"                   *" >> /home/level3/README.txt;
+echo "* This is accompanied by the text file "$textfilename"                            *" >> /home/level3/README.txt;
+echo "* When you get the password for the next level, log in to the                     *" >> /home/level3/README.txt;
+echo "* next level with the command:                                                    *" >> /home/level3/README.txt;
+echo "*         ssh level4@localhost                                                    *" >> /home/level3/README.txt;
+echo "*                                                                                 *" >> /home/level3/README.txt;
+echo "***********************************************************************************" >> /home/level3/README.txt;
 
 echo "cat /home/level3/README.txt" >> /home/level3/.bashrc
 

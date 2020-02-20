@@ -647,6 +647,7 @@ echo "90 percent complete";
 
 
 
+
 echo "PolyBandit fully installed. Now starting the game. Please log in with the password 'level0'";
 
 ssh level0@localhost;

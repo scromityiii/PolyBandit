@@ -612,21 +612,21 @@ declare -a users=("aeijdoifj" "boidsjoi" "8327cdkjc" "h923878d" "ei4378y7" "897y
 		
 	
 
-		echo "******************************************************************" >> /home/level73/README.txt;
-		echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level73/README.txt;
-		echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level73/README.txt;
-		echo "* what the password is for the next level, then log into that    *" >> /home/level73/README.txt;
-		echo "* next level's account using SSH.                                *" >> /home/level73/README.txt;
-		echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level73/README.txt;
-		echo "* You are at Level 73                                            *" >> /home/level73/README.txt;
-		echo "*                                                                *" >> /home/level73/README.txt;
-		echo "* The password for the next level is next to the phrase "$hint" *" >> /home/level73/README.txt;
-		echo "* This is accompanied by the text file "$textfilename"           *" >> /home/level73/README.txt;
-		echo "* When you get the password for the next level, log in to the    *" >> /home/level73/README.txt;
-		echo "* next level with the command:                                   *" >> /home/level73/README.txt;
-		echo "*         ssh level74@localhost                                   *" >> /home/level73/README.txt;
-		echo "*                                                                *" >> /home/level73/README.txt;
-		echo "******************************************************************" >> /home/level73/README.txt;
+echo "***********************************************************************************" >> /home/level73/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of                           *" >> /home/level73/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out                  *" >> /home/level73/README.txt;
+echo "* what the password is for the next level, then log into that                     *" >> /home/level73/README.txt;
+echo "* next level's account using SSH.                                                 *" >> /home/level73/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"                                   *" >> /home/level73/README.txt;
+echo "* You are at Level 73                                                             *" >> /home/level73/README.txt;
+echo "*                                                                                 *" >> /home/level73/README.txt;
+echo "* The password for the next level is next to the phrase "$hint"                   *" >> /home/level73/README.txt;
+echo "* This is accompanied by the text file "$textfilename"                            *" >> /home/level73/README.txt;
+echo "* When you get the password for the next level, log in to the                     *" >> /home/level73/README.txt;
+echo "* next level with the command:                                                    *" >> /home/level73/README.txt;
+echo "*         ssh level74@localhost                                                   *" >> /home/level73/README.txt;
+echo "*                                                                                 *" >> /home/level73/README.txt;
+echo "***********************************************************************************" >> /home/level73/README.txt;
 		
 	
 

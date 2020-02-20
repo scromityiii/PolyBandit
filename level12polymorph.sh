@@ -9,354 +9,88 @@
 	#Goes through numbers 0-9 and letters a-z lowercase and capital
 	#The template based on Steve's MD5 hash for noise file amount permutation has been commented out. If necessary, please refer to it. The count number is declared as an integer variable that permutates depending on what first character in MD5 hash the player has.
 	#Password spot, which is a random number between 1 and 9 in case of Steve's file noise, "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd", permutates depending on the first character of the player's MD5 hash and the actual corresponding count amount specified in those conditions.
-	if [ "$changer" == "1" ]
+	if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ "$changer" == "4" ]
 	then
-	    textfilenoise="edsneu" #level2a
+	    textfilenoise="edsneu" #level12a
 	    declare -i noisefileamount=20
 	    password_spot=$[RANDOM%20];
-	elif [ "$changer" == "2" ]
+	elif [ "$changer" == "5" ] || [ "$changer" == "6" ] || [ "$changer" == "7" ] || [ "$changer" == "8" ]
 	then
-	     textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" #level2b
+	     textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" #level12b
 	    declare -i noisefileamount=10
 	    password_spot=$[RANDOM%10];
-	elif [ "$changer" == "3" ]
+	elif [ "$changer" == "9" ] || [ "$changer" == "0" ] || [ "$changer" == "a" ] || [ "$changer" == "b" ]
 	then
-	    textfilenoise="udydsddufrndsfd" #level2c
+	    textfilenoise="udydsddufrndsfd" #level12c
 	    declare -i noisefileamount=30
 	    password_spot=$[RANDOM%30];
-	elif [ "$changer" == "4" ]
+	elif [ "$changer" == "c" ] || [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ]
 	then 
-	    textfilenoise="euc" #level2d
+	    textfilenoise="euc" #level12d
 	    declare -i noisefileamount=40
 	    password_spot=$[RANDOM%40];
-	elif [ "$changer" == "5" ]
+	elif [ "$changer" == "g" ] || [ "$changer" == "h" ] || [ "$changer" == "i" ] || [ "$changer" == "j" ]
 	then 
-	    textfilenoise="euces" #level2e
+	    textfilenoise="euces" #level12e
 	    declare -i noisefileamount=50
 	    password_spot=$[RANDOM%50];
-	elif [ "$changer" == "6" ]
-	then
-	    textfilenoise="iefifjfoisdjfoirjf" #level2f
-	    declare -i noisefileamount=60
-	    password_spot=$[RANDOM%60];
-	elif [ "$changer" == "7" ]
+	elif [ "$changer" == "o" ] || [ "$changer" == "p" ] || [ "$changer" == "q" ] || [ "$changer" == "r" ]
 	then 
-	    textfilenoise="iefifjfoisdjfoirjf" #level2f
+	    textfilenoise="iefifjfoisdjfoirjf" #level12f
 	    declare -i noisefileamount=60
 	    password_spot=$[RANDOM%60];
-	elif [ "$changer" == "8" ]
+	elif [ "$changer" == "s" ] || [ "$changer" == "t" ] || [ "$changer" == "u" ] || [ "$changer" == "v" ]
 	then
-	    textfilenoise="iefifjfoisdjfoirjfes" #level2g
+	    textfilenoise="iefifjfoisdjfoirjfes" #level12g
 	    declare -i noisefileamount=90
 	    password_spot=$[RANDOM%90];
-	elif [ "$changer" == "9" ]
+	elif [ "$changer" == "w" ] || [ "$changer" == "x" ] || [ "$changer" == "y" ] || [ "$changer" == "z" ]
 	then 
-	    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi" #level2h
+	    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi" #level12h
 	    declare -i noisefileamount=100
 	    password_spot=$[RANDOM%100];
-	elif [ "$changer" == "a" ]
+	elif [ "$changer" == "A" ] || [ "$changer" == "B" ] || [ "$changer" == "C" ] || [ "$changer" == "D" ]
 	then 
-	    textfilenoise="didi" #level2i
+	    textfilenoise="didi" #level12i
 	    declare -i noisefileamount=110
 	    password_spot=$[RANDOM%110];
-	elif [ "$changer" == "b" ]
+	elif [ "$changer" == "E" ] || [ "$changer" == "F" ] || [ "$changer" == "G" ]
 	then
-	    textfilenoise="eijfudsfhui" #level2j
+	    textfilenoise="eijfudsfhui" #level12j
 	    declare -i noisefileamount=130
 	    password_spot=$[RANDOM%130];
-	elif [ "$changer" == "c" ]
+	elif [ "$changer" == "H" ] || [ "$changer" == "I" ] || [ "$changer" == "J" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level12k
 	    declare -i noisefileamount=150
 	    password_spot=$[RANDOM%150];
-	elif [ "$changer" == "d" ]
+	elif [ "$changer" == "K" ] || [ "$changer" == "L" ] || [ "$changer" == "M" ] || [ "$changer" == "N" ]
 	then 
-	    textfilenoise="a" #level2l
+	    textfilenoise="a" #level12l
 	    declare -i noisefileamount=65
 	    password_spot=$[RANDOM%65];
-	elif [ "$changer" == "e" ]
+	elif [ "$changer" == "O" ] || [ "$changer" == "P" ] || [ "$changer" == "Q" ] || [ "$changer" == "R" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo" #level2m
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo" #level12m
 	    declare -i noisefileamount=55
 	    password_spot=$[RANDOM%55];
-	elif [ "$changer" == "f" ]
+	elif [ "$changer" == "S" ] || [ "$changer" == "T" ] || [ "$changer" == "U" ] || [ "$changer" == "V" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" #level2n
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" #level12n
 	    declare -i noisefileamount=45
 	    password_spot=$[RANDOM%45];
-	elif [ "$changer" == "g" ]
+	elif [ "$changer" == "W" ] || [ "$changer" == "X" ] || [ "$changer" == "Y" ] || [ "$changer" == "Z" ]
 	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" #level2o
+	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" #level12o
 	    declare -i noisefileamount=35
 	    password_spot=$[RANDOM%35];
-	elif [ "$changer" == "h" ]
+	elif [ "$changer" == "k" ] || [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 	then
-	    textfilenoise="sdsdsduehccaiu" #level2p
+	    textfilenoise="sdsdsduehccaiu" #level12p
 	    declare -i noisefileamount=115
 	    password_spot=$[RANDOM%115];
-	elif [ "$changer" == "i" ]
-	then
-	    textfilenoise="edsneu" #level2a
-	    declare -i noisefileamount=20
-	    password_spot=$[RANDOM%20];
-	elif [ "$changer" == "j" ]
-	then
-	     textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" #level2b
-	    declare -i noisefileamount=10
-	    password_spot=$[RANDOM%10];
-	elif [ "$changer" == "k" ]
-	then 
-	    textfilenoise="udydsddufrndsfd" #level2c
-	    declare -i noisefileamount=30
-	    password_spot=$[RANDOM%30];
-	elif [ "$changer" == "l" ]
-	then 
-	    textfilenoise="euc" #level2d
-	    declare -i noisefileamount=40
-	    password_spot=$[RANDOM%40];
-	elif [ "$changer" == "m" ]
-	then
-	    textfilenoise="euces" #level2e
-	    declare -i noisefileamount=50
-	    password_spot=$[RANDOM%50];
-	elif [ "$changer" == "n" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjf" #level2f
-	    declare -i noisefileamount=60
-	    password_spot=$[RANDOM%60];
-	elif [ "$changer" == "o" ]
-	then
-	    textfilenoise="iefifjfoisdjfoirjfes" #level2g
-	    declare -i noisefileamount=90
-	    password_spot=$[RANDOM%90];
-	elif [ "$changer" == "p" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi" #level2h
-	    declare -i noisefileamount=100
-	    password_spot=$[RANDOM%100];
-	elif [ "$changer" == "q" ]
-	then 
-	    textfilenoise="didi" #level2i
-	    declare -i noisefileamount=110
-	    password_spot=$[RANDOM%110];
-	elif [ "$changer" == "r" ]
-	then
-	    textfilenoise="eijfudsfhui" #level2j
-	    declare -i noisefileamount=130
-	    password_spot=$[RANDOM%130];
-	elif [ "$changer" == "s" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
-	    declare -i noisefileamount=150
-	    password_spot=$[RANDOM%150];
-	elif [ "$changer" == "t" ]
-	then 
-	    textfilenoise="a" #level2l
-	    declare -i noisefileamount=65
-	    password_spot=$[RANDOM%65];
-	elif [ "$changer" == "u" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo" #level2m
-	    declare -i noisefileamount=55
-	    password_spot=$[RANDOM%55];
-	elif [ "$changer" == "v" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" #level2n
-	    declare -i noisefileamount=45
-	    password_spot=$[RANDOM%45];
-	elif [ "$changer" == "w" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" #level2o
-	    declare -i noisefileamount=35
-	    password_spot=$[RANDOM%35];
-	elif [ "$changer" == "x" ]
-	then
-	    textfilenoise="sdsdsduehccaiu" #level2p
-	    declare -i noisefileamount=115
-	    password_spot=$[RANDOM%115];
-	elif [ "$changer" == "t" ]
-	then
-	    textfilenoise="edsneu" #level2a
-	    declare -i noisefileamount=20
-	    password_spot=$[RANDOM%20];
-	elif [ "$changer" == "u" ]
-	then
-	     textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" #level2b
-	    declare -i noisefileamount=10
-	    password_spot=$[RANDOM%10];
-	elif [ "$changer" == "v" ]
-	then 
-	    textfilenoise="udydsddufrndsfd" #level2c
-	    declare -i noisefileamount=30
-	    password_spot=$[RANDOM%30];
-	elif [ "$changer" == "w" ]
-	then 
-	    textfilenoise="euc" #level2d
-	    declare -i noisefileamount=40
-	    password_spot=$[RANDOM%40];
-	elif [ "$changer" == "x" ]
-	then
-	    textfilenoise="euces" #level2e
-	    declare -i noisefileamount=50
-	    password_spot=$[RANDOM%50];
-	elif [ "$changer" == "y" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjf" #level2f
-	    declare -i noisefileamount=60
-	    password_spot=$[RANDOM%60];
-	elif [ "$changer" == "z" ]
-	then
-	    textfilenoise="iefifjfoisdjfoirjfes" #level2g
-	    declare -i noisefileamount=90
-	    password_spot=$[RANDOM%90];
-	elif [ "$changer" == "A" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi" #level2h
-	    declare -i noisefileamount=100
-	    password_spot=$[RANDOM%100];
-	elif [ "$changer" == "B" ]
-	then 
-	    textfilenoise="didi" #level2i
-	    declare -i noisefileamount=110
-	    password_spot=$[RANDOM%110];
-	elif [ "$changer" == "C" ]
-	then
-	    textfilenoise="eijfudsfhui" #level2j
-	    declare -i noisefileamount=130
-	    password_spot=$[RANDOM%130];
-	elif [ "$changer" == "D" ]
-	then
-	    textfilenoise="sdsdsduehccaiu" #level2p
-	    declare -i noisefileamount=115
-	    password_spot=$[RANDOM%115];
-	elif [ "$changer" == "E" ]
-	then 
-	    textfilenoise="a" #level2l
-	    declare -i noisefileamount=65
-	    password_spot=$[RANDOM%65];
-	elif [ "$changer" == "F" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo" #level2m
-	    declare -i noisefileamount=55
-	    password_spot=$[RANDOM%55];
-	elif [ "$changer" == "G" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" #level2n
-	    declare -i noisefileamount=45
-	    password_spot=$[RANDOM%45];
-	elif [ "$changer" == "H" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" #level2o
-	    declare -i noisefileamount=35
-	    password_spot=$[RANDOM%35];
-	elif [ "$changer" == "I" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
-	    declare -i noisefileamount=150
-	    password_spot=$[RANDOM%150];
-	    elif [ "$changer" == "J" ]
-	then
-	    textfilenoise="edsneu" #level2a
-	    declare -i noisefileamount=20
-	    password_spot=$[RANDOM%20];
-	elif [ "$changer" == "K" ]
-	then
-	     textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" #level2b
-	    declare -i noisefileamount=10
-	    password_spot=$[RANDOM%10];
-	elif [ "$changer" == "L" ]
-	then 
-	    textfilenoise="udydsddufrndsfd" #level2c
-	    declare -i noisefileamount=30
-	    password_spot=$[RANDOM%30];
-	elif [ "$changer" == "M" ]
-	then 
-	    textfilenoise="euc" #level2d
-	    declare -i noisefileamount=40
-	    password_spot=$[RANDOM%40];
-	elif [ "$changer" == "N" ]
-	then
-	    textfilenoise="euces" #level2e
-	    declare -i noisefileamount=50
-	    password_spot=$[RANDOM%50];
-	elif [ "$changer" == "O" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjf" #level2f
-	    declare -i noisefileamount=60
-	    password_spot=$[RANDOM%60];
-	elif [ "$changer" == "P" ]
-	then
-	    textfilenoise="iefifjfoisdjfoirjfes" #level2g
-	    declare -i noisefileamount=90
-	    password_spot=$[RANDOM%90];
-	elif [ "$changer" == "Q" ]
-	then 
-	    textfilenoise="iefifjfoisdjfoirjfesifjiofjoifdsajoi" #level2h
-	    declare -i noisefileamount=100
-	    password_spot=$[RANDOM%100];
-	elif [ "$changer" == "R" ]
-	then 
-	    textfilenoise="didi" #level2i
-	    declare -i noisefileamount=110
-	    password_spot=$[RANDOM%110];
-	elif [ "$changer" == "S" ]
-	then
-	    textfilenoise="eijfudsfhui" #level2j
-	    declare -i noisefileamount=130
-	    password_spot=$[RANDOM%130];
-	elif [ "$changer" == "T" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
-	    declare -i noisefileamount=150
-	    password_spot=$[RANDOM%150];
-	elif [ "$changer" == "U" ]
-	then 
-	    textfilenoise="a" #level2l
-	    declare -i noisefileamount=65
-	    password_spot=$[RANDOM%65];
-	elif [ "$changer" == "V" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjo" #level2m
-	    declare -i noisefileamount=55
-	    password_spot=$[RANDOM%55];
-	elif [ "$changer" == "W" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" #level2n
-	    declare -i noisefileamount=45
-	    password_spot=$[RANDOM%45];
-	elif [ "$changer" == "X" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" #level2o
-	    declare -i noisefileamount=35
-	    password_spot=$[RANDOM%35];
-	elif [ "$changer" == "Y" ]
-	then
-	    textfilenoise="sdsdsduehccaiu" #level2p
-	    declare -i noisefileamount=115
-	    password_spot=$[RANDOM%115];
-	elif [ "$changer" == "Z" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
-	    declare -i noisefileamount=150
-	    password_spot=$[RANDOM%150];
-	elif [ "$changer" == "0" ]
-	then
-	    textfilenoise="aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" #level2k
-	    declare -i noisefileamount=150
-	    password_spot=$[RANDOM%150];
+	
 	fi
-	
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 
 	declare -a LETTERS=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" "1" "2" "3" "4" "5" "6" "7" "8" "9" "0");
 	
@@ -439,67 +173,67 @@
 	if [ $textfilenoise == "edsneu" ];
 	then
 	filesize="16"
-	#level2a
+	#level12a
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududee" ];
 	then
 	filesize="72"
-	#level2b
+	#level12b
 	elif [ $textfilenoise == "udydsddufrndsfd" ];
 	then
 	filesize="25"
-	#level2c
+	#level12c
 	elif [ $textfilenoise == "euc" ];
 	then
 	filesize="13"
-	#level2d
+	#level12d
 	elif [ $textfilenoise == "euces" ];
 	then
 	filesize="15"
-	#level2e
+	#level12e
 	elif [ $textfilenoise == "iefifjfoisdjfoirjf" ];
 	then
 	filesize="28"
-	#level2f
+	#level12f
 	elif [ $textfilenoise == "iefifjfoisdjfoirjfes" ];
 	then
 	filesize="30"
-	#level2g
+	#level12g
 	elif [ $textfilenoise == "iefifjfoisdjfoirjfesifjiofjoifdsajoi" ];
 	then
 	filesize="46"
-	#level2h
+	#level12h
 	elif [ $textfilenoise == "didi" ];
 	then
 	filesize="14"
-	#level2i
+	#level12i
 	elif [ $textfilenoise == "eijfudsfhui" ];
 	then
 	filesize="21"
-	#level2j
+	#level12j
 	elif [ $textfilenoise == "sdsdsduehccaiu" ];
 	then
 	filesize="24"
-	#level2p
+	#level12p
 	elif [ $textfilenoise == "a" ];
 	then
 	filesize="11"
-	#level2l
+	#level12l
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjo" ];
 	then
 	filesize="40"
-	#level2m
+	#level12m
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdk" ];
 	then
 	filesize="50"
-	#level2n
+	#level12n
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyu" ];
 	then
 	filesize="60"
-	#level1o
+	#level12o
 	elif [ $textfilenoise == "aodsfjoidsfjoidsjfoidsjoifdsjodkdkdkdkdkyuyuyuyuyuudududududdddd" ];
 	then
 	filesize="74"
-	#level2k
+	#level12k
 	fi
 
 		

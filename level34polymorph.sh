@@ -613,7 +613,7 @@ touch /home/level34/"$textfilename"
 count=0;
 
 
-while [ $count -le ${#users[@]} ];
+while [ $count -lt ${#users[@]} ];
 do
   randomgen2=$[RANDOM%61];
   randomgen1=$[RANDOM%2000];
