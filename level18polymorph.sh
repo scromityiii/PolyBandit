@@ -9,274 +9,71 @@
 changer=${MD516_20:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 #The level variant identifier is commented under each possible elif condition. There are 16 variations, ranging from level18a to level18p.
-if [ "$changer" == "1" ]
+if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ "$changer" == "4" ]
 then
     textfilename="youaretheone.txt"
     #level18a
-elif [ "$changer" == "2" ]
-then
-    textfilename="youaretheone.txt"
-    #level18a
-elif [ "$changer" == "3" ]
+elif [ "$changer" == "5" ] || [ "$changer" == "6" ] || [ "$changer" == "7" ] || [ "$changer" == "8" ]
 then
     textfilename="greatnessinyou.txt"
     #level18b
-elif [ "$changer" == "4" ]
+elif [ "$changer" == "9" ] || [ "$changer" == "0" ] || [ "$changer" == "a" ] || [ "$changer" == "b" ]
 then 
     textfilename="powerinyou.txt"
     #level18c
-elif [ "$changer" == "5" ]
+elif [ "$changer" == "c" ] || [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ]
 then 
     textfilename="youwillmakeit.txt"
     #level18d
-elif [ "$changer" == "6" ]
+elif [ "$changer" == "g" ] || [ "$changer" == "h" ] || [ "$changer" == "i" ] || [ "$changer" == "j" ]
 then
     textfilename="strengthinyou.txt"
     #level18e
-elif [ "$changer" == "7" ]
+elif [ "$changer" == "k" ] || [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 then 
     textfilename="humility.txt"
     #level18f
-elif [ "$changer" == "8" ]
+elif [ "$changer" == "o" ] || [ "$changer" == "p" ] || [ "$changer" == "q" ] || [ "$changer" == "r" ]
 then
     textfilename="love.txt"
     #level18g
-elif [ "$changer" == "9" ]
+elif [ "$changer" == "s" ] || [ "$changer" == "t" ] || [ "$changer" == "u" ] || [ "$changer" == "v" ]
 then 
     textfilename="kindness.txt"
     #level18h
-elif [ "$changer" == "a" ]
+elif [ "$changer" == "w" ] || [ "$changer" == "x" ] || [ "$changer" == "y" ] || [ "$changer" == "z" ] 
 then 
     textfilename="pushforward.txt"
     #level18i
-elif [ "$changer" == "b" ]
+elif [ "$changer" == "A" ] || [ "$changer" == "B" ] || [ "$changer" == "C" ]
 then
     textfilename="onward.txt"
     #level18j
-elif [ "$changer" == "c" ]
+elif [ "$changer" == "D" ] || [ "$changer" == "E" ] || [ "$changer" == "F" ] || [ "$changer" == "G" ]
 then
     textfilename="youwillbealinuxmaster.txt"
     #level18k
-elif [ "$changer" == "d" ]
+elif [ "$changer" == "H" ] || [ "$changer" == "I" ] || [ "$changer" == "J" ] || [ "$changer" == "K" ]
 then 
     textfilename="morepower.txt"
     #level18l
-elif [ "$changer" == "e" ]
+elif [ "$changer" == "L" ] || [ "$changer" == "M" ] || [ "$changer" == "N" ] || [ "$changer" == "O" ]
 then
     textfilename="keepgoing"
     #level18m
-elif [ "$changer" == "f" ]
+elif [ "$changer" == "P" ] || [ "$changer" == "Q" ] || [ "$changer" == "R" ] || [ "$changer" == "S" ]
 then
     textfilename="findmefindme.txt"
     #level18n
-elif [ "$changer" == "g" ]
+elif [ "$changer" == "T" ] || [ "$changer" == "U" ] || [ "$changer" == "V" ] || [ "$changer" == "W" ]
 then
     textfilename="incredible.txt"
     #level18o
-elif [ "$changer" == "h" ]
+elif [ "$changer" == "X" ] || [ "$changer" == "Y" ] || [ "$changer" == "Z" ]
 then
     textfilename="tovictory!.txt"
     #level18p
-elif [ "$changer" == "i" ]
-then
-    textfilename="youaretheone.txt"
-    #level18a
-elif [ "$changer" == "j" ]
-then
-    textfilename="greatnessinyou.txt"
-    #level18b
-elif [ "$changer" == "k" ]
-then 
-    textfilename="powerinyou.txt"
-    #level18c
-elif [ "$changer" == "l" ]
-then 
-    textfilename="youwillmakeit.txt"
-    #leveld
-elif [ "$changer" == "m" ]
-then
-    textfilename="strengthinyou.txt"
-    #level18e
-elif [ "$changer" == "n" ]
-then 
-    textfilename="humility.txt"
-    #level18f
-elif [ "$changer" == "o" ]
-then
-    textfilename="love.txt"
-    #level18g
-elif [ "$changer" == "p" ]
-then 
-    textfilename="kindness.txt"
-    #level18h
-elif [ "$changer" == "q" ]
-then 
-    textfilename="pushforward.txt"
-    #level18i
-elif [ "$changer" == "r" ]
-then
-    textfilename="onward.txt"
-    #level18j
-elif [ "$changer" == "s" ]
-then
-    textfilename="youwillbealinuxmaster.txt"
-    #level18k
-elif [ "$changer" == "t" ]
-then 
-    textfilename="morepower.txt"
-    #level18l
-elif [ "$changer" == "u" ]
-then
-    textfilename="keepgoing"
-    #level18m
-elif [ "$changer" == "v" ]
-then
-    textfilename="findmefindme.txt"
-    #level18n
-elif [ "$changer" == "w" ]
-then
-    textfilename="incredible.txt"
-    #level18o
-elif [ "$changer" == "x" ]
-then
-    textfilename="tovictory!.txt"
-    #level18p
-elif [ "$changer" == "t" ]
-then
-    textfilename="youaretheone.txt"
-    #level18a
-elif [ "$changer" == "u" ]
-then
-    textfilename="greatnessinyou.txt"
-    #level18b
-elif [ "$changer" == "v" ]
-then 
-    textfilename="powerinyou.txt"
-    #level18c
-elif [ "$changer" == "w" ]
-then 
-    textfilename="youwillmakeit.txt"
-    #level18d
-elif [ "$changer" == "x" ]
-then
-    textfilename="strengthinyou.txt"
-    #level18e
-elif [ "$changer" == "y" ]
-then 
-    textfilename="humility.txt"
-    #level18f
-elif [ "$changer" == "z" ]
-then
-    textfilename="love.txt"
-    #level18g
-elif [ "$changer" == "A" ]
-then 
-    textfilename="kindness.txt"
-    #level18h
-elif [ "$changer" == "B" ]
-then 
-    textfilename="pushforward.txt"
-    #level18i
-elif [ "$changer" == "C" ]
-then
-    textfilename="onward.txt"
-    #level18j
-elif [ "$changer" == "D" ]
-then
-    textfilename="youwillbealinuxmaster.txt"
-    #level18k
-elif [ "$changer" == "E" ]
-then 
-    textfilename="morepower.txt"
-    #level18l
-elif [ "$changer" == "F" ]
-then
-    textfilename="keepgoing"
-    #level18m
-elif [ "$changer" == "G" ]
-then
-    textfilename="findmefindme.txt"
-    #level18n
-elif [ "$changer" == "H" ]
-then
-    textfilename="incredible.txt"
-    #level18o
-elif [ "$changer" == "I" ]
-then
-    textfilename="tovictory!.txt"
-    #level18p
-elif [ "$changer" == "J" ]
-then
-    textfilename="youaretheone.txt"
-    #level18a
-elif [ "$changer" == "K" ]
-then
-    textfilename="greatnessinyou.txt"
-    #level18b
-elif [ "$changer" == "L" ]
-then 
-    textfilename="powerinyou.txt"
-    #level18c
-elif [ "$changer" == "M" ]
-then 
-    textfilename="youwillmakeit.txt"
-    #level18d
-elif [ "$changer" == "N" ]
-then
-    textfilename="strengthinyou.txt"
-    #level18e
-elif [ "$changer" == "O" ]
-then 
-    textfilename="humility.txt"
-    #level18f
-elif [ "$changer" == "P" ]
-then
-    textfilename="love.txt"
-    #level18g
-elif [ "$changer" == "Q" ]
-then 
-    textfilename="kindness.txt"
-    #level18h
-elif [ "$changer" == "R" ]
-then 
-    textfilename="pushforward.txt"
-    #level18i
-elif [ "$changer" == "S" ]
-then
-    textfilename="onward.txt"
-    #level18j
-elif [ "$changer" == "T" ]
-then
-    textfilename="youwillbealinuxmaster.txt"
-    #level18k
-elif [ "$changer" == "U" ]
-then 
-    textfilename="morepower.txt"
-    #level18l
-elif [ "$changer" == "V" ]
-then
-    textfilename="keepgoing"
-    #level18m
-elif [ "$changer" == "W" ]
-then
-    textfilename="findmefindme.txt"
-    #level18n
-elif [ "$changer" == "X" ]
-then
-    textfilename="incredible.txt"
-    #level18o
-elif [ "$changer" == "Y" ]
-then
-    textfilename="tovictory!.txt"
-    #level18p
-elif [ "$changer" == "Z" ]
-then
-    textfilename="tovictory!.txt"
-    #level18p
-elif [ "$changer" == "0" ]
-then
-    textfilename="tovictory!.txt"
-    #level18p
+
 fi
 
 

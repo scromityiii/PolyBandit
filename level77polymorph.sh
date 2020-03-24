@@ -4,276 +4,72 @@
 changer=${MD576_80:0:1}
 #based on first character in MD5 hash, level will have different text file name out of 16. Goes through numbers 0-9 and letters a-z lowercase and capital
 #The level variant identifier is commented under each possible elif condition. There are 16 variations, ranging from level77a to level77p.
-if [ "$changer" == "1" ]
+if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ "$changer" == "4" ]
 then
     textfilename="linuxcommandninja.txt"
     #level77a
-elif [ "$changer" == "2" ]
-then
-    textfilename="linuxcommandninja.txt"
-    #level77a
-elif [ "$changer" == "3" ]
+elif [ "$changer" == "9" ] || [ "$changer" == "0" ] || [ "$changer" == "a" ] || [ "$changer" == "b" ]
 then
     textfilename="aperto.txt"
     #level77b
-elif [ "$changer" == "4" ]
+elif [ "$changer" == "5" ] || [ "$changer" == "6" ] || [ "$changer" == "7" ] || [ "$changer" == "8" ]
 then 
     textfilename="throughme.txt"
     #level77c
-elif [ "$changer" == "5" ]
+elif [ "$changer" == "c" ] || [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ]
 then 
     textfilename="thewayishere.txt"
     #level77d
-elif [ "$changer" == "6" ]
+elif [ "$changer" == "g" ] || [ "$changer" == "h" ] || [ "$changer" == "i" ] || [ "$changer" == "j" ]
 then
     textfilename="learnubuntu.txt"
     #level77e
-elif [ "$changer" == "7" ]
+elif [ "$changer" == "k" ] || [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 then 
     textfilename="pleaseopenme.txt"
     #level77f
-elif [ "$changer" == "8" ]
+elif [ "$changer" == "o" ] || [ "$changer" == "p" ] || [ "$changer" == "q" ] || [ "$changer" == "r" ]
 then
     textfilename="thelight.txt"
     #level77g
-elif [ "$changer" == "9" ]
+elif [ "$changer" == "s" ] || [ "$changer" == "t" ] || [ "$changer" == "u" ] || [ "$changer" == "v" ]
 then 
     textfilename="patentibus.txt"
     #level77h
-elif [ "$changer" == "a" ]
+elif [ "$changer" == "w" ] || [ "$changer" == "x" ] || [ "$changer" == "y" ] || [ "$changer" == "z" ]
 then 
     textfilename="apertum.txt"
     #level77i
-elif [ "$changer" == "b" ]
+elif [ "$changer" == "A" ] || [ "$changer" == "B" ] || [ "$changer" == "C" ] || [ "$changer" == "D" ]
 then
     textfilename="fromthedepths.txt"
     #level77j
-elif [ "$changer" == "c" ]
+elif [ "$changer" == "E" ] || [ "$changer" == "F" ] || [ "$changer" == "G" ] || [ "$changer" == "H" ]
 then
     textfilename="vita.txt"
     #level77k
-elif [ "$changer" == "d" ]
+elif [ "$changer" == "I" ] || [ "$changer" == "J" ] || [ "$changer" == "K" ] || [ "$changer" == "L" ]
 then 
     textfilename="iresideinhere.txt"
     #level77l
-elif [ "$changer" == "e" ]
+elif [ "$changer" == "M" ] || [ "$changer" == "N" ] || [ "$changer" == "O" ] || [ "$changer" == "P" ]
 then
     textfilename="yourwayforward"
     #level77m
-elif [ "$changer" == "f" ]
+elif [ "$changer" == "Q" ] || [ "$changer" == "R" ] || [ "$changer" == "S" ] || [ "$changer" == "T" ]
 then
     textfilename="areyoustillhavingfun.txt"
     #level77n
-elif [ "$changer" == "g" ]
+elif [ "$changer" == "U" ] || [ "$changer" == "V" ] || [ "$changer" == "W" ] 
 then
     textfilename="greenlightgogogo.txt"
     #level77o
-elif [ "$changer" == "h" ]
+elif [ "$changer" == "X" ] || [ "$changer" == "Y" ] || [ "$changer" == "Z" ]
 then
     textfilename="yourourlasthope.txt"
     #level77p
-elif [ "$changer" == "i" ]
-then
-    textfilename="linuxcommandninja.txt"
-    #level77a
-elif [ "$changer" == "j" ]
-then
-    textfilename="aperto.txt"
-    #level77b
-elif [ "$changer" == "k" ]
-then 
-    textfilename="throughme.txt"
-    #level77c
-elif [ "$changer" == "l" ]
-then 
-    textfilename="thewayishere.txt"
-    #leveld
-elif [ "$changer" == "m" ]
-then
-    textfilename="learnubuntu.txt"
-    #level77e
-elif [ "$changer" == "n" ]
-then 
-    textfilename="pleaseopenme.txt"
-    #level77f
-elif [ "$changer" == "o" ]
-then
-    textfilename="thelight.txt"
-    #level77g
-elif [ "$changer" == "p" ]
-then 
-    textfilename="patentibus.txt"
-    #level77h
-elif [ "$changer" == "q" ]
-then 
-    textfilename="apertum.txt"
-    #level77i
-elif [ "$changer" == "r" ]
-then
-    textfilename="fromthedepths.txt"
-    #level77j
-elif [ "$changer" == "s" ]
-then
-    textfilename="vita.txt"
-    #level77k
-elif [ "$changer" == "t" ]
-then 
-    textfilename="iresideinhere.txt"
-    #level77l
-elif [ "$changer" == "u" ]
-then
-    textfilename="yourwayforward"
-    #level77m
-elif [ "$changer" == "v" ]
-then
-    textfilename="areyoustillhavingfun.txt"
-    #level77n
-elif [ "$changer" == "w" ]
-then
-    textfilename="greenlightgogogo.txt"
-    #level77o
-elif [ "$changer" == "x" ]
-then
-    textfilename="yourourlasthope.txt"
-    #level77p
-elif [ "$changer" == "t" ]
-then
-    textfilename="linuxcommandninja.txt"
-    #level77a
-elif [ "$changer" == "u" ]
-then
-    textfilename="aperto.txt"
-    #level77b
-elif [ "$changer" == "v" ]
-then 
-    textfilename="throughme.txt"
-    #level77c
-elif [ "$changer" == "w" ]
-then 
-    textfilename="thewayishere.txt"
-    #level77d
-elif [ "$changer" == "x" ]
-then
-    textfilename="learnubuntu.txt"
-    #level77e
-elif [ "$changer" == "y" ]
-then 
-    textfilename="pleaseopenme.txt"
-    #level77f
-elif [ "$changer" == "z" ]
-then
-    textfilename="thelight.txt"
-    #level77g
-elif [ "$changer" == "A" ]
-then 
-    textfilename="patentibus.txt"
-    #level77h
-elif [ "$changer" == "B" ]
-then 
-    textfilename="apertum.txt"
-    #level77i
-elif [ "$changer" == "C" ]
-then
-    textfilename="fromthedepths.txt"
-    #level77j
-elif [ "$changer" == "D" ]
-then
-    textfilename="vita.txt"
-    #level77k
-elif [ "$changer" == "E" ]
-then 
-    textfilename="iresideinhere.txt"
-    #level77l
-elif [ "$changer" == "F" ]
-then
-    textfilename="yourwayforward"
-    #level77m
-elif [ "$changer" == "G" ]
-then
-    textfilename="areyoustillhavingfun.txt"
-    #level77n
-elif [ "$changer" == "H" ]
-then
-    textfilename="greenlightgogogo.txt"
-    #level77o
-elif [ "$changer" == "I" ]
-then
-    textfilename="yourourlasthope.txt"
-    #level77p
-elif [ "$changer" == "J" ]
-then
-    textfilename="linuxcommandninja.txt"
-    #level77a
-elif [ "$changer" == "K" ]
-then
-    textfilename="aperto.txt"
-    #level77b
-elif [ "$changer" == "L" ]
-then 
-    textfilename="throughme.txt"
-    #level77c
-elif [ "$changer" == "M" ]
-then 
-    textfilename="thewayishere.txt"
-    #level77d
-elif [ "$changer" == "N" ]
-then
-    textfilename="learnubuntu.txt"
-    #level77e
-elif [ "$changer" == "O" ]
-then 
-    textfilename="pleaseopenme.txt"
-    #level77f
-elif [ "$changer" == "P" ]
-then
-    textfilename="thelight.txt"
-    #level77g
-elif [ "$changer" == "Q" ]
-then 
-    textfilename="patentibus.txt"
-    #level77h
-elif [ "$changer" == "R" ]
-then 
-    textfilename="apertum.txt"
-    #level77i
-elif [ "$changer" == "S" ]
-then
-    textfilename="fromthedepths.txt"
-    #level77j
-elif [ "$changer" == "T" ]
-then
-    textfilename="vita.txt"
-    #level77k
-elif [ "$changer" == "U" ]
-then 
-    textfilename="iresideinhere.txt"
-    #level77l
-elif [ "$changer" == "V" ]
-then
-    textfilename="yourwayforward"
-    #level77m
-elif [ "$changer" == "W" ]
-then
-    textfilename="areyoustillhavingfun.txt"
-    #level77n
-elif [ "$changer" == "X" ]
-then
-    textfilename="greenlightgogogo.txt"
-    #level77o
-elif [ "$changer" == "Y" ]
-then
-    textfilename="yourourlasthope.txt"
-    #level77p
-elif [ "$changer" == "Z" ]
-then
-    textfilename="yourourlasthope.txt"
-    #level77p
-elif [ "$changer" == "0" ]
-then
-    textfilename="yourourlasthope.txt"
-    #level77p
-fi
 
+fi
 
 
 

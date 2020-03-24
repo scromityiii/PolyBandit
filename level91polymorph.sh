@@ -8,67 +8,67 @@ changer=${MD591_95:0:1}
 if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ "$changer" == "5" ]
 then
     textfilename=".inhere.txt"
-    #level1a
+    #level91a
 elif [ "$changer" == "9" ] || [ "$changer" == "a" ] || [ "$changer" == "b" ] || [ "$changer" == "6" ]
 then
     textfilename=".hereiam.txt"
-    #level1b
+    #level91b
 elif [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ] || [ "$changer" == "7" ]
 then 
     textfilename=".Iamhere.txt"
-    #level1c
+    #level91c
 elif [ "$changer" == "h" ] || [ "$changer" == "i" ] || [ "$changer" == "j" ] || [ "$changer" == "o" ]
 then 
     textfilename=".herehere.txt"
-    #level1d
+    #level91d
 elif [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 then
     textfilename=".passphrasealpha.txt"
-    #level1e
+    #level91e
 elif [ "$changer" == "p" ] || [ "$changer" == "q" ] || [ "$changer" == "r" ] || [ "$changer" == "s" ]
 then 
     textfilename=".passphrasebravo.txt"
-    #level1f
+    #level91f
 elif [ "$changer" == "t" ] || [ "$changer" == "u" ] || [ "$changer" == "v" ] || [ "$changer" == "w" ]
 then
     textfilename=".passphrasecharlie.txt"
-    #level1g
+    #level91g
 elif [ "$changer" == "x" ] || [ "$changer" == "y" ] || [ "$changer" == "z" ] || [ "$changer" == "A" ]
 then 
     textfilename=".passphraseomega.txt"
-    #level1h
+    #level91h
 elif [ "$changer" == "B" ] || [ "$changer" == "C" ] || [ "$changer" == "D" ] || [ "$changer" == "E" ]
 then 
     textfilename=".excelsior.txt"
-    #level1i
+    #level91i
 elif [ "$changer" == "F" ] || [ "$changer" == "G" ] || [ "$changer" == "H" ] || [ "$changer" == "I" ]
 then
     textfilename=".helios.txt"
-    #level1j
+    #level91j
 elif [ "$changer" == "J" ] || [ "$changer" == "K" ] || [ "$changer" == "L" ] || [ "$changer" == "M" ]
 then
     textfilename=".apollo.txt"
-    #level1k
+    #level91k
 elif [ "$changer" == "N" ] || [ "$changer" == "O" ] || [ "$changer" == "P" ] || [ "$changer" == "Q" ]
 then 
     textfilename=".novembertango.txt"
-    #level1l
+    #level91l
 elif [ "$changer" == "R" ] || [ "$changer" == "S" ] || [ "$changer" == "T" ] || [ "$changer" == "U" ]
 then
     textfilename=".opensesame.txt"
-    #level1m
+    #level91m
 elif [ "$changer" == "V" ] || [ "$changer" == "W" ] || [ "$changer" == "X" ] || [ "$changer" == "Y" ]
 then
     textfilename=".havingfunyet.txt"
-    #level1n
+    #level91n
 elif [ "$changer" == "Z" ] || [ "$changer" == "0" ] || [ "$changer" == "4" ] || [ "$changer" == "8" ]
 then
     textfilename=".openmeplease.txt"
-    #level1o
+    #level91o
 elif [ "$changer" == "c" ] || [ "$changer" == "g" ] || [ "$changer" == "k" ]
 then
     textfilename=".herepleasehere.txt"
-    #level1p
+    #level91p
 fi
 
 
