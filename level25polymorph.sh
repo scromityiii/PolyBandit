@@ -704,5 +704,47 @@ do
   count1=$(($count1+1));
 done
 
+#chown level0: /home/level1;
+#chmod -rwxr-x--- /home/level1;
+#This block prevents the host system's user (the one that executes PolyBandit) as well as anybody other than the level itself from being able to read into 
+#this level's directory and its subdirectories. In essence, no cheating, you must play the game in order, and you cannot tamper with any game files unless they are in
+#the level you are currently in. The first for loop sets permissions on users before level25. The second sets them on all users after. None except level25 will be able to view the contents of /home/level25
+#until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level25.
+#These for loops don't go through all the files and directories within /home/level25, but the directory itself, the target directories, and the target text file.
+#This was put in place to speed up loading times, as given how many directories and sub directories there are, acl controls are placed only on the essentials. The 
+#contents can't be displayed in the level25 directory.
+
+setfacl -m u:level25:rwx /home/level25;
 
 
+
+for i in {0..24};
+do
+
+levelname="level"
+level="${levelname}${i}"
+
+setfacl -m u:$level:--x /home/level25;
+setfacl -m u:$level:--x /home/level25/README.txt
+setfacl -m u:$level:--x /home/level25/$directory1
+setfacl -m u:$level:--x /home/level25/$directory1/$directory2
+setfacl -m u:$level:--x /home/level25/$directory1/$directory2/$textfilename
+#find /home/level25 -type d -exec setfacl -m u:$level:--x {} \;
+
+(($i+1));
+done
+
+for i in {26..101};
+do
+
+levelname="level"
+level="${levelname}${i}"
+
+setfacl -m u:$level:--x /home/level25;
+#find /home/level25 -type d -exec setfacl -m u:$level:--x {} \;
+
+(($i+1));
+done
+
+
+setfacl -m u:$USER:--x /home/level25;

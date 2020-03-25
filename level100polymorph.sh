@@ -200,3 +200,41 @@ do
 done
 chown level100:level100 /home/level100/"$textfilename";
 chown level100:level100 /home/level100/"$textfilename2";
+
+#chown level0: /home/level1;
+#chmod -rwxr-x--- /home/level1;
+#This block prevents the host system's user (the one that executes PolyBandit) as well as anybody other than the level itself from being able to read into 
+#this level's directory and its subdirectories. In essence, no cheating, you must play the game in order, and you cannot tamper with any game files unless they are in
+#the level you are currently in. The first for loop sets permissions on users before level100. The second sets them on all users after. None except level100 will be able to view the contents of /home/level100
+#until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level100.
+
+setfacl -m u:level100:rwx /home/level100;
+
+
+
+for i in {0..99};
+do
+
+levelname="level"
+level="${levelname}${i}"
+
+find /home/level100 -type f -exec setfacl -m u:$level:--x {} \;
+find /home/level100 -type d -exec setfacl -m u:$level:--x {} \;
+
+(($i+1));
+done
+
+for i in {101..101};
+do
+
+levelname="level"
+level="${levelname}${i}"
+
+find /home/level100 -type f -exec setfacl -m u:$level:--x {} \;
+find /home/level100 -type d -exec setfacl -m u:$level:--x {} \;
+
+(($i+1));
+done
+
+
+setfacl -m u:$USER:--x /home/level100;

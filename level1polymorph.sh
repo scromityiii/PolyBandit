@@ -106,6 +106,7 @@ echo "******************************************************************" >> /ho
 #this level's directory and its subdirectories. In essence, no cheating, you must play the game in order, and you cannot tamper with any game files unless they are in
 #the level you are currently in.
 
+
 setfacl -m u:level1:rwx /home/level1;
 
 setfacl -m u:level0:--x /home/level1;
@@ -126,6 +127,8 @@ done
 
 
 setfacl -m u:$USER:--x /home/level1;
+
+
 
 #setfacl -m u:level0:--x /home/level1;
 
