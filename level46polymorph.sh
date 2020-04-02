@@ -513,25 +513,25 @@ randomgen1=$[RANDOM%1480];
   user_count=$((user_count+1));
 done
 
-echo "******************************************************************" >> /home/level46/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level46/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level46/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level46/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level46/README.txt;
-echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level46/README.txt;
-echo "* You are at Level 46                                             *" >> /home/level46/README.txt;
-echo "* "$directionsline1"                                             *" >> /home/level46/README.txt;
-echo "* The password for the next level is in a file called "$hint".txt    *" >> /home/level46/README.txt;
-echo "* "$directionsline3"                                             *" >> /home/level46/README.txt;
-echo "* "$directionsline4"                                             *" >> /home/level46/README.txt;
-echo "*                                                                *" >> /home/level46/README.txt;
-echo "* Good luck finding it.                                          *" >> /home/level46/README.txt;
-echo "*                                                                *" >> /home/level46/README.txt;
-echo "* When you get the password for the next level, log in to the    *" >> /home/level46/README.txt;
-echo "* next level with the command:                                   *" >> /home/level46/README.txt;
-echo "*         ssh level47@localhost                                   *" >> /home/level46/README.txt;
-echo "*                                                                *" >> /home/level46/README.txt;
-echo "******************************************************************" >> /home/level46/README.txt;
+echo "***********************************************************************************************" >> /home/level46/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of                                       *" >> /home/level46/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out                              *" >> /home/level46/README.txt;
+echo "* what the password is for the next level, then log into that                                 *" >> /home/level46/README.txt;
+echo "* next level's account using SSH.                                                             *" >> /home/level46/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"                                             *" >> /home/level46/README.txt;
+echo "* You are at Level 46                                                                         *" >> /home/level46/README.txt;
+echo "* "$directionsline1"                                                                          *" >> /home/level46/README.txt;
+echo "* The password for the next level is in a file called "$hint".txt                             *" >> /home/level46/README.txt;
+echo "* "$directionsline3"                                                                          *" >> /home/level46/README.txt;
+echo "* "$directionsline4"                                                                          *" >> /home/level46/README.txt;
+echo "*                                                                                             *" >> /home/level46/README.txt;
+echo "* Good luck finding it.                                                                       *" >> /home/level46/README.txt;
+echo "*                                                                                             *" >> /home/level46/README.txt;
+echo "* When you get the password for the next level, log in to the                                 *" >> /home/level46/README.txt;
+echo "* next level with the command:                                                                *" >> /home/level46/README.txt;
+echo "*         ssh level47@localhost                                                               *" >> /home/level46/README.txt;
+echo "*                                                                                             *" >> /home/level46/README.txt;
+echo "***********************************************************************************************" >> /home/level46/README.txt;
 echo "cat /home/level46/README.txt" >> /home/level46/.bashrc
 
 #chown level0: /home/level1;

@@ -143,19 +143,19 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
 
 
 echo "cat /home/level80/README.txt" >> /home/level80/.bashrc
-echo "******************************************************************" >> /home/level80/README.txt;
-echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level80/README.txt;
-echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level80/README.txt;
-echo "* what the password is for the next level, then log into that    *" >> /home/level80/README.txt;
-echo "* next level's account using SSH.                                *" >> /home/level80/README.txt;
-echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level80/README.txt;
-echo "* You are at Level 80.                                           *" >> /home/level80/README.txt;
-echo "*                                                                *" >> /home/level80/README.txt;
-echo "* The password to continue is the only line that's               *" >> /home/level80/README.txt;
-echo "* different between the two files named "$textfilename" and "$textfilename2". *" >> /home/level80/README.txt;
-echo "* Please use the command: ssh level81@localhost to log in to     *" >> /home/level80/README.txt;
-echo "* the next level                                                 *" >> /home/level80/README.txt;
-echo "******************************************************************" >> /home/level80/README.txt;
+echo "**********************************************************************************************************" >> /home/level80/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of                                                  *" >> /home/level80/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out                                         *" >> /home/level80/README.txt;
+echo "* what the password is for the next level, then log into that                                            *" >> /home/level80/README.txt;
+echo "* next level's account using SSH.                                                                        *" >> /home/level80/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"                                                        *" >> /home/level80/README.txt;
+echo "* You are at Level 80.                                                                                   *" >> /home/level80/README.txt;
+echo "*                                                                                                        *" >> /home/level80/README.txt;
+echo "* The password to continue is the only line that's                                                       *" >> /home/level80/README.txt;
+echo "* different between the two files named "$textfilename" and "$textfilename2".                            *" >> /home/level80/README.txt;
+echo "* Please use the command: ssh level81@localhost to log in to                                             *" >> /home/level80/README.txt;
+echo "* the next level                                                                                         *" >> /home/level80/README.txt;
+echo "**********************************************************************************************************" >> /home/level80/README.txt;
 
 
 

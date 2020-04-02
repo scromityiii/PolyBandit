@@ -95,22 +95,22 @@ fi
 	    
 	
 
-	echo "******************************************************************" >> /home/level61/README.txt;
-	echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level61/README.txt;
-	echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level61/README.txt;
-	echo "* what the password is for the next level, then log into that    *" >> /home/level61/README.txt;
-	echo "* next level's account using SSH.                                *" >> /home/level61/README.txt;
-	echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level61/README.txt;
-	echo "* You are at Level 61                                             *" >> /home/level61/README.txt;
-	echo "*                                                                *" >> /home/level61/README.txt;
-	echo "* The password for the next level is in a *hidden file* called   *" >> /home/level61/README.txt;
-	echo "* "$visiblefilename"                                             *" >> /home/level61/README.txt;
-	echo "*                                                                *" >> /home/level61/README.txt;
-	echo "* When you get the password for the next level, log in to the    *" >> /home/level61/README.txt;
-	echo "* next level with the command:                                   *" >> /home/level61/README.txt;
-	echo "*         ssh level62@localhost                                   *" >> /home/level61/README.txt;
-	echo "*                                                                *" >> /home/level61/README.txt;
-	echo "******************************************************************" >> /home/level61/README.txt;
+echo "******************************************************************" >> /home/level61/README.txt;
+echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level61/README.txt;
+echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level61/README.txt;
+echo "* what the password is for the next level, then log into that    *" >> /home/level61/README.txt;
+echo "* next level's account using SSH.                                *" >> /home/level61/README.txt;
+echo "*  For researchers: MD5 Hash first character: "$changer"               *" >> /home/level61/README.txt;
+echo "* You are at Level 61                                            *" >> /home/level61/README.txt;
+echo "*                                                                *" >> /home/level61/README.txt;
+echo "* The password for the next level is in a *hidden file* called   *" >> /home/level61/README.txt;
+echo "* "$visiblefilename"                                                   *" >> /home/level61/README.txt;
+echo "*                                                                *" >> /home/level61/README.txt;
+echo "* When you get the password for the next level, log in to the    *" >> /home/level61/README.txt;
+echo "* next level with the command:                                   *" >> /home/level61/README.txt;
+echo "*         ssh level62@localhost                                  *" >> /home/level61/README.txt;
+echo "*                                                                *" >> /home/level61/README.txt;
+echo "******************************************************************" >> /home/level61/README.txt;
 
 #chown level0: /home/level1;
 #chmod -rwxr-x--- /home/level1;

@@ -255,21 +255,21 @@
 	
 
 			#In the level description, the byte size of the desired file is permutated according to the results of the directly above elif statement.
-			echo "******************************************************************" >> /home/level42/README.txt;
-			echo "* Welcome to PolyBandit. This is a polymorphic clone of          *" >> /home/level42/README.txt;
-			echo "* Overthewire.org's Bandit exercise. The object is to figure out *" >> /home/level42/README.txt;
-			echo "* what the password is for the next level, then log into that    *" >> /home/level42/README.txt;
-			echo "* next level's account using SSH.                                *" >> /home/level42/README.txt;
-			echo "*  For researchers: MD5 Hash first character: "$changer"         *" >> /home/level42/README.txt;
-			echo "* You are at Level 42                                            *" >> /home/level42/README.txt;
-			echo "*                                                                *" >> /home/level42/README.txt;
-			echo "* The password for the next level is in a file with byte size "$filesize" +/-1 *" >> /home/level42/README.txt;
-			echo "*                                                                *" >> /home/level42/README.txt;
-			echo "* When you get the password for the next level, log in to the    *" >> /home/level42/README.txt;
-			echo "* next level with the command:                                   *" >> /home/level42/README.txt;
-			echo "*         ssh level43@localhost                                   *" >> /home/level42/README.txt;
-			echo "*                                                                *" >> /home/level42/README.txt;
-			echo "******************************************************************" >> /home/level42/README.txt;
+	echo "**************************************************************************" >> /home/level42/README.txt;
+	echo "* Welcome to PolyBandit. This is a polymorphic clone of                  *" >> /home/level42/README.txt;
+	echo "* Overthewire.org's Bandit exercise. The object is to figure out         *" >> /home/level42/README.txt;
+	echo "* what the password is for the next level, then log into that            *" >> /home/level42/README.txt;
+	echo "* next level's account using SSH.                                        *" >> /home/level42/README.txt;
+	echo "*  For researchers: MD5 Hash first character: "$changer"                       *" >> /home/level42/README.txt;
+	echo "* You are at Level 42                                                    *" >> /home/level42/README.txt;
+	echo "*                                                                        *" >> /home/level42/README.txt;
+	echo "* The password for the next level is in a file with byte size "$filesize" +/-1 *" >> /home/level42/README.txt;
+	echo "*                                                                        *" >> /home/level42/README.txt;
+	echo "* When you get the password for the next level, log in to the            *" >> /home/level42/README.txt;
+	echo "* next level with the command:                                           *" >> /home/level42/README.txt;
+	echo "*         ssh level43@localhost                                          *" >> /home/level42/README.txt;
+	echo "*                                                                        *" >> /home/level42/README.txt;
+	echo "**************************************************************************" >> /home/level42/README.txt;
 			
 		
 	
