@@ -69,8 +69,8 @@
 
 	      if (($count1 == $password_spot1 && $count2 == $password_spot2 && $count3 == $password_spot3));
 	      then
-	        echo $level16_pass > home/level15/$rand_dir1/$rand_dir2/inhere.txt
-	        chown level15:level15 home/level15/$rand_dir1/$rand_dir2/inhere.txt
+	        echo $level16_pass > /home/level15/$rand_dir1/$rand_dir2/inhere.txt
+	        chown level15:level15 /home/level15/$rand_dir1/$rand_dir2/inhere.txt
 	        count3=$(($count3+1));
 	      else
 	        char1=$[RANDOM%61];
