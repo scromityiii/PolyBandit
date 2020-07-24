@@ -214,7 +214,7 @@ echo "*  For researchers: MD5 Hash first character: "$changer"                  
 echo "* You are at Level 63                                                             *" >> /home/level63/README.txt;
 echo "*                                                                                 *" >> /home/level63/README.txt;
 echo "* The password for the next level is next to the phrase "$hint"                   *" >> /home/level63/README.txt;
-echo "* This is accompanied by the text file "$textfilename"                            *" >> /home/level63/README.txt;
+echo "* This is within the text file "$textfilename"                                    *" >> /home/level63/README.txt;
 echo "* When you get the password for the next level, log in to the                     *" >> /home/level63/README.txt;
 echo "* next level with the command:                                                    *" >> /home/level63/README.txt;
 echo "*         ssh level64@localhost                                                   *" >> /home/level63/README.txt;

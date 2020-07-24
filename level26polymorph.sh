@@ -381,7 +381,7 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         directionsline3="It is not in the current user's directory.  You have to"
         directionsline4="find it. It is unknown which user's directory it is in."
 
-		elif  || [ "$changer" == "U" ] || [ "$changer" == "V" ] || [ "$changer" == "W" ]
+		elif [ "$changer" == "U" ] || [ "$changer" == "V" ] || [ "$changer" == "W" ]
 		then
 	        #directory1="iamanoperatingsystem" #level26o
         #directory2="theBigBrothersurveillancestate"
@@ -406,7 +406,7 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         directionsline3="It is not in the current user's directory.  You have to"
         directionsline4="find it. It is unknown which user's directory it is in."
 
-		elif  || [ "$changer" == "X" ] || [ "$changer" == "Y" ] || [ "$changer" == "Z" ]
+		elif [ "$changer" == "X" ] || [ "$changer" == "Y" ] || [ "$changer" == "Z" ]
 		then
 	        #directory1="whichOSdoyoulike" #level26p
         #directory2="WEAREPENNSTATE"

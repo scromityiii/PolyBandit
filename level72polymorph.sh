@@ -138,7 +138,8 @@
 			  
 			  if (($count == $password_spot));
 			  then
-			    echo "$level73_pass|$textfilenoise" > /home/level72/"$rand_filename";
+			    echo -e "$level73_pass\n$textfilenoise" > /home/level72/"$rand_filename";
+
 			    
 			    chown level72:level72 /home/level72/"$rand_filename";
 			    count=$(($count+1));

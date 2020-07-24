@@ -199,7 +199,7 @@ echo "*  For researchers: MD5 Hash first character: "$changer"                  
 echo "* You are at Level 74                                                                         *" >> /home/level74/README.txt;
 echo "*                                                                                             *" >> /home/level74/README.txt;
 echo "* The password for the next level is in the file called                                       *" >> /home/level74/README.txt;
-echo "* "$textfilename" and is next to the word that would come "$leveldirections"                  *" >> /home/level74/README.txt;
+echo "* "$textfilename" and is next to the entry that would come "$leveldirections"                  *" >> /home/level74/README.txt;
 echo "* when the contents of that file are sorted "$leveldirections2"                               *" >> /home/level74/README.txt;
 echo "*                                                                                             *" >> /home/level74/README.txt;
 echo "* When you get the password for the next level, log in to the                                 *" >> /home/level74/README.txt;
