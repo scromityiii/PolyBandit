@@ -211,7 +211,7 @@ level100=${MD596_100:24:6};
 level101=${MD5101_105:0:6};
 level102=${MD5101_105:6:6};
 
-level0_pass="level0";
+level0_pass="ABC1234";
 level1_pass=$(echo -n $level1 | base64);
 level2_pass=$(echo -n $level2 | base64);
 level3_pass=$(echo -n $level3 | base64);
@@ -648,7 +648,7 @@ echo "90 percent complete";
 
 
 
-echo "PolyBandit fully installed. Now starting the game. Please log in with the password 'level0'";
+echo "PolyBandit fully installed. Now starting the game. Please log in with the password '(what the researcher says)'";
 
 ssh level0@localhost;
 
