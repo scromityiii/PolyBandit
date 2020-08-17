@@ -414,10 +414,10 @@ echo "* what the password is for the next level, then log into that             
 echo "* next level's account using SSH.                                                                      *" >> /home/level95/README.txt;
 echo "*  For researchers: MD5 Hash first character: "$changer"                                                      *" >> /home/level95/README.txt;
 echo "* You are at Level 95                                                                                  *" >> /home/level95/README.txt;
-echo "* "$directionsline1"                                                                                   *" >> /home/level95/README.txt;
-echo "* "$directionsline2"         					                                                         *" >> /home/level95/README.txt;
-echo "* "$directionsline3"                                                                                   *" >> /home/level95/README.txt;
-echo "* "$directionsline4"                                                                                    *" >> /home/level95/README.txt;
+echo "* "$directionsline1"                                     *" >> /home/level95/README.txt;
+echo "* "$directionsline2"         					           *" >> /home/level95/README.txt;
+echo "* "$directionsline3"                                     *" >> /home/level95/README.txt;
+echo "* "$directionsline4"                                     *" >> /home/level95/README.txt;
 echo "* Good luck finding it.                                                                                *" >> /home/level95/README.txt;
 echo "*                                                                                                      *" >> /home/level95/README.txt;
 echo "* When you get the password for the next level, log in to the                                          *" >> /home/level95/README.txt;

@@ -127,7 +127,7 @@ find /home/level58 -type d -exec setfacl -m u:$level:--x {} \;
 (($i+1));
 done
 
-for i in {59..101};
+for i in {60..101};
 do
 
 levelname="level"

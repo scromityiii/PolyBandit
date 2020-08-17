@@ -35,7 +35,7 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         #textfilename2="obert.txt"
 		elif [ "$changer" == "c" ] || [ "$changer" == "d" ] || [ "$changer" == "e" ] || [ "$changer" == "f" ]
 		then 
-		    bashfiletext="#what is below me blockade your path" #level89d
+		    bashfiletext="#the line below me blockades your path" #level89d
 		    #declare -i noiseamount=240
 		    #password_spot=$[RANDOM%240];
 	textfilename="in here.txt"
@@ -49,7 +49,7 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         #textfilename2="avatud.txt"
 		elif [ "$changer" == "k" ] || [ "$changer" == "l" ] || [ "$changer" == "m" ] || [ "$changer" == "n" ]
 		then
-		    bashfiletext="#eliminate the text below me (exit) and your way will be clear" #level89f
+		    bashfiletext="#eliminate the line below me (exit) and your way will be clear" #level89f
 		    #declare -i noiseamount=260
 		    #password_spot=$[RANDOM%260];
        textfilename="thisis it.txt"
@@ -57,21 +57,21 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
 
 		elif [ "$changer" == "o" ] || [ "$changer" == "p" ] || [ "$changer" == "q" ]
 		then
-		    bashfiletext="#what is below me this is not deleted you won't proceed" #level89g
+		    bashfiletext="#if this next line is not deleted you won't proceed" #level89g
 		    #declare -i noiseamount=290
 		    #password_spot=$[RANDOM%290];
        textfilename="aperto aperto.txt"
         #textfilename2="ouvrir.txt"
 		elif [ "$changer" == "r" ] || [ "$changer" == "s" ] || [ "$changer" == "t" ]
 		then 
-		    bashfiletext="#eliminate what is below and you shall pass" #level89h
+		    bashfiletext="#eliminate the line below and you shall pass" #level89h
 		    #declare -i noiseamount=2000
 		    #password_spot=$[RANDOM%2000];
 	textfilename="youare worthy.txt"
         #textfilename2="aberto.txt"
 		elif [ "$changer" == "u" ] || [ "$changer" == "v" ] || [ "$changer" == "w" ] || [ "$changer" == "x" ]
 		then 
-		    bashfiletext="#delete what is below it makes the account log out" #level89i
+		    bashfiletext="#delete the line that is below it makes the account log out" #level89i
 		    #declare -i noiseamount=2110
 		    #password_spot=$[RANDOM%2110];
         textfilename="please please.txt"
@@ -92,28 +92,28 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         #textfilename2="Aperto.txt"
 	elif [ "$changer" == "G" ] || [ "$changer" == "H" ] || [ "$changer" == "I" ] || [ "$changer" == "J" ]
 		then 
-		    bashfiletext="#below this lies your obstacle to logging into this account" #level89l
+		    bashfiletext="#in the line below this lies your obstacle to logging into this account" #level89l
 		    #declare -i noiseamount=265
 		    #password_spot=$[RANDOM%265]
         textfilename="open sesame.txt"
         #textfilename2="apen.txt"
 		elif [ "$changer" == "K" ] || [ "$changer" == "L" ] || [ "$changer" == "M" ] || [ "$changer" == "N" ]
 		then
-		    bashfiletext="#below this lies what blocks you, it makes the account logout" #level89m
+		    bashfiletext="#in the next line is what blocks, it makes the account logout" #level89m
 		    #declare -i noiseamount=255
 		    #password_spot=$[RANDOM%255];
         textfilename="fabulous beats.txt"
         #textfilename2="otwarty.txt"
 		elif [ "$changer" == "O" ] || [ "$changer" == "P" ] || [ "$changer" == "Q" ] || [ "$changer" == "R" ]
 		then
-		    bashfiletext="#eliminate what is below and you shall pass" #level89n
+		    bashfiletext="#eliminate the next line, below, and you shall pass" #level89n
 		    #declare -i noiseamount=245
 		    #password_spot=$[RANDOM%245];
         textfilename="Mega Bank.txt"
         #textfilename2="odprto.txt"
 		elif [ "$changer" == "S" ] || [ "$changer" == "T" ] || [ "$changer" == "U" ] || [ "$changer" == "V" ]
 		then
-		    bashfiletext="#below this lies a statement that causes this account to fail, delete it" #level89o
+		    bashfiletext="#in the line below this lies a statement that causes this account to fail, delete it" #level89o
 		    #declare -i noiseamount=235
 		    #password_spot=$[RANDOM%235];
         textfilename="youwill prevail.txt"
@@ -127,6 +127,7 @@ if [ "$changer" == "1" ] || [ "$changer" == "2" ] || [ "$changer" == "3" ] || [ 
         #textfilename2="otvoreno.txt"
 		
 		fi
+
 		
 echo "**********************************************************************************" >> /home/level89/README.txt;
 echo "* Welcome to PolyBandit. This is a polymorphic clone of                          *" >> /home/level89/README.txt;
@@ -145,8 +146,8 @@ echo "*         ssh level90@localhost                                           
 echo "*                                                                                *" >> /home/level89/README.txt;
 echo "**********************************************************************************" >> /home/level89/README.txt;
 echo "cat /home/level89/README.txt" >> /home/level89/.bashrc
-echo "$bashfiletext" >> /home/level89/.bashrc;
-echo "exit" >> /home/level89/.bashrc;
+sed -i '1s/^/'"$bashfiletext"' /' /home/level89/.bashrc;
+sed -i '2s/^/exit /' /home/level89/.bashrc;
 
 echo $level90_pass > /home/level89/"$textfilename";
 chown level89:level89 /home/level89/"$textfilename";
@@ -166,7 +167,7 @@ setfacl -m u:level89:rwx /home/level89;
 
 
 
-for i in {0..1};
+for i in {0..87};
 do
 
 levelname="level"
@@ -178,7 +179,7 @@ find /home/level89 -type d -exec setfacl -m u:$level:--x {} \;
 (($i+1));
 done
 
-for i in {3..101};
+for i in {90..101};
 do
 
 levelname="level"
