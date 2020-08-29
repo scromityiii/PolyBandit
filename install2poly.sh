@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Please enter your Participant ID (abc1234):";
+echo "Please enter your Participant ID, e.g (1234-day1):";
 read name;
 
 date=$(date);
