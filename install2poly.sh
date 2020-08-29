@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Please enter your PSU ID (abc1234):";
+echo "Please enter your Participant ID (abc1234):";
 read name;
 
 date=$(date);
