@@ -119,7 +119,7 @@ echo "******************************************************************" >> /ho
 #the level you are currently in. The first for loop sets permissions on users before level61. The second sets them on all users after. None except level61 will be able to view the contents of /home/level61
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level61.
 
-setfacl -m u:level61:rwx /home/level61;
+setfacl -m u:level61:r-x /home/level61;
 
 
 

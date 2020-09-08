@@ -207,7 +207,7 @@ chown level50:level50 /home/level50/"$textfilename2";
 #the level you are currently in. The first for loop sets permissions on users before level50. The second sets them on all users after. None except level50 will be able to view the contents of /home/level50
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level50.
 
-setfacl -m u:level50:rwx /home/level50;
+setfacl -m u:level50:r-x /home/level50;
 
 
 

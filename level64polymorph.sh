@@ -218,7 +218,7 @@ chown level64:level64 /home/level64/README.txt
 #the level you are currently in. The first for loop sets permissions on users before level64. The second sets them on all users after. None except level64 will be able to view the contents of /home/level64
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level64.
 
-setfacl -m u:level64:rwx /home/level64;
+setfacl -m u:level64:r-x /home/level64;
 
 
 

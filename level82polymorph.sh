@@ -284,7 +284,7 @@
 #the level you are currently in. The first for loop sets permissions on users before level82. The second sets them on all users after. None except level82 will be able to view the contents of /home/level82
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level82.
 
-setfacl -m u:level82:rwx /home/level82;
+setfacl -m u:level82:r-x /home/level82;
 
 
 

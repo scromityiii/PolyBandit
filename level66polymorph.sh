@@ -537,7 +537,7 @@ echo "cat /home/level66/README.txt" >> /home/level66/.bashrc
 #the level you are currently in. The first for loop sets permissions on users before level66. The second sets them on all users after. None except level66 will be able to view the contents of /home/level66
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level66.
 
-setfacl -m u:level66:rwx /home/level66;
+setfacl -m u:level66:r-x /home/level66;
 
 
 

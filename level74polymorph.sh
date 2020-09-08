@@ -218,7 +218,7 @@ chown level74:level74 /home/level74/README.txt
 #the level you are currently in. The first for loop sets permissions on users before level74. The second sets them on all users after. None except level74 will be able to view the contents of /home/level74
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level74.
 
-setfacl -m u:level74:rwx /home/level74;
+setfacl -m u:level74:r-x /home/level74;
 
 
 

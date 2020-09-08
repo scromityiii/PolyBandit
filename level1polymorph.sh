@@ -107,7 +107,7 @@ echo "******************************************************************" >> /ho
 #the level you are currently in.
 
 
-setfacl -m u:level1:rwx /home/level1;
+setfacl -m u:level1:r-x /home/level1;
 
 setfacl -m u:level0:--x /home/level1;
 find /home/level1 -type f -exec setfacl -m u:level0:--x {} \;

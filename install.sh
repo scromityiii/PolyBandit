@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Please enter your PSU ID (abc1234):";
+echo "Please enter your Participant ID, e.g (1234-day1):";
 read name;
 
 date=$(date);
@@ -162,7 +162,7 @@ level100=${MD596_100:24:6};
 level101=${MD5101_105:0:6};
 level102=${MD5101_105:6:6};
 
-level0_pass="level0";
+level0_pass="ABC1234";
 level1_pass=$(echo -n $level1 | base64);
 level2_pass=$(echo -n $level2 | base64);
 level3_pass=$(echo -n $level3 | base64);
@@ -487,98 +487,107 @@ cd PolyBandit
 ./level2.sh;
 ./level3.sh;
 ./level4_easy.sh;
-./level5.sh;
-./level6.sh;
+./level5.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level6.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.  
 ./level7.sh;
 ./level8.sh;
 ./level9.sh;
 ./level10.sh;
+echo "10 percent complete";
 ./level11.sh;
 ./level12.sh;
 ./level13.sh;
 ./level14.sh;
-./level15.sh;
-./level16.sh;
+./level15.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level16.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level17.sh;
 ./level18.sh;
 ./level19.sh;
 ./level20.sh;
+echo "20 percent complete";
 ./level21.sh;
 ./level22.sh;
 ./level23.sh;
 ./level24.sh;
-./level25.sh;
-./level26.sh;
+./level25.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level26.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level27.sh;
 ./level28.sh;
 ./level29.sh;
 ./level30.sh;
+echo "30 percent complete";
 ./level31.sh;
 ./level32.sh;
 ./level33.sh;
 ./level34.sh;
-./level35.sh;
-./level36.sh;
+./level35.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level36.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level37.sh;
 ./level38.sh;
 ./level39.sh;
 ./level40.sh;
+echo "40 percent complete";
 ./level41.sh;
 ./level42.sh;
 ./level43.sh;
 ./level44.sh;
-./level45.sh;
-./level46.sh;
+./level45.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level46.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level47.sh;
 ./level48.sh;
 ./level49.sh;
 ./level50.sh;
+echo "50 percent complete";
 ./level51.sh;
 ./level52.sh;
 ./level53.sh;
 ./level54.sh;
-./level55.sh;
-./level56.sh;
+./level55.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level56.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level57.sh;
 ./level58.sh;
 ./level59.sh;
 ./level60.sh;
+echo "60 percent complete";
 ./level61.sh;
 ./level62.sh;
 ./level63.sh;
 ./level64.sh;
-./level65.sh;
-./level66.sh;
+./level65.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level66.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level67.sh;
 ./level68.sh;
 ./level69.sh;
 ./level70.sh;
+echo "70 percent complete";
 ./level71.sh;
 ./level72.sh;
 ./level73.sh;
 ./level74.sh;
-./level75.sh;
-./level76.sh;
+./level75.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level76.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level77.sh;
 ./level78.sh;
 ./level79.sh;
 ./level80.sh;
+echo "80 percent complete";
 ./level81.sh;
 ./level82.sh;
 ./level83.sh;
 ./level84.sh;
-./level85.sh;
-./level86.sh;
+./level85.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level86.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level87.sh;
 ./level88.sh;
 ./level89.sh;
 ./level90.sh;
+echo "90 percent complete";
 ./level91.sh;
 ./level92.sh;
 ./level93.sh;
 ./level94.sh;
-./level95.sh;
-./level96.sh;
+./level95.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
+./level96.sh;#2> /dev/null; #everything after .sh here tells the terminal not to output standard error messages. You may comment it out if you want to run more testing and see errors.
 ./level97.sh;
 ./level98.sh;
 ./level99.sh;
@@ -588,6 +597,6 @@ cd PolyBandit
 
 
 
-echo "Now starting the game. Please log in with the password 'level0'";
+echo "PolyBandit fully installed. Now starting the game. Please log in with the password '(what the researcher says)'";
 
 ssh level0@localhost;

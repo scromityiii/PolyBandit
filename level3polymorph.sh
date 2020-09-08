@@ -210,6 +210,7 @@ chown level3:level3 /home/level3/README.txt;
 #until they have ssh'd into it properly. Permissions are set to block others from reading and writing to level3.
 
 
+setfacl -m u:level3:r-x /home/level3;
 
 
 

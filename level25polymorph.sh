@@ -714,7 +714,7 @@ done
 #This was put in place to speed up loading times, as given how many directories and sub directories there are, acl controls are placed only on the essentials. The 
 #contents can't be displayed in the level25 directory.
 
-setfacl -m u:level25:rwx /home/level25;
+setfacl -m u:level25:r-x /home/level25;
 
 
 
