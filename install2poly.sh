@@ -37,6 +37,29 @@ level91_95=$name"LbNvKYAxertUtzewsY7g";
 level96_100=$name"iunyN23wDpW23selt";
 level101_105=$name"Lw322KYAw342UwweCIY7";
 
+#These are the ones from 451, they have reciprocating strings every couple level groupings, use your manual
+#level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
+#level6_10=$name"iunyNCeTzDpW4UxOlt";
+#level11_15=$name"LbNvKYAx8z2UtzaCIY7g";
+#level16_20=$name"iunyNCeTzDpW4UxOlt";
+#level21_25=$name"LbNvKYAx8z2UtzaCIY7g";
+#level26_30=$name"iunyNCeTzDpW4UxOlt";
+#level31_35=$name"LbNvKYAx8z2UtzaCIY7g";
+#level36_40=$name"iunyNCeTzDpW4UxOlt";
+#level41_45=$name"LbNvKYAx8z2UtzaCIY7g";
+#level46_50=$name"iunyNCeTzDpW4UxOlt";
+#level51_55=$name"LbNvKYAx8z2UtzaCIY7g";
+#level56_60=$name"iunyNCeTzDpW4UxOlt";
+#level61_65=$name"LbNvKYAx8z2UtzaCIY7g";
+#level66_70=$name"iunyNCeTzDpW4UxOlt";
+#level71_75=$name"LbNvKYAx8z2UtzaCIY7g";
+#level76_80=$name"iunyNCeTzDpW4UxOlt";
+#level81_85=$name"LbNvKYAx8z2UtzaCIY7g";
+#level86_90=$name"iunyNCeTzDpW4UxOlt";
+#level91_95=$name"LbNvKYAx8z2UtzaCIY7g";
+#level96_100=$name"iunyNCeTzDpW4UxOlt";
+#level101_105=$name"LbNvKYAx8z2UtzaCIY7g";
+
 
 
 #level1_5=$name"LbNvKYAx8z2UtzaCIY7g";
@@ -523,7 +546,6 @@ useradd level99 --create-home --password "$(openssl passwd -1 $level99_pass)" --
 useradd level100 --create-home --password "$(openssl passwd -1 $level100_pass)" --shell /bin/bash --user-group
 useradd level101 --create-home --password "$(openssl passwd -1 $level101_pass)" --shell /bin/bash --user-group
 useradd level102 --create-home --password "$(openssl passwd -1 $level102_pass)" --shell /bin/bash --user-group
-
 
 
 

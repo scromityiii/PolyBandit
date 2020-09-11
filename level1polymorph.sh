@@ -106,8 +106,10 @@ echo "******************************************************************" >> /ho
 #this level's directory and its subdirectories. In essence, no cheating, you must play the game in order, and you cannot tamper with any game files unless they are in
 #the level you are currently in.
 
-
+#Will have to expand the find statements that set permissions on what the level user can do to stuff in their level to other levels and test eventually; may not be necessary
 setfacl -m u:level1:r-x /home/level1;
+find /home/level1 -type f -exec setfacl -m u:level1:r-x {} \;
+find /home/level1 -type d -exec setfacl -m u:level1:r-x {} \;
 
 setfacl -m u:level0:--x /home/level1;
 find /home/level1 -type f -exec setfacl -m u:level0:--x {} \;
