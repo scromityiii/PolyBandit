@@ -72,4 +72,4 @@ done
 
 setfacl -m u:$USER:--x /home/level49;
 
-chmod 000 /home/level49/"$textfilename";
+#chmod 000 /home/level49/"$textfilename";
